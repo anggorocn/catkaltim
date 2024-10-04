@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'cambria';
+	src: url('../fonts/Cambria.ttf');
+}
+
+body, *{
+	font-family: 'cambria';
+}
+
+.container {
+	background: white;
+/*	width: 595px;*/
+	/*height: 842px;*/
+	margin: 50px;
+	padding: 25px 25px 25px 25px;
+}
+
+.footer {
+	color: blue;
+	font-size: 10pt;
+	text-align: right;
+	bottom: 10px;
+}
+
+.bold-border{
+	border: 2px solid black !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.grey {
+	background: #c9c6c6;
+}
+
+.dark-grey {
+	background: grey;
+}
+
+.table-border th, .table-border td{
+	border: 1px solid black;
+}
+
+.table-border-bold th, .table-border-bold td{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.v-top {
+	vertical-align: top;
+}
+
+.red {
+	background: red;
+}
+
+.white-text{
+	color: white;
+}
+
+.purple{
+	background: #e878fe;
+}
+
+.yellow{
+	background: #ffff6c;
+}
+
+.green{
+	background: #0F3;
+}
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+/*			float: left;
+*/			width: 120px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}

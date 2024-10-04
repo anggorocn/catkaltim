@@ -1,0 +1,23 @@
+/*!
+ * Start Bootstrap - Blog Post HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+	background:#fffcf3 url(../../../../assesment/WEB/images/bg-login.png) !important;
+	background-size: 100% 100% !important;
+}
+
+footer {
+    *margin: 50px 0;
+	padding:10px 0px;
+}
+footer .logo-footer{
+	*border:1px solid yellow;
+	float:left;
+	margin-right:15px;
+}
+footer .logo-footer img{
+	height:40px;
+}

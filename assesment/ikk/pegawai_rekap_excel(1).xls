@@ -1,0 +1,3487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+<style>
+	body, table{
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif
+	}
+	th {
+		text-align:center;
+		font-weight: bold;
+	}
+	td {
+		vertical-align: top;
+  		text-align: left;
+	}
+	.str{
+	  mso-number-format:"\@";/*force text*/
+	}
+	</style>
+	<table style="width:100%">
+        <tr>
+            <td colspan="10" style="font-size:13px ;font-weight:bold; text-align: center;">REKAPITULASI HASIL PENILAIAN</td>	
+        </tr>
+	</table>
+	<br/>
+	<table style="width:100%" border="1" cellspacing="0" cellpadding="0">
+		<thead>
+	        <tr>
+	            <th rowspan="2" style="text-align: center;">No</th>
+	            <th rowspan="2" style="text-align: center;">Nama</th>
+	            <th rowspan="2" style="text-align: center;">NIP Baru</th>
+	            <th rowspan="2" style="text-align: center;">Jabatan</th>
+	            <th rowspan="2" style="text-align: center;">Komponen</th>
+	            <th rowspan="2" style="text-align: center;">Standar Nilai Akhir</th>
+	            <th rowspan="2" style="text-align: center;">Total Skor Akhir Individu</th>
+	            <th colspan="3" style="text-align: center;">Kesimpulan</th>
+	        </tr>
+	        <tr>
+	        	<th style="text-align: center;">Toleransi 0%</th>
+	            <th style="text-align: center;">Toleransi 5%</th>
+	            <th style="text-align: center;">Toleransi 10%</th>
+	            <th style="text-align: center;">Toleransi 15%</th>
+	        </tr>
+	    </thead>
+        <tbody>
+                        	<tr>
+            		<td class="str">1</td>
+            		
+            		                    <td class="str">KAUTSAR AGUS HUTARI SSTP, M.SI</td>
+                    
+                    
+            		                    <td class="str">197708171996121002</td>
+                    
+                    
+            		                    <td class="str">Tenaga Ahli Analis Organisasi Masyarakat pada Staf Ahli Gubernur BengkuluBidang Pemerintahan, Hukum dan Politik</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">379.72</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">2</td>
+            		
+            		                    <td class="str">YOSAR KARDIAT, S.STP.MM</td>
+                    
+                    
+            		                    <td class="str">197506041996031003</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">377.50</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">3</td>
+            		
+            		                    <td class="str">TESALONIKA SIMANGUNSONG, S.STP</td>
+                    
+                    
+            		                    <td class="str">199203172015072001</td>
+                    
+                    
+            		                    <td class="str">Pengadministrasi Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">370.78</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">4</td>
+            		
+            		                    <td class="str">AHMAT WAHYUDI</td>
+                    
+                    
+            		                    <td class="str">197005162000031004</td>
+                    
+                    
+            		                    <td class="str">Kepala Unit Pelayanan Teknis Laboratorium Lingkungan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">367.78</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">5</td>
+            		
+            		                    <td class="str">ZAMHARI YOMI, S.STP</td>
+                    
+                    
+            		                    <td class="str">198207202000121001</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">357.58</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">6</td>
+            		
+            		                    <td class="str">A. FITRIANI TALAAT, SH</td>
+                    
+                    
+            		                    <td class="str">198605282011012026</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">354.10</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">7</td>
+            		
+            		                    <td class="str">EMAN SULAEMAN, SE</td>
+                    
+                    
+            		                    <td class="str">198205012014031002</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">350.90</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">8</td>
+            		
+            		                    <td class="str">ARIE KUSNAWA, S.HUT</td>
+                    
+                    
+            		                    <td class="str">198102012011011001</td>
+                    
+                    
+            		                    <td class="str">Analis Rehabilitasi Hutan dan Lahan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">342.48</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">9</td>
+            		
+            		                    <td class="str">Ir. KUKUH SUHARYADI</td>
+                    
+                    
+            		                    <td class="str">196103181999031005</td>
+                    
+                    
+            		                    <td class="str">Pengawas Pemerintahan Madya</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">335.80</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">10</td>
+            		
+            		                    <td class="str">AVANTY MARIA ELITA TETHOOL, S.STP</td>
+                    
+                    
+            		                    <td class="str">199103182010102001</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">320.66</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">11</td>
+            		
+            		                    <td class="str">BAMBANG MUFDIANTO, SH</td>
+                    
+                    
+            		                    <td class="str">196806042008011003</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">315.34</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">12</td>
+            		
+            		                    <td class="str">Dr. MARSUDI, SE, M.Si</td>
+                    
+                    
+            		                    <td class="str">198104032006041014</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">307.50</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">13</td>
+            		
+            		                    <td class="str">PRASETYO ADHI NUGOHO, S.STP</td>
+                    
+                    
+            		                    <td class="str">199312042015071001</td>
+                    
+                    
+            		                    <td class="str">Pengadministrasi Program Kebijakan Pelaksanaan Pembangunan Ekonomi</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">303.42</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">14</td>
+            		
+            		                    <td class="str">Dra. KAROLINA RS. WENGGI, MH, MH</td>
+                    
+                    
+            		                    <td class="str">197101201990032003</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Pencegahan dan Kesiapsiagaan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">301.72</td>
+					
+                    
+            		            			<td style="background-color: 'green'">Di Atas Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">15</td>
+            		
+            		                    <td class="str">RISKI YANTO, S.Sos</td>
+                    
+                    
+            		                    <td class="str">197401011993021001</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">294.56</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">16</td>
+            		
+            		                    <td class="str">EM OSYKAR, S.IP, M.Sc</td>
+                    
+                    
+            		                    <td class="str">198401262009031004</td>
+                    
+                    
+            		                    <td class="str">Pengelola Administrasi Kependudukan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">291.52</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">17</td>
+            		
+            		                    <td class="str">PALGUNADI, SE</td>
+                    
+                    
+            		                    <td class="str">196901191990031006</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">290.10</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">18</td>
+            		
+            		                    <td class="str">BELLY AHULUHELUW, S.Sos</td>
+                    
+                    
+            		                    <td class="str">197704122011011001</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">284.60</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">19</td>
+            		
+            		                    <td class="str">MAROJAHAN M. SIHOTANG, S.AP</td>
+                    
+                    
+            		                    <td class="str">198503142010011002</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">282.68</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">20</td>
+            		
+            		                    <td class="str">AEMI OCTAWULANDARI AMIR, S.Psi, M.Psi</td>
+                    
+                    
+            		                    <td class="str">198210232008042002</td>
+                    
+                    
+            		                    <td class="str">Pengadministrasi Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">279.40</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">21</td>
+            		
+            		                    <td class="str">AGENG SUSANTO, ST</td>
+                    
+                    
+            		                    <td class="str">197909132009011005</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">276.18</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">22</td>
+            		
+            		                    <td class="str">SADRI, S.Pd, M.Pd</td>
+                    
+                    
+            		                    <td class="str">198007102007011021</td>
+                    
+                    
+            		                    <td class="str">Pengadministrasi Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">275.32</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">23</td>
+            		
+            		                    <td class="str">AHMAD BANAPON, SE, MP</td>
+                    
+                    
+            		                    <td class="str">197101102003121011</td>
+                    
+                    
+            		                    <td class="str">Sekretaris Dinas Sosial dan Pemberdayan Masyarakat dan Pemerintahan Desa</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">274.98</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">24</td>
+            		
+            		                    <td class="str">SRI MARYATI</td>
+                    
+                    
+            		                    <td class="str">197703102008012029</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">274.20</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">25</td>
+            		
+            		                    <td class="str">RAHAYU ANDRISE, S.STP</td>
+                    
+                    
+            		                    <td class="str">199111082014062001</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">273.54</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">26</td>
+            		
+            		                    <td class="str">BUSTAMI, SH</td>
+                    
+                    
+            		                    <td class="str">198010072009011006</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">273.52</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">27</td>
+            		
+            		                    <td class="str">ARYO FERNANDES, S.Si</td>
+                    
+                    
+            		                    <td class="str">198501122010011020</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">270.22</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">28</td>
+            		
+            		                    <td class="str">EFRIZON MARZUKI, AP, M.Si</td>
+                    
+                    
+            		                    <td class="str">197301131993111001</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">269.84</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">29</td>
+            		
+            		                    <td class="str">DAVID CASIDI, SE</td>
+                    
+                    
+            		                    <td class="str">197604142002121005</td>
+                    
+                    
+            		                    <td class="str">Analis Data dan Informasi Penanaman Modal</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">269.60</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">30</td>
+            		
+            		                    <td class="str">ENNY NADRA KOEDOEBOEN, SE, MM</td>
+                    
+                    
+            		                    <td class="str">197703282009042002</td>
+                    
+                    
+            		                    <td class="str">Kepala Subbagian Promosi dan Informasi Kerjasama</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">259.50</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">31</td>
+            		
+            		                    <td class="str">SAEFUDDIN, S.Si</td>
+                    
+                    
+            		                    <td class="str">198203272005021002</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">258.62</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">32</td>
+            		
+            		                    <td class="str">LISE TRIA ANGRAINI, A.Md</td>
+                    
+                    
+            		                    <td class="str">198511062010012007</td>
+                    
+                    
+            		                    <td class="str">Staf Hubungan Antar Lembaga</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">256.72</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'green'">Di Atas Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">33</td>
+            		
+            		                    <td class="str">REINHARD H. MAULANY, S.STP, M.Si </td>
+                    
+                    
+            		                    <td class="str">198605282011012026</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">250.12</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">34</td>
+            		
+            		                    <td class="str">USDIANTO, S.IP, M.Si</td>
+                    
+                    
+            		                    <td class="str">198412122009011010</td>
+                    
+                    
+            		                    <td class="str">Kepala Subbagian Keuangan dan Perencanaan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">225.18</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">35</td>
+            		
+            		                    <td class="str">AMRI YAHYA</td>
+                    
+                    
+            		                    <td class="str">198102032006041004</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">300.00</td>
+					
+                    
+            								<td class="str">205.10</td>
+					
+                    
+            		            			<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'red'; color: 'white'">Belum Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">36</td>
+            		
+            		                    <td class="str">DRS. SRIYANTO M.SI</td>
+                    
+                    
+            		                    <td class="str">196508251992031001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Fasilitasi Pelaksanaan dan Monitoring Evaluasi</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">37</td>
+            		
+            		                    <td class="str">YOSAR KARDIAT S.STP,MM</td>
+                    
+                    
+            		                    <td class="str">197506041996031003</td>
+                    
+                    
+            		                    <td class="str">Staf Khusus Setda Kabupaten Morowali</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">38</td>
+            		
+            		                    <td class="str">IR EDISON PANJAITAN M.SI</td>
+                    
+                    
+            		                    <td class="str">196901051993031001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Ketenagakerjaan dan Transmigrasi </td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">39</td>
+            		
+            		                    <td class="str">DINI ANGGRAINI SE., M.SI</td>
+                    
+                    
+            		                    <td class="str">197001131995032001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Fasilitasi Bimbingan Kemasyarakatan Desa</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">40</td>
+            		
+            		                    <td class="str">ASMAWA AP, M.SI</td>
+                    
+                    
+            		                    <td class="str">197410151993111003</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Perencanaan pada Asisten Deputi Penataan Ruang Kawasan Perbatasan / Plt. Kepala Biro Perencanaan dan Kerjasama, BNPP</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">41</td>
+            		
+            		                    <td class="str">WISNU HIDAYAT SE, M.SI</td>
+                    
+                    
+            		                    <td class="str">196609151995031001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Otonomi, Keuangan, Pembangunan dan Kewilayahan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">42</td>
+            		
+            		                    <td class="str">EDI SAMSUDIN NASUTION SE, MAP.</td>
+                    
+                    
+            		                    <td class="str">196804091996031001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Batas  Negara dan Pulau-pulau Terluar</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">43</td>
+            		
+            		                    <td class="str">IR EDISON SIAGIAN ME</td>
+                    
+                    
+            		                    <td class="str">196701171995031001</td>
+                    
+                    
+            		                    <td class="str">Kepala Subdirektorat Pertanian dan Pangan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">44</td>
+            		
+            		                    <td class="str">DRS ISMAWAN HARIJONO M.SI</td>
+                    
+                    
+            		                    <td class="str">196902031989021001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Perencanaan Pada Asdep Infrastruktur Ekonomi dan Kesra</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">45</td>
+            		
+            		                    <td class="str">DRS. REVO ANHAR M.SI</td>
+                    
+                    
+            		                    <td class="str">197107121992011005</td>
+                    
+                    
+            		                    <td class="str">FUNGSIONAL  UMUM</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">46</td>
+            		
+            		                    <td class="str">DR. AKBAR ALI M.SI.</td>
+                    
+                    
+            		                    <td class="str">197504021993111001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Fasilitasi Peningkatan Demokrasi</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">47</td>
+            		
+            		                    <td class="str">IR ZANARIAH M.SI</td>
+                    
+                    
+            		                    <td class="str">196901101993032001</td>
+                    
+                    
+            		                    <td class="str">Kepala Subdit Perumahan dan Kawasan Permukiman</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">48</td>
+            		
+            		                    <td class="str">DRS HERU MATADOR M.SI</td>
+                    
+                    
+            		                    <td class="str">196612151986031001</td>
+                    
+                    
+            		                    <td class="str">Plt. Direktur Kewaspadaan Nasional/Kasubdit Penanganan Konflik Sosial</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">49</td>
+            		
+            		                    <td class="str">TEJO CONDRO NUGROHO MT</td>
+                    
+                    
+            		                    <td class="str">197505021995011002</td>
+                    
+                    
+            		                    <td class="str">Direktur BUMD</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">50</td>
+            		
+            		                    <td class="str">IR PANTJA ADIWIBAWA </td>
+                    
+                    
+            		                    <td class="str">196703271994031006</td>
+                    
+                    
+            		                    <td class="str">KEPALA BIDANG FASILITASI PELAKSAAN DAN MONEV</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">51</td>
+            		
+            		                    <td class="str">YUSNASWIR SE</td>
+                    
+                    
+            		                    <td class="str">196206061990031001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Pengembangan Kompetensi Teknis dan Fungsional Kementerian dan Lembaga </td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">52</td>
+            		
+            		                    <td class="str">DRA ANNIE SUMARTINIE M.SI</td>
+                    
+                    
+            		                    <td class="str">196303081986032002</td>
+                    
+                    
+            		                    <td class="str">Kepala Bagian Keuangan pada Sekretariat Ditjen Bina Keuangan Daerah</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">53</td>
+            		
+            		                    <td class="str">DR ASNIL SE, M.SI</td>
+                    
+                    
+            		                    <td class="str">196608101994031005</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Dukungan Teknis Perencanaan Anggaran Daerah</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">54</td>
+            		
+            		                    <td class="str">KAUTSAR AGUS HUTARI SSTP, M.SI</td>
+                    
+                    
+            		                    <td class="str">197708171996121002</td>
+                    
+                    
+            		                    <td class="str">Tenaga Ahli Analis Organisasi Masyarakat pada Staf Ahli Gubernur BengkuluBidang Pemerintahan, Hukum dan Politik</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">55</td>
+            		
+            		                    <td class="str">SRI PURWANINGSIH SH.,MAP</td>
+                    
+                    
+            		                    <td class="str">197004161995032001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bagian Dokumentasi Hukum</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">56</td>
+            		
+            		                    <td class="str">HASRUL EDYAR S.SOS, M.AP</td>
+                    
+                    
+            		                    <td class="str">197208011993031003</td>
+                    
+                    
+            		                    <td class="str">Fungsional Umum/Staf Pemda Kabupaten Simeulue</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">57</td>
+            		
+            		                    <td class="str">IR. AGUS IRAWAN MP.</td>
+                    
+                    
+            		                    <td class="str">196608141999031001</td>
+                    
+                    
+            		                    <td class="str"></td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">58</td>
+            		
+            		                    <td class="str">DR. MUDJI ESTININGSIH S.H., M.HUM.</td>
+                    
+                    
+            		                    <td class="str">196712061994032001</td>
+                    
+                    
+            		                    <td class="str">Widyaiswara Ahli Madya</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">59</td>
+            		
+            		                    <td class="str">DR ROYADI SH, MM</td>
+                    
+                    
+            		                    <td class="str">196205251983031002</td>
+                    
+                    
+            		                    <td class="str">KEPALA BAGIAN PERUNDANG UNDANGAN</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">60</td>
+            		
+            		                    <td class="str">DRA APOLLONIA MA</td>
+                    
+                    
+            		                    <td class="str">196908221989032001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bagian Administrasi Perekonomian dan Sumber Daya Alam</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">61</td>
+            		
+            		                    <td class="str">DR RAHMAN HADI M.SI</td>
+                    
+                    
+            		                    <td class="str">196909141990031004</td>
+                    
+                    
+            		                    <td class="str">Kepala Biro Sekretariat Pimpinan DPD RI</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">62</td>
+            		
+            		                    <td class="str">IR SUPRAYITNO MA</td>
+                    
+                    
+            		                    <td class="str">196708051993031001</td>
+                    
+                    
+            		                    <td class="str">KASUBDIT PERENCANAAN DAN EVALUASI  WILAYAH I </td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">63</td>
+            		
+            		                    <td class="str">DRA DINA ACHDIANA MM</td>
+                    
+                    
+            		                    <td class="str">196210301996032001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Pengembangan Kompetensi  JAbatan Fungsional Kemendagri</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">64</td>
+            		
+            		                    <td class="str">DRS FERRY DACHRI M.SI</td>
+                    
+                    
+            		                    <td class="str">196509221986031002</td>
+                    
+                    
+            		                    <td class="str">Kepala Bagian Data dan Evaluasi pada Biro Perencanaan, dan Kerjasama, BNPP</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">65</td>
+            		
+            		                    <td class="str">WAHYU SUHARTO SE., MPA</td>
+                    
+                    
+            		                    <td class="str">196901041994031001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Perhubungan Direktorat SUPD II Direktorat Jenderal Bina Pembangunan Daerah</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">66</td>
+            		
+            		                    <td class="str">ERI SENDJAYA S.SOS, M.SI</td>
+                    
+                    
+            		                    <td class="str">197008291990031001</td>
+                    
+                    
+            		                    <td class="str">CAMAT PADANG BARAT</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">67</td>
+            		
+            		                    <td class="str">DR.IR ARIADI NOOR M.SI</td>
+                    
+                    
+            		                    <td class="str">196812261994031006</td>
+                    
+                    
+            		                    <td class="str">Sekretaris Badan Perencanaan  Pembangunan  Daerah Provinsi Kalimantan Selatan </td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">68</td>
+            		
+            		                    <td class="str">DR. IR. BACHRIL BAKRI M.APP.SC</td>
+                    
+                    
+            		                    <td class="str">196611221993031001</td>
+                    
+                    
+            		                    <td class="str">Kepala Subdit Wilayah V Pada Direktorat Fasilitasi Kelembagaan dan Kepegawaian Perangkat Daerah, Ditjen Otonomi Daerah</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">69</td>
+            		
+            		                    <td class="str">DR. DRS. IZZUDDIN M.PD</td>
+                    
+                    
+            		                    <td class="str">196808141994031001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Kepemimpinan dan Prajabatan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">70</td>
+            		
+            		                    <td class="str">JOKO SUNGKONO SH, M.SI</td>
+                    
+                    
+            		                    <td class="str">196208201995011001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Fasilitasi Pelaksanaan dan Monitoring dan Evaluasi, Keasdepan Infrastruktur Ekonomi dan Kesra, pada Keduputian Bidang Pengelolaan Infrastruktur Kawasan Perbatasan, Badan Nasional Pengelola Perbatasan (BNPP)</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">71</td>
+            		
+            		                    <td class="str">ABDUL GHOFAR S.SI., MTI</td>
+                    
+                    
+            		                    <td class="str">196406161987021002</td>
+                    
+                    
+            		                    <td class="str">Funsional Madya Dosen Sertifikasi Teknologi Informasi</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">72</td>
+            		
+            		                    <td class="str">DRS. ANDI KRIARMONI S.E.,MM</td>
+                    
+                    
+            		                    <td class="str">196502271993111001</td>
+                    
+                    
+            		                    <td class="str">KEPALA BAGIAN UMUM</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">73</td>
+            		
+            		                    <td class="str">RINALDI AULIA, AP, MSI</td>
+                    
+                    
+            		                    <td class="str">197507261993111001</td>
+                    
+                    
+            		                    <td class="str">KEPALA PELAKSANA BPBD KOTA LANGSA</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">74</td>
+            		
+            		                    <td class="str">DR SURYA MAULANA </td>
+                    
+                    
+            		                    <td class="str">199310311993031004</td>
+                    
+                    
+            		                    <td class="str">PELAKSANA BPSDM PROVINSI RIAU</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">75</td>
+            		
+            		                    <td class="str">IR BUDI ERNAWAN MPPM</td>
+                    
+                    
+            		                    <td class="str">196707071995031001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Pendapatan Daerah Wilayah III</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">76</td>
+            		
+            		                    <td class="str">KARTIKA LISTRIANA ST, MPPM</td>
+                    
+                    
+            		                    <td class="str">196909211995032001</td>
+                    
+                    
+            		                    <td class="str">KEPALA BIDANG PENGEMBANGAN KAWASAN STRATEGIS EKONOMI</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">77</td>
+            		
+            		                    <td class="str">DRS. H. HERU TJAHYONO </td>
+                    
+                    
+            		                    <td class="str">196305011991031003</td>
+                    
+                    
+            		                    <td class="str">Kepala Bagian Tata Usaha Balai Besar, PMD Malang</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">78</td>
+            		
+            		                    <td class="str">DRS. NAAMAN MARTHINUS JALESY, MM</td>
+                    
+                    
+            		                    <td class="str">197111111991011001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bagian Tata Usaha</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">79</td>
+            		
+            		                    <td class="str">DRS INDRA PURNAMA M.SI</td>
+                    
+                    
+            		                    <td class="str">196601311992031002</td>
+                    
+                    
+            		                    <td class="str">PLT. Asisten Deputi Pengelolaan Batas Negara Wilayah Darat</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">80</td>
+            		
+            		                    <td class="str">SRI UTAMI SH., MH.</td>
+                    
+                    
+            		                    <td class="str">196612131993032002</td>
+                    
+                    
+            		                    <td class="str">KEPALA BAGIAN PERUNDANG-UNDANGAN</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">81</td>
+            		
+            		                    <td class="str">DRS. MUHAMMAD FIRSADA M.SI.</td>
+                    
+                    
+            		                    <td class="str">196705151989011001</td>
+                    
+                    
+            		                    <td class="str">KEPALA DINAS PENDIDIKAN KABUPATEN TULANG BAWANG</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">82</td>
+            		
+            		                    <td class="str">SUPONO BOWO WIRIANTO MM.MPD</td>
+                    
+                    
+            		                    <td class="str">196204171986011002</td>
+                    
+                    
+            		                    <td class="str">kepala dinas</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">83</td>
+            		
+            		                    <td class="str">DRS URKANUS SIHOMBING MPA</td>
+                    
+                    
+            		                    <td class="str">196302281982031001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Kompetensi Pusat Standardisasi dan Sertifikasi BPSDM Kemendagri</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">84</td>
+            		
+            		                    <td class="str">DRS YUDIA RAMLI M.SI</td>
+                    
+                    
+            		                    <td class="str">196810301994031001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Kerja Sama Dalam Negeri</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">85</td>
+            		
+            		                    <td class="str">KGS M.EFFENDI FERI S.STP, M.SI</td>
+                    
+                    
+            		                    <td class="str">197506091996031001</td>
+                    
+                    
+            		                    <td class="str">KEPALA DINAS PEMADAM KEBAKARAN DAN PENANGGULANGAN BENCANA</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">86</td>
+            		
+            		                    <td class="str">DRS ANDI BATARALIFU M.SI</td>
+                    
+                    
+            		                    <td class="str">197109061992021002</td>
+                    
+                    
+            		                    <td class="str">KASUBDIT WILAYAH I DIREKTORAT FASILITASI KEPALA DAERAH DAN DPRD</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">87</td>
+            		
+            		                    <td class="str">DRS. JOHNNY SEBAYANG </td>
+                    
+                    
+            		                    <td class="str">196205111990031001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Pembauran dan Pelestarian Bhinneka Tungal Ika</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">88</td>
+            		
+            		                    <td class="str">IR BUDUR MT</td>
+                    
+                    
+            		                    <td class="str">196210041993032002</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Kurikulum dan Teknologi Pembelajaran</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">89</td>
+            		
+            		                    <td class="str">SUKACA SH, M.SI, MH</td>
+                    
+                    
+            		                    <td class="str">196502041993031001</td>
+                    
+                    
+            		                    <td class="str">Kabag Perundang-Undangan Setditjen OTDA</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">90</td>
+            		
+            		                    <td class="str">DRA ANASTUTIK WIRYANINGSIH M.SI.</td>
+                    
+                    
+            		                    <td class="str">196603091992032001</td>
+                    
+                    
+            		                    <td class="str">Kepala Sub Direktorat Sumber Daya Hutan, Pertanian, dan Pertambangan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">91</td>
+            		
+            		                    <td class="str">DRS KOMEDI MSI</td>
+                    
+                    
+            		                    <td class="str">196301131993111001</td>
+                    
+                    
+            		                    <td class="str">Kepala Bagian Keuangan pada Biro Keuangan, Umum, dan Humas BNPP</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">92</td>
+            		
+            		                    <td class="str">ALAMSYAH BAHAR S.IP, M.SI</td>
+                    
+                    
+            		                    <td class="str">197303121993031009</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIS BADAN PENELITIAN DAN PENGEMBANGAN DAERAH KABUPATEN SINJAI</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">93</td>
+            		
+            		                    <td class="str">DR MUHAMMAD ANWAR M.SI</td>
+                    
+                    
+            		                    <td class="str">196701311994121001</td>
+                    
+                    
+            		                    <td class="str">Sekretaris Dinas Pemberdayaan Perempuan, Perlindungan Anak dan Pemberdayaan Masyarakat Kota Bandung</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">94</td>
+            		
+            		                    <td class="str">DR. IR TUBAGUS RISMUNANDAR MT, ME</td>
+                    
+                    
+            		                    <td class="str">196709121994031008</td>
+                    
+                    
+            		                    <td class="str">ASISTEN DEPUTI JEJARING INOVASI MARITIM</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">95</td>
+            		
+            		                    <td class="str">NOVIANTI SOEROMO SH, M.SI</td>
+                    
+                    
+            		                    <td class="str">196211141988032005</td>
+                    
+                    
+            		                    <td class="str">Kepala Bidang Perencanaan pada Asdep Infrstruktur Pemerintahan</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">96</td>
+            		
+            		                    <td class="str">ZAHERMANN MUABEZI SH</td>
+                    
+                    
+            		                    <td class="str">196510041993031001</td>
+                    
+                    
+            		                    <td class="str">KEPALA SUBDIREKTORAT HUKUM PRIVAT INTERNASIONAL</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">97</td>
+            		
+            		                    <td class="str">DR ELIP HELDAN AP, M.SI</td>
+                    
+                    
+            		                    <td class="str">197411011993111001</td>
+                    
+                    
+            		                    <td class="str">KEPALA BIDANG PEMERINTAHAN DAN SOSIAL BUDAYA</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">98</td>
+            		
+            		                    <td class="str">DR. NURDIN S.SOS, M.SI</td>
+                    
+                    
+            		                    <td class="str">197306171992031001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Wilayah I pada Direktorat Fasilitasi Kelembagaan dan Kepegawaian Perangkat Daerah</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">99</td>
+            		
+            		                    <td class="str">DR. GUTMEN NAINGGOLAN SH, M.HUM</td>
+                    
+                    
+            		                    <td class="str">197108172002121001</td>
+                    
+                    
+            		                    <td class="str">Plt. Kepala Biro Hukum, Organisasi, dan Kepegawaian</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">100</td>
+            		
+            		                    <td class="str">DRS. PULING REMIGIUS KORNELIUS M.SI</td>
+                    
+                    
+            		                    <td class="str">196312131985031001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Evaluasi Kinerja Wilayah I, Direktorat Evaluasi Kinerja dan Peningkatan Kapasitas Daerah</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			            	<tr>
+            		<td class="str">101</td>
+            		
+            		                    <td class="str">DR. IR. DAVID YAMA M.SC, MA</td>
+                    
+                    
+            		                    <td class="str">197706062001121001</td>
+                    
+                    
+            		                    <td class="str">Kasubdit Pindah Datang Penduduk pada Direktorat Pendaftaran Penduduk Ditjen Kependudukan dan Pencatatan Sipil</td>
+                    
+                    
+            		                    <td class="str">SEKRETARIAT JENDERAL</td>
+                    
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            								<td class="str">0.00</td>
+					
+                    
+            		            			<td style="background-color: 'yellow'">Memenuhi Standar</td>
+            		
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+            								<td style="background-color: 'yellow'">Memenuhi Standar</td>
+					
+                    
+                </tr>
+			
+        </tbody>
+    </table>
+</body>
+</html>

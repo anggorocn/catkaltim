@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ | $Header: setup/struts4php.xml
+ | $Revision: 1.0
+ | $Date: 2004.06.19
+ |
+ | ====================================================================
+ -->
+<configuration>
+	<urlConfig>
+		<email>
+			<Hostname>smtp.gmail.com</Hostname>
+			<Username>rekrutmentvri@gmail.com</Username>
+			<Password>Valsix1234</Password>
+			<From>rekrutmentvri@gmail.com</From>
+			<FromName>rekrutmentvri@gmail.com</FromName>
+			<!-- <Username>panseldireksi@recruitment.tvri.co.id</Username>
+			<Password>TVRI@4dm1n</Password>
+			<From>panseldireksi@recruitment.tvri.co.id</From>
+			<FromName>panseldireksi@recruitment.tvri.co.id</FromName> -->
+		</email>
+		<url>
+			<!--<upload>../</upload>-->
+			<info>http://www.rekrutmen-tvri.com/</info>
+			<upload>www.rekrutmen-tvri.com/</upload>
+			<uploadlookup>www.rekrutmen-tvri.com/uploads/</uploadlookup>
+			<!-- <info>http://recruitment.tvri.co.id</info>
+			<upload>/opt/shareuploads/wwwupload/</upload>
+			<uploadlookup>http://43.245.185.181/uploads/wwwupload/</uploadlookup> -->
+		</url>
+	</urlConfig>
+</configuration>

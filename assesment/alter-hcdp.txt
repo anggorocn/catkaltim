@@ -1,0 +1,40 @@
+alter table pegawai_hcdp_detil
+add column keterangan character varying;
+
+drop table if exists pegawai_hcdp_rumpun_detil;
+create table pegawai_hcdp_rumpun_detil
+(
+  pegawai_hcdp_rumpun_detil_id integer not null,
+  pegawai_hcdp_id integer not null,
+  pegawai_id integer not null,
+  atribut_id character varying(100),
+  pelatihan_hcdp_id character varying(100),
+  nama_pelatihan character varying,
+  pelatihan_id character varying,
+  pelatihan_nama character varying,
+  permen_id integer,
+  constraint pegawai_hcdp_rumpun_detil_pkey primary key (pegawai_hcdp_rumpun_detil_id),
+  constraint u_pegawai_hcdp_rumpun_detil unique (pegawai_id, pegawai_hcdp_rumpun_detil_id, permen_id, atribut_id, pelatihan_hcdp_id)
+);
+alter table pegawai_hcdp_rumpun_detil owner to postgres;
+
+drop table if exists pegawai_hcdp_realisasi;
+create table pegawai_hcdp_realisasi
+(
+  pegawai_hcdp_realisasi_id integer not null,
+  pegawai_hcdp_id integer not null,
+  pegawai_id integer not null,
+  atribut_id character varying(100),
+  permen_id integer,
+  biaya numeric,
+  waktu_pelaksana character varying,
+  penyelenggara character varying,
+  sumber_dana character varying,
+  materi_pengembangan character varying,
+  jp numeric,
+  status character varying,
+  alasan_pengajuan character varying,
+  constraint pegawai_hcdp_realisasi_pkey primary key (pegawai_hcdp_realisasi_id),
+  constraint u_pegawai_hcdp_realisasi unique (pegawai_id, pegawai_hcdp_realisasi_id, permen_id, atribut_id)
+);
+alter table pegawai_hcdp_rumpun_detil owner to postgres;

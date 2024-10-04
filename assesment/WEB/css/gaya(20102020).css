@@ -1,0 +1,708 @@
+@font-face {
+	font-family: 'Open SansRegular';
+	src: url('../fonts/OpenSans/OpenSans-Regular-webfont.eot');
+	src: url('../fonts/OpenSans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans/OpenSans-Regular-webfont.woff') format('woff'),
+	url('../fonts/OpenSans/OpenSans-Regular-webfont.ttf') format('truetype'),
+	url('../fonts/OpenSans/OpenSans-Regular-webfont.svg#Open SansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open SansSemibold';
+	src: url('../fonts/OpenSans/OpenSans-Semibold-webfont.eot');
+	src: url('../fonts/OpenSans/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans/OpenSans-Semibold-webfont.woff') format('woff'),
+	url('../fonts/OpenSans/OpenSans-Semibold-webfont.ttf') format('truetype'),
+	url('../fonts/OpenSans/OpenSans-Semibold-webfont.svg#Open SansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open SansLight';
+	src: url('../fonts/OpenSans/OpenSans-Light-webfont.eot');
+	src: url('../fonts/OpenSans/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OpenSans/OpenSans-Light-webfont.woff') format('woff'),
+	url('../fonts/OpenSans/OpenSans-Light-webfont.ttf') format('truetype'),
+	url('../fonts/OpenSans/OpenSans-Light-webfont.svg#Open SansRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html{
+	height:100%;
+}
+body{
+	font-family: 'Open SansRegular';
+	font-size:14px;
+	margin:0 0;
+	padding:0 0;
+	
+	height:100%;
+}
+
+#judul-main{
+	background:#3379b7;
+	*width:100%;
+	height:30px;
+	line-height:30px;
+	*position:relative;
+	padding:0 40px;
+	color:#FFF;
+}
+
+#menu-1{
+	float:right; /*line-height:60px;*/
+	margin-right:20px;
+	*margin-top:15px;
+}
+#menu-1-konten{
+	float:right; 
+	/*line-height:50px;*/ 
+	width:auto; 
+	*padding:5px; 
+	
+	margin-left:5px;
+	height:30px;
+	line-height:30px;
+}
+#menu-1-konten:hover{
+	*background: #f50a0a; /* Fallback background color for non supported browsers */         
+	
+	/*background-image: -moz-linear-gradient(top, #33fbfd, #957533); /* Firefox 3.6 
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #33fbfd),color-stop(1, #957533)); /* Safari & Chrome 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#33fbfd', endColorstr='#957533'); /* IE6 & IE7 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#33fbfd', endColorstr='#957533')"; /* IE8 */
+	
+	*-webkit-border-radius: 4px;
+	*-moz-border-radius: 4px;
+	*border-radius: 4px;
+	
+	
+}
+#menu-1-konten a{
+	
+	/*line-height: 18px;*/
+	color: #ceeffe;
+	*text-shadow:1px 1px 1px #f50a0a;
+	text-decoration:none;
+	
+	padding:0 7px;
+	background:#3379b7;
+	display:block;
+	
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+#menu-1-konten a:hover{
+	color:#FFF;
+	background: #1e476b;
+	
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	
+	/*-moz-box-shadow:    inset 0 0 2px #092e4f;
+	-webkit-box-shadow: inset 0 0 2px #092e4f;
+	box-shadow:         inset 0 0 2px #092e4f;*/
+}
+
+/* MENU 2 */
+#menu-2{
+	float:right; /*line-height:60px;*/
+	margin-right:15px;
+	margin-top:4px;
+}
+#menu-2-konten{
+	float:right; /*line-height:50px;*/ 
+	width:auto; 
+	*padding:5px 10px; 
+	margin-left:5px;
+	
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	
+	background: #FFF; /* Fallback background color for non supported browsers */         
+	-moz-box-shadow:    inset 0 5 10px #488d8e;
+   -webkit-box-shadow: inset 0 5 10px #488d8e;
+   box-shadow:         inset 0 5 10px #488d8e;
+
+}
+#menu-2-konten:hover{
+	background: #f50a0a; /* Fallback background color for non supported browsers */         
+	
+	/*background-image: -moz-linear-gradient(top, #33fbfd, #957533); /* Firefox 3.6 
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #33fbfd),color-stop(1, #957533)); /* Safari & Chrome 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#33fbfd', endColorstr='#957533'); /* IE6 & IE7 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#33fbfd', endColorstr='#957533')"; /* IE8 */
+	
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	
+	-moz-box-shadow:    inset 0 0 6px #1e74a3;
+   -webkit-box-shadow: inset 0 0 6px #1e74a3;
+   box-shadow:         inset 0 0 6px #1e74a3;
+}
+#menu-2-konten a{
+	
+	/*line-height: 18px;*/
+	color: #000;
+	padding:5px 10px;
+	display:block;
+	text-decoration:none;
+}
+#menu-2-konten a:hover{
+	color:#FFF;
+	text-shadow:1px 1px 1px #f50a0a;
+}
+#account-new{
+	margin-left:15px;
+	height:30px;
+	line-height:30px;
+	display:block;
+}
+#account-new a{
+	color:#000;
+	*text-shadow:1px 1px 1px #f50a0a; 
+	text-decoration:none;
+	
+}
+
+.judul-halaman{
+	font-family: 'philosopheritalic';
+
+	font-size:20px;
+	text-shadow:1px 1px 1px #FFFFFF;
+}
+.judul-selamat-datang{
+	font-family: 'philosopheritalic';
+	text-align:center; clear:both; margin-top:15px; margin-bottom:-50px;
+	color:#ba9348;
+	text-shadow:1px 1px 1px #FFF;
+	margin-top:100px;
+}
+.judul-menu-grafik{
+	font-family: 'philosopheritalic';
+	font-size:20px;
+	text-align:center; clear:both; margin-top:15px; margin-bottom:-50px;
+	color:#ba9348;
+	text-shadow:1px 1px 1px #FFF;
+}
+
+.bg-button{
+	/*height:22px;
+	line-height:22px;*/
+	/*background: #72bbbc;*/ /* Fallback background color for non supported browsers */         
+	
+	/* fallback */ 
+	background-color: #2862ad; background: url(images/linear_bg_2.png); background-repeat: repeat-x; 
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2862ad), to(#18355b)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #2862ad, #18355b); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #2862ad, #18355b); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #2862ad, #18355b); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #2862ad, #18355b);	
+
+	
+	color:#FFF;
+	font-weight:bold;
+	text-shadow:0px 1px 2px #000;
+	border:none;
+	text-align:center;
+	
+	-webkit-box-shadow: 0 8px 6px -6px black;
+   -moz-box-shadow: 0 8px 6px -6px black;
+		box-shadow: 0 8px 6px -6px black;
+
+}
+a:link{text-decoration:none;}
+input[type=text], input[type=password]{
+	/*background: #4f4f4f; /* Fallback background color for non supported browsers 
+	
+	background-image: -moz-linear-gradient(top, #4f4f4f, #818181); /* Firefox 3.6 
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #4f4f4f),color-stop(1, #818181)); /* Safari & Chrome 
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4f4f4f', endColorstr='#818181'); /* IE6 & IE7 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4f4f4f', endColorstr='#818181')"; /* IE8 */
+	
+	/*color:#FFF;*/
+	/*text-shadow:1px 1px 1px #373737;*/
+	/*padding:5px;*/
+	/*border:none;*/
+
+}
+
+/*input[type=submit]{ border:none;}*/
+
+/*************************************************************************************/
+div#login-container {
+	position:relative; /* needed for footer positioning*/
+	margin:0 auto; /* center, not in IE5 */
+	/*width:750px;*/
+	width:100%;
+	/*background:#f0f0f0;*/
+	
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+
+	min-height:100%; /* real browsers */
+}
+
+div#login-header {
+	height:70px;
+	padding:20px 30px 0;
+	/*padding:1em;*/
+	/*background:url(../images/header_login_bg.png);*/
+	background:#f8f8f8;
+	/*background:#ddd url("../csslayout.gif") 98% 10px no-repeat;
+	border-bottom:6px double gray;*/
+}
+	div#login-header p {
+		font-style:italic;
+		font-size:1.1em;
+		margin:0;
+	}
+
+div#login-content {
+	padding:1em 1em 5em; /* bottom padding for footer */
+	/*overflow:scroll;*/
+}
+	div#login-content p {
+		text-align:justify;
+		padding:0 1em;
+	}
+
+div#login-footer {
+	height:30px;
+	position:absolute;
+	width:100%;
+	bottom:0; /* stick to bottom */
+	/*background:url(../images/menu/bg-hr-menu.jpg);*/
+	background:#3379b7;
+	/*border-top:6px double gray;*/
+	
+	font-size:11px; color:#FFF; 
+	text-shadow:1px 1px 1px #f50a0a; text-align:center;
+	line-height:30px;
+}
+	div#login-footer p {
+		padding:1em;
+		margin:0;
+	}
+	
+	
+/****/
+#main-header{
+	*background:#f8f8f8 url(../images/bg-header.png) top center no-repeat;
+	height: 80px;
+	
+	*background:#930606;
+	*background: #e46613;
+	
+	background-color: #eb1a3d;
+	background-image: url(images/linear_bg_1.png);
+	background-repeat: repeat-y;
+	background: -webkit-gradient(linear, left top, right top, from(#eb1a3d), to(#fb3657));
+	background: -webkit-linear-gradient(left, #eb1a3d, #fb3657);
+	background: -moz-linear-gradient(left, #eb1a3d, #fb3657);
+	background: -ms-linear-gradient(left, #eb1a3d, #fb3657);
+	background: -o-linear-gradient(left, #eb1a3d, #fb3657);
+
+}
+#main-logo{
+	float:left;
+	width:750px;
+	height:60px;
+	background:url(../images/logo.png) no-repeat left 20px center;
+	background-size: auto 50px;
+	
+	padding: 10px;
+}
+#main-logo span{
+	font-weight:bold;
+	float:left;
+	margin-left: 230px;
+	margin-top:23px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:13px;
+}
+#main-judul{
+	float:right;
+	*line-height:70px;
+	padding-top:18px;
+	padding-right:20px;
+	font-size:13px;
+	text-align:right;
+	
+	color:#FFF;
+}
+#main-judul a{
+	color:#84c225;
+	text-transform:uppercase;
+}
+#main-kontainer{
+	height: -moz-calc(100% - 100px);
+    height: -webkit-calc(100% - 100px);
+    height: -o-calc(100% - 100px);
+    height: calc(100% - 100px);
+	background:url(../images/bg-home.jpg); background-size:100% 100%;
+}
+#main-footer{
+	background:#3379b7;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+	color:#FFF;
+}
+
+/****/
+#login-area{
+	float:left;
+	width:300px;
+	
+	height: -moz-calc(100% - 40px);
+    height: -webkit-calc(100% - 40px);
+    height: -o-calc(100% - 40px);
+    height: calc(100% - 40px);
+	
+	background:rgba(255,255,255,0.3);
+	padding:20px;
+}
+#login-area .judul{
+	margin-bottom:10px;
+	font-size:14px;
+	text-align:center;
+}
+#login-area .judul img{
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+#login-area .akun{
+	text-align:center;
+	font-size:14px;
+}
+
+
+#login-area input[type = text],
+#login-area input[type = password]{
+	width: -moz-calc(100% - 10px);
+    width: -webkit-calc(100% - 10px);
+    width: -o-calc(100% - 10px);
+    width: calc(100% - 10px);
+
+	border:none;
+	padding:7px 4px;
+	margin-bottom:10px;
+	
+}
+#login-area input[type = submit]{
+	width: -moz-calc(100% - 3px);
+    width: -webkit-calc(100% - 3px);
+    width: -o-calc(100% - 3px);
+    width: calc(100% - 3px);
+
+	border:none;
+	padding:7px 4px;
+	margin-bottom:10px;
+	
+}
+.alamat{
+	position:absolute;
+	bottom:50px;
+	font-size:12px;
+	width:300px;
+}
+/****/
+#logo-login-area{
+	float:right;
+	padding-top:50px;
+	
+	width: -moz-calc(100% - 340px);
+    width: -webkit-calc(100% - 340px);
+    width: -o-calc(100% - 340px);
+    width: calc(100% - 340px);
+}
+
+/****/
+#footer-waktu{
+	/*background:url(../images/bg-footer.png) left no-repeat;*/
+	/*float:right;*/
+	/*padding-top:20px;*/
+	height:100px;
+	/*background:#CF3;*/
+	
+	/*width: -moz-calc(100% - 300px);
+    width: -webkit-calc(100% - 300px);
+    width: -o-calc(100% - 300px);
+    width: calc(100% - 300px);*/
+	
+	position:absolute;
+	*bottom:160px;
+	*left:400px;
+	
+	bottom:120px;
+	right:-60px;
+	/*width:100%;*/
+
+}
+#footer-waktu-icon{
+	float:left;
+	margin-left:20px;
+	padding-top:5px;
+}
+#footer-waktu-icon img{
+	vertical-align:middle;
+}
+#footer-waktu-jam{
+	
+	float:right;
+	width:100%;
+	text-align:center;
+	font-size:100px;
+}
+#footer-waktu-tgl{
+	float:left;
+	width:100%;
+	text-align:center;
+	*color:#FFF;
+	font-size:18px;
+}
+
+/****/
+.logo-kkp{
+	width:60px; height:60px; float:left;
+	background:url(../images/logo-kkp.png); 
+	margin-left:20px;
+	margin-top:-15px;
+}
+.vr-header{
+	width:20px; height:40px; float:left;
+	border-right:1px solid #FFF;
+}
+.main-menu2{
+	width:40px;
+	height:40px;
+	float:left;
+	background:url(../images/icon-main-menu2.png); 
+	margin-left:10px;
+	margin-top:0px;
+}
+/*a.main-menu-link::after{
+	content: url(https://www.mozilla.org/favicon.ico) " MOZILLA: ";
+	height:40px;
+	width:40px;
+}*/
+
+/** KINERJA **/
+.main-kinerja{
+	
+}
+table.main-kinerja{
+	
+	width:100%;
+	*height:100%;
+	
+	height: -moz-calc(100% - 70px);
+    height: -webkit-calc(100% - 70px);
+    height: -o-calc(100% - 70px);
+    height: calc(100% - 70px);
+
+	border:none;
+	background:#F0F0F0;
+}
+
+.judul-kolom{
+	background-image:url(../images/bg-judul-kolom.png);
+	height:26px;
+	font-family: 'Open SansRegular';
+	font-size:14px;
+	letter-spacing:2px;
+	font-weight:bold;
+	color:#393939;
+	text-align:center;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+/*background-color:#eefece;
+color:#141414;*/
+
+.judul-kolom-admin{
+	height:26px;
+	background-color:#eefece;
+	font-family: 'Open SansRegular';
+	font-size:14px;
+	letter-spacing:2px;
+	font-weight:bold;
+	color:#393939;
+	text-align:center;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+.judul-kolom-2row{
+	background-image:url(../images/bg-judul-kolom2.png);
+	height:52px;
+	font-family: 'Open SansRegular';
+	font-size:14px;
+	font-weight:bold;
+	color:#393939;
+	text-align:center;
+	letter-spacing:2px;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+.judul-kolom-3row{
+	background-image:url(../images/bg-judul-kolom3.png);
+	height:78px;
+	font-family: 'Open SansRegular';
+	font-size:14px;
+	font-weight:bold;
+	color:#393939;
+	letter-spacing:2px;
+	text-align:center;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+.judul-kolom2{
+	background-color:#dbdddf;
+	font-family: 'Open SansRegular';
+	font-size:16px;
+	color:#5f5f5f;
+	text-align:center;
+	letter-spacing:2px;
+}
+.judul-kolom3{
+	background-color:#f1d872;
+	font-family: 'Open SansRegular';
+	font-size:16px;
+	color:#393939;
+	text-align:center;
+}
+.judul-jumlah{
+	font-family: 'Open SansRegular';
+	font-size:16px;
+	color:#666;
+}
+
+
+.gelap{
+	/*background-image:url(../images/gelap.png);*/
+	background-color:#dbf2fe;
+	height:26px;
+	background-repeat:repeat-x;
+	/*background-color:#fff6da;*/
+	font-family: 'Open SansRegular';
+	font-size:14px;
+	color:#141414;
+}
+.terang{
+	background-color:#ebf8fe;
+	/*background-image:url(../images/terang.png);*/
+	height:26px;
+	background-repeat:repeat-x;
+/*	background-color:#fef9ea;*/
+	font-family: 'Open SansRegular';
+	font-size:14px;
+	color:#141414;
+}
+
+/****/
+.area-karir-wrapper{
+	padding:10px;
+	*border:2px solid cyan;
+	display:inline-block;
+	width:100%;
+	box-sizing:border-box;
+}
+.area-karir{
+	background:#f9f9f9;
+	width:100%;
+	*height:100px;
+	min-height:160px;
+	*display:inline-block;
+	border-bottom:1px solid #dedede;
+}
+.area-karir .jabatan{
+	background:#1e476b;
+	color:#FFF;
+	padding:7px 7px;
+	text-transform:uppercase;
+	text-align:center;
+	position:relative;
+}
+.area-karir .jabatan:after{
+	content:url(../images/panah-kanan.png);
+	*float:right;
+	*margin-right:-10px;
+	position:absolute;
+	right:-10px;
+}
+
+.area-karir .data{
+	padding:4px 7px;
+}
+.area-karir .data table{
+	border-collapse:collapse;
+	width:100%;
+}
+.area-karir .data table td{
+	
+	border:1px solid #f0f0f0;
+	padding:4px 7px !important;
+}
+
+/****/
+.bg-home{
+	*background:#b20707 url(../images/bg-main.png);
+	background: url(../images/bg-main.png);
+	background-size:100% 100%;
+}
+
+/****/
+#page_effect{
+	*border: 5px solid red;
+}
+#page_effect > #bg{
+	*border: 5px solid cyan;
+	display: none;
+}
+#page_effect > #content{
+	
+}
+
+/****/
+table.table_list {
+	border-collapse: collapse;
+	width: 100%;
+}
+table.table_list td{
+	*border: 1px solid red;
+	vertical-align: top;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 4px 8px;
+}

@@ -1,0 +1,149 @@
+	border-collapse:collapse;
+	width:100%;
+}
+.area-table-assesor table th{
+	
+	background:#f8a406;
+	padding:10px;
+	border-left:1px solid #06345f;
+	border-right:1px solid #06345f;
+	text-align:center;
+}
+.area-table-assesor table td {
+/*	background:#0B66B5 !important;*/
+	padding:10px;
+/*	border:1px solid #06345f;*/
+	color:black;
+}
+.area-table-assesor table td > div {
+	font-family: 'Open SansRegular';
+	font-size: 13px;
+	letter-spacing: normal;
+}
+.area-table-assesor table td a{
+	color:black;
+	text-align:center;
+	display:block;
+}
+.area-table-assesor table td a.btn {
+	color: #FFFFFF;
+}
+.area-table-assesor table td a:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+.area-table-assesor table td ul{
+/*	padding-left: 20px;*/
+	list-style:square;
+
+	padding-left: 0px;
+}
+.area-table-assesor table td textarea{
+	width:100%;
+	height:120px;
+	border:1px solid #06345f;
+}
+.area-table-assesor table td input[type=submit]{
+	
+	/* fallback */ 
+	background-color: #063a69; background: url(images/linear_bg_2.png); background-repeat: repeat-x; 	
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#063a69), to(#02284b)); 	
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #063a69, #02284b); 	
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #063a69, #02284b); 	
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #063a69, #02284b); 	
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #063a69, #02284b);
+
+	color: #FFF;
+	
+	padding:8px 15px;
+	border:none;
+	
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-khtml-border-radius: 3px; 
+	border-radius: 3px; 
+}
+.area-table-assesor table td input[type=reset]{
+	
+	/* fallback */ 
+	background-color: #f8a406; background: url(images/linear_bg_2.png); background-repeat: repeat-x; 	
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8a406), to(#d08905)); 	
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #f8a406, #d08905); 	
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #f8a406, #d08905); 	
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #f8a406, #d08905); 	
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #f8a406, #d08905);
+	
+	padding:8px 15px;
+	border:none;
+	
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	-khtml-border-radius: 3px; 
+	border-radius: 3px; 
+}
+
+/****/
+.area-table-assesor table.tabel-rekap {
+	border-collapse: collapse;
+	margin-bottom: 10px !important
+}
+.area-table-assesor table.tabel-rekap td {
+	border: 1px solid #dadada;
+}
+
+
+/****/
+.area-akun-data{
+	background:;
+}
+.area-akun-data .foto{
+	text-align:center;
+}
+.area-akun-data .foto img{
+	width:120px;
+	height:120px;
+	
+	border:4px solid rgba(255,255,255,0.9);
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.area-akun-data .data .nama{
+	background:#0b66b5;
+	color:#FFF;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:24px;
+	
+	margin-top:18px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.area-akun-data .data .jabatan{
+	background:rgba(0,0,0,0.2);
+	color:#FFF;
+	text-align:center;
+	
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:18px;
+}
+
+/****/
+.breadcrumb{
+	margin-top:18px;
+}
+
+
+

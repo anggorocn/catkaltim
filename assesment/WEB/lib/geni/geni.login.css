@@ -1,0 +1,252 @@
+/* -LOGIN START- */
+.grid.grid-hor:not(.grid-desktop):not(.grid-desktop-and-tablet):not(.grid-tablet):not(.grid-tablet-and-mobile):not(.grid-mobile).grid-root {
+    flex: 1;
+}
+
+.grid.grid-hor:not(.grid-desktop):not(.grid-desktop-and-tablet):not(.grid-tablet):not(.grid-tablet-and-mobile):not(.grid-mobile) {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid.grid-hor:not(.grid-desktop):not(.grid-desktop-and-tablet):not(.grid-tablet):not(.grid-tablet-and-mobile):not(.grid-mobile) > .grid-item.grid-item-fluid {
+    flex: 1 0 auto;
+}
+
+.grid.grid-hor:not(.grid-desktop):not(.grid-desktop-and-tablet):not(.grid-tablet):not(.grid-tablet-and-mobile):not(.grid-mobile) > .grid-item {
+    flex: none;
+}
+
+.login.login-1 {
+    background: white;
+}
+
+.login.login-1 .login-aside {
+    width: 700px;
+    padding: 2rem 11rem;
+}
+
+.grid.grid-hor:not(.grid-desktop):not(.grid-desktop-and-tablet):not(.grid-tablet):not(.grid-tablet-and-mobile):not(.grid-mobile) {
+    display: flex;
+    flex-direction: column;
+}
+
+.login.login-1 .login-content {
+    padding: 5rem 10rem 10rem 10rem;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.grid.grid-center {
+    justify-content: center;
+}
+
+.stack {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.stack.stack-hor > .stack-item.stack-item-fluid {
+    display: block;
+    height: auto;
+}
+
+.stack.stack-hor > .stack-item {
+    display: block;
+}
+
+.stack.stack-hor > .stack-item {
+    display: block;
+}
+
+.login.login-1 .login-wrapper {
+    overflow: hidden;
+    padding: 0 0 2rem 0;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.login.login-1 .login-wrapper .login-logo {
+    text-align: center;
+    margin: 0 auto 4rem auto;
+}
+
+.login.login-1 .login-wrapper .login-head {
+    margin-top: 1rem;
+}
+
+.login.login-1 .login-wrapper .login-head .login-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 993px) {
+    .grid.grid-ver-desktop.grid-desktop {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .grid.grid-ver-desktop.grid-desktop > .grid-item {
+        flex: 0 0 auto;
+    }
+
+    .grid.grid-ver-desktop.grid-desktop > .grid-item.grid-item-fluid {
+        flex: 1;
+    }
+
+    .grid.grid-ver-desktop.grid-desktop > .grid-item {
+        flex: 0 0 auto;
+    }
+
+    .grid.grid-center {
+        justify-content: center;
+    }
+
+    .stack.stack-desktop {
+        display: table;
+        table-layout: fixed;
+    }
+
+    .stack.stack-desktop.stack-hor > .stack-item.stack-item-fluid {
+        height: auto;
+    }
+
+    .stack.stack-desktop.stack-hor > .stack-item {
+        display: table-row;
+        vertical-align: top;
+        height: 1px;
+    }
+
+    .stack.stack-desktop.stack-hor > .stack-item.stack-item-center {
+        text-align: center;
+    }
+
+    .stack.stack-desktop.stack-hor > .stack-item {
+        display: table-row;
+        vertical-align: top;
+        height: 1px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+    .login.login-1 .login-aside {
+        width: 400px;
+        margin: 0 auto;
+        padding: 3rem 3rem;
+    }
+
+    .login.login-1 .login-content {
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .grid.grid-center {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .grid.grid-hor-tablet-and-mobile.grid-tablet-and-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid.grid-hor-tablet-and-mobile.grid-tablet-and-mobile > .grid-item.grid-item-order-tablet-and-mobile-2 {
+        order: 2;
+    }
+
+    .grid.grid-hor-tablet-and-mobile.grid-tablet-and-mobile > .grid-item {
+        flex: none;
+    }
+
+    .login.login-1 .login-aside {
+        width: 500px;
+        margin: 0 auto;
+        padding: 2rem 3rem;
+    }
+
+    .login.login-1 .login-aside .login-wrapper {
+        padding-top: 3rem;
+        display: block;
+    }
+
+    .login.login-1 .login-aside .login-wrapper .login-logo {
+        margin: 2rem auto 3.5rem auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .login.login-1 .login-aside {
+        width: 100%;
+        padding: 2rem 3rem;
+    }
+
+    .grid.grid-center {
+        justify-content: center;
+    }
+
+    .login.login-1 .login-aside .login-wrapper {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .grid.grid-hor-tablet-and-mobile.grid-tablet-and-mobile > .grid-item.grid-item-order-tablet-and-mobile-1 {
+        order: 1;
+    }
+
+    .grid.grid-hor-tablet-and-mobile.grid-tablet-and-mobile > .grid-item.grid-item-fluid {
+        flex: 0;
+    }
+
+    .grid.grid-hor-tablet-and-mobile.grid-tablet-and-mobile > .grid-item {
+        flex: none;
+    }
+
+    .login.login-1 .login-content {
+        padding: 0;
+    }
+
+    .grid.grid-center {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+    .grid.grid-center {
+        justify-content: center;
+    }
+}
+
+.login-img {
+    max-width: 100%;
+}
+
+.login .filled-in[type="checkbox"]:not(:checked) + label::after {
+    height: 16px;
+    left: 3px;
+    top: 3px;
+    width: 16px;
+}
+
+.login .filled-in[type="checkbox"]:checked + label::after {
+    height: 16px;
+    left: 3px;
+    top: 3px;
+    width: 16px;
+}
+
+.login [type="checkbox"] + label::before, [type="checkbox"]:not(.filled-in) + label::after {
+    height: 14px;
+    left: 3px;
+    top: 3px;
+    width: 14px;
+}
+
+.login .filled-in[type="checkbox"]:checked + label::before {
+    height: 10px;
+    left: 4px;
+    top: 3px;
+    width: 6px;
+}

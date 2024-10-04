@@ -1,0 +1,122 @@
+.mini-sidebar .top-navbar .navbar-header {
+    text-align: left;
+}
+
+.left-sidebar {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-right: 1px solid #f0f0f0;
+}
+
+.sidebar-nav ul li a {
+    display: block;
+    margin: 0;
+    outline: medium none;
+    /*padding: 9px 30px;*/
+    text-decoration: none;
+    width: 100%;
+}
+
+.sidebar-nav > ul > li > a i {
+    text-align: left;
+    width: 55px;
+    font-size: 1.4rem;
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.sidebar-nav > ul > li > a span {
+    display: table-cell;
+    height: 100%;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.sidebar-nav ul li.nav-devider {
+    margin: 0;
+}
+
+.sidebar-nav ul li a:hover {
+    background: #e8eaef;
+}
+
+.mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
+    background: #e8eaef;
+}
+
+.sidebar-nav > ul > li > a.active {
+    background: #1080ff;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.mini-sidebar .sidebar-nav #sidebarnav > li:hover > a.active {
+    background: #1080ff;
+}
+
+.sidebar-nav > ul > li > a > i {
+    font-weight: 100;
+}
+
+.sidebar-nav > ul > li > a.active > i {
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.sidebar-nav > ul > li > a > i::before, .sidebar-nav > ul > li > a > i::after {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.mini-sidebar .sidebar-nav > ul > li > a > i::before, .mini-sidebar .sidebar-nav > ul > li > a > i::after {
+    margin: 0;
+}
+
+.mini-sidebar .sidebar-nav #sidebarnav > li:hover > a .hide-menu {
+    display: table-cell;
+}
+
+.mini-sidebar .mCSB_container {
+    overflow: visible;
+}
+
+@media (min-width: 768px) {
+    .mini-sidebar .mCustomScrollBox {
+        overflow: visible;
+        width: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mini-sidebar .mCustomScrollBox {
+        width: auto;
+    }
+}
+
+.mini-sidebar .sidebar-nav > ul > li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .mini-sidebar .sidebar-nav #sidebarnav > li > a {
+        padding: 20px 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mini-sidebar .sidebar-nav #sidebarnav > li:hover > a {
+        padding: 10px 24px;
+    }
+}
+
+.scroll-sidebar {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .mini-sidebar .scroll-sidebar {
+        height: calc(100% - 70px);
+    }
+}

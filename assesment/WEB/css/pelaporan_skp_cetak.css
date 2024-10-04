@@ -1,0 +1,86 @@
+/*
+html{
+	margin:0 0;
+	
+}
+body{
+	margin:0 0;
+	
+	
+}*/
+#header{
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px
+}
+
+#kop{
+	
+}
+#kop table{
+	border-collapse:collapse;
+	width:100%;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+}
+
+#detil table{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width:100%;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:10px;
+}
+#detil table th{
+	border: 1px solid black;
+	padding:4px 10px;
+	background-color:#CDCDCD;
+}
+#detil table td{
+	border: 1px solid black;
+	padding:4px 10px;
+}
+
+#kop-tambahan{
+	
+}
+#kop-tambahan table{
+	border-collapse:collapse;
+	width:60%;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+}
+
+#detil-tambahan table{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width:60%;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:10px;
+}
+#detil-tambahan table th{
+	border: 1px solid black;
+	padding:4px 10px;
+	background-color:#CDCDCD;
+}
+#detil-tambahan table td{
+	border: 1px solid black;
+	padding:4px 10px;
+}
+
+#footer{
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px
+}
+#footer table{
+	border-collapse:collapse;
+	width:100%;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:13px;
+}

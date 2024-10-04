@@ -1,0 +1,43 @@
+.gradient-style th {
+font-size: 12px;
+font-weight:400;
+background:#b9c9fe url(images/gradhead.png) repeat-x;
+border-top:2px solid #d3ddff;
+border-bottom:1px solid #fff;
+color:#039;
+padding:8px;
+}
+
+.gradient-style td {
+font-size: 12px;
+border-bottom:1px solid #fff;
+color:#669;
+border-top:1px solid #fff;
+background:#e8edff url(images/gradback.png) repeat-x;
+padding:8px;
+}
+
+.gradient-style tfoot tr td {
+background:#e8edff;
+font-size: 14px;
+color:#99c;
+}
+
+.gradient-style tbody tr:hover td {
+background:#d0dafd url(images/gradhover.png) repeat-x;
+color:#339;
+}
+
+.gradient-style {
+font-family: 'Open SansRegular';
+font-size: 14px;
+width:480px;
+text-align:left;
+border-collapse:collapse;
+margin:0px 0px 0px 10px;
+}
+
+.modifth
+{
+	background-color:#F69 !important; color:#FFF !important;
+}

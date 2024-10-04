@@ -1,0 +1,77 @@
+/*--g-card--*/
+.g-card {
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(113, 106, 202, 0.08);
+    -moz-box-shadow:0px 0px 2px 1px rgba(113, 106, 202, 0.08);
+    box-shadow: 0px 0px 2px 1px rgba(113, 106, 202, 0.08);
+    background-color: #ffffff;
+}
+
+.g-card {
+    margin-bottom: 2.2rem;
+    border-radius: 8px;
+    border: 1px solid #f0f0f1;
+}
+
+.g-card .g-card-header {
+    border-bottom: 1px solid #ebedf2;
+}
+
+.g-card .g-card-header {
+    display: table;
+    width: 100%;
+    padding: 1rem 1rem;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3D4C5F;
+}
+
+.g-card .g-card-header .g-card-header-caption {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.g-card .g-card-header .g-card-header-caption .g-card-header-title {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+}
+
+.g-card .g-card-header .g-card-header-caption .g-card-header-title .g-card-header-icon {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 0;
+    padding: 0 13px 0 0;
+}
+
+.g-card .g-card-header .g-card-header-icon {
+    color: #b2b1c5;
+}
+
+.g-card .g-card-header .g-card-header-caption .g-card-header-title .g-card-header-group {
+    position: relative;
+    margin-top: 17px;
+}
+
+.g-card .g-card-header .g-card-header-caption .g-card-header-title .g-card-header-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.g-card .g-card-header .g-card-header-text {
+    color: #575962;
+}
+
+.g-card .g-card-body {
+    padding: 1.2rem 1rem 1.2rem;
+}
+
+.g-card .g-card-foot:not(.g-card-no-border) {
+    border-top: 1px solid #ebedf2;
+}
+
+.g-card .g-card-foot {
+    padding: 1.1rem 2.2rem;
+}
+
+/*----*/

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ | $Header: setup/struts4php.xml
+ | $Revision: 1.0
+ | $Date: 2004.06.19
+ |
+ | ====================================================================
+ -->
+<configuration>
+	<path name="datasource">
+		<configValue name="default">valsix</configValue>
+		<path name="valsix">
+			<configValue name="driver">postgres</configValue>
+			<configValue name="server">127.0.0.1</configValue>
+			<configValue name="database">bali_2021_new</configValue> 
+			<configValue name="username">postgres</configValue>
+			<configValue name="password">root</configValue>
+			<configValue name="pathreport">D:\\Project\\Webapps\\pdscode\\</configValue>
+			<configValue name="serverreport">PostgreSQL35W</configValue>
+		</path>
+	</path>
+	<urlConfig>
+		<main>
+			<urlupload>../uploads/</urlupload>
+			<urlfoto>../uploads/foto/</urlfoto>
+			<urldashboard>../../uploads/dashboard/</urldashboard>
+			<url>http://app.valsix.co.id/kpkmodif/</url>
+			<urlInfo>http://app.valsix.co.id/</urlInfo>
+		</main>
+	</urlConfig>
+</configuration>

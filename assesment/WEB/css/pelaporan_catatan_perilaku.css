@@ -1,0 +1,78 @@
+/*
+html{
+	margin:0 0;
+	
+}
+body{
+	margin:0 0;
+	
+	
+}*/
+#header{
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px
+}
+
+#kop{
+	
+}
+#kop table{
+	border-collapse:collapse;
+	width:40%;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+}
+
+#nilai{
+	border: none;
+	padding:0px;
+	margin:0px;
+	
+	width:350px;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:15px;
+}
+#nilai td{
+	font-size:14px;
+	border: none;
+	padding:10px 10px;
+}
+
+#detil{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width:100%;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+}
+#detil th{
+	border: 1px solid black;
+	padding:4px 10px;
+}
+#detil td{
+	border: 1px solid black;
+	padding:0px 0px;
+}
+
+#footer{
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px
+}
+#footer table{
+	border-collapse:collapse;
+	width:100%;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+	font-family:"Times New Roman", Times, serif;
+	font-size:13px;
+}
+
+#garis
+{
+	width:350px;
+	
+}

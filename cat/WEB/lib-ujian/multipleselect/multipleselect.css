@@ -1,0 +1,32 @@
+/*
+	Default styles - Not recommended for use, more for the examples page
+*/
+
+
+div.selected ul,
+div.selectable ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+div.selected,
+div.selectable {
+	border: solid 1px #ccc;
+	width: 360px;
+	height: 240px;
+	float: left;
+	overflow-y: auto;
+	border-radius: 3px;
+	margin-left: 25px;
+}
+div.selected li,
+div.selectable li {
+	padding: 10px;
+	cursor: pointer;
+	user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;
+}
+div.selected li.hover,
+div.selectable li.hover {
+	background-color: #08c;
+	color: #eee;
+}

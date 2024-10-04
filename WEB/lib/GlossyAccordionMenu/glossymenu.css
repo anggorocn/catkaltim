@@ -1,0 +1,111 @@
+.glossymenu{
+	margin: 30px 0 0;
+	padding: 0;
+	width: 100%; /*width of menu*/
+	/*border: 1px solid #9A9A9A;*/
+	border-bottom-width: 0;
+	text-align: left;
+}
+
+.glossymenu a.menuitem{
+/*background: black url(../WEB/lib/GlossyAccordionMenu/glossyback.gif) repeat-x bottom left;*/
+	
+/*	background:#a10015;*/
+	background:transparent;
+
+	border-bottom:2px solid white;
+	border-top:2px solid white;
+	margin-bottom:1px ;
+	
+	/*font: bold 14px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;*/
+	color: white;
+	display: block;
+	position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+	width: auto;
+	height:40px;
+	line-height:40px;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: white;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 13px;
+right: 20px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+	/*background-image: url(../WEB/lib/GlossyAccordionMenu/glossyback2.gif);*/
+/*	background:rgba(0,0,0,0.7);*/
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+/*	background: white;*/
+	background: transparent;
+	display: none;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+	/*border-bottom: 1px solid blue;*/
+	/*background:#eae9e9;
+	border-bottom:1px solid #c1bfbf;*/
+/*	min-height:40px;*/
+	background: transparent;
+}
+
+.glossymenu div.submenu ul li a{
+	display: inline-block;
+	/*font: normal 13px "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;*/
+/*	color: black;*/
+	color: white;
+
+	text-decoration: none;
+	/*line-height:40px;*/
+	*padding:10px 20px;
+/*	padding-left:30px;
+	padding-right:30px;*/
+	padding: 0px 20px;
+	
+	line-height:40px;
+	*height:40px;
+	/*padding: 2px 0;
+	padding-left: 10px;*/
+	
+	*background:#0CC;
+	width:100%;
+	
+}
+
+.glossymenu div.submenu ul li a:hover{
+	background: #DFDCCB;
+	color: black;
+}
+
+.glossymenu div.submenu ul li span img{
+	float:right;
+	*border:1px solid red;
+	margin-top:10px;
+	*margin-right:20px;
+}
+
+.submenu-current{
+	background: transparent;
+/*	border-bottom:2px solid white;
+	border-top:2px solid white;*/
+}
+
+.submenu-current-status{
+	background: #d1d1d1/*DFDCCB*//*909*/;
+}

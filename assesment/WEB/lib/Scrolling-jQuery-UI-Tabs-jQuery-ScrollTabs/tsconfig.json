@@ -1,0 +1,17 @@
+{
+  "exclude": [
+    "node_modules/*"
+  ],
+  "include": [
+    "src/ts/**/*"
+  ],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5",
+    "sourceMap": true,
+    "sourceRoot": "./src",
+    "typeRoots": [],
+    "rootDir": "./src/ts",
+    "outDir": "./dist/js"
+  }
+}

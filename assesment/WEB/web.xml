@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ | $Header: setup/struts4php.xml
+ | $Revision: 1.0
+ | $Date: 2004.06.19
+ |
+ | ====================================================================
+ -->
+<configuration>
+	<path name="datasource">
+		<configValue name="default">valsix</configValue>
+		<path name="valsix">
+			<configValue name="driver">postgres</configValue>
+			<configValue name="server">localhost</configValue> 
+			<!-- <configValue name="database">cat_kaltim_2023</configValue>  -->
+			<configValue name="database">kaltim_2024</configValue> 
+			
+			<configValue name="username">postgres</configValue> 
+			<configValue name="password">root</configValue>
+		</path>
+	</path>
+	<urlConfig>
+		<main>			 
+			<url>https://192.168.88.100/kaltim_new_2023/assesment/main/index.php</url>			
+			<urlbase>simpeg</urlbase>
+			<urlskpbase>simpeg</urlskpbase>
+			<urltukin>db_sim_tpp</urltukin> 
+			<urlPengaturan>https://192.168.88.100/kaltim_new_2023/assesment/pengaturan/</urlPengaturan> 
+			<urlLink>http://192.168.88.100/kaltim_new_2023/assesment/</urlLink>
+		</main>
+	</urlConfig>
+</configuration>

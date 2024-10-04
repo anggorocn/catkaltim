@@ -1,0 +1,53 @@
+.border{
+	border: 1px solid #000;
+}
+
+.txtcenter
+{
+	text-align:center;
+}
+
+.setbordershadow
+{
+	*height: 180mm;
+	height: 10mm;
+	padding:50px;
+	
+	border-radius: 31px 31px 31px 31px;
+	-moz-border-radius: 31px 31px 31px 31px;
+	-webkit-border-radius: 31px 31px 31px 31px;
+	border: 2px solid #6682B2;
+
+	/*-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border: solid #000 20px;
+	-webkit-box-shadow: 6px 6px 6px 6px #000;
+	-moz-box-shadow: 6px 6px 6px 6px #000;
+	box-shadow: 6px 6px 6px 6px #000;*/
+}
+
+.bordertable {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+.kananborder {
+	border-right: 1px solid #000;
+}
+
+.kiriborder {
+	border-left: 1px solid #000;
+}
+
+.atasborder {
+	border-top: 1px solid #000;
+}
+
+.bawahborder {
+	border-bottom: 1px solid #000;
+}
+
+.valigntop{
+	vertical-align:top
+}

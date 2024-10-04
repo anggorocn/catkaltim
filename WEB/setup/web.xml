@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ | $Header: setup/struts4php.xml
+ | $Revision: 1.0
+ | $Date: 2004.06.19
+ |
+ | ====================================================================
+ -->
+<configuration>
+	<path name="datasource">
+		<configValue name="default">valsix</configValue>
+		<path name="valsix">
+			<configValue name="driver">oci8</configValue>
+			<configValue name="server">localhost</configValue>
+			<configValue name="database">orcl</configValue>
+			<configValue name="username">eproc_me</configValue>
+			<configValue name="password">eproc</configValue>
+		</path>
+	</path>
+        <mailerConfig>
+			<backup>
+                        <mail_smtp>m001.dapurhosting.com</mail_smtp>
+                        <mail_port>465</mail_port>
+                        <username_smtp>no.reply.pdsrecruitment@ptpds.co.id</username_smtp>
+                        <password_smtp>Peraktimur480</password_smtp>
+                        <from_email>no.reply.pdsrecruitment@ptpds.co.id</from_email>
+                        <from_name>PDS Career and Recruitment Center</from_name>
+                        <smtpauth>1</smtpauth>
+                        <smtpsecure>ssl</smtpsecure>
+                        <wordwarp>50</wordwarp>
+                        <priority>1</priority>
+                        <ishtml>1</ishtml>
+                        <charset>UTF-8</charset>
+                    </backup>        
+	</mailerConfig>
+</configuration>

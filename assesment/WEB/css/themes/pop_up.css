@@ -1,0 +1,251 @@
+/****** POP-UP STYLE ******/
+body, table, tr, td {
+	scrollbar-face-color : #6897DD;
+	scrollbar-arrow-color: #AAAAAA;
+	scrollbar-track-color: #F1E2F9;
+	scrollbar-shadow-color: #3475D6;
+	scrollbar-highlight-color: #3475D6;
+	scrollbar-3dlight-color: #CCCCCC;
+	scrollbar-darkshadow-Color: #CCCCCC;
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333366;
+	text-decoration: none;
+	line-height: 10px;
+}
+
+input, select, option, textarea{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 1px solid #ADC1DC;
+	background-color: #F1E2F9;
+	font-size: 10px;
+}
+
+th {
+	padding-left: 5px;
+	padding-right: 5px;
+
+	background-color : #D0DEF6;
+	/*background-image : url(../images/bg_th_td.gif);*/
+	/*background-attachment: fixed;*/
+	background-repeat: repeat-x;
+	
+	background-position: bottom;
+}
+
+a
+{
+	text-decoration: underline;
+	color: #5788E0;
+}
+
+a:link
+{
+	text-decoration: underline;
+	color: #5788E0;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #FF2222;
+}
+
+h2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+hr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1px;
+	/*color: #555555;*/
+	text-decoration: none;
+	/*border: 1px solid #333333;*/
+	border-right: none;
+	border-bottom: 1px solid #999999;
+	border-top: none;
+	border-left: none;
+	background-color: transparent;
+}
+
+/****** EXTENDED ******/
+.th_bg {
+	/*background-image: url(../images/bg_th_td.gif);*/
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.tab_right {
+	padding-left: 20px;
+}
+
+.banner {
+	 /*background-color: #5F96ED; 
+	 background-color: #7082DC;*/
+	 background-color: #5788E0;
+	 background-image: url(../images/banner_simkeu-optima.gif);
+	 background-repeat: repeat-y;
+	 background-position: center;
+}
+
+.head_title {
+	font-size: 11px;
+	font-weight: bold;
+	color: #2639BF;
+}
+
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333366;
+	text-decoration: none;
+	/*line-height: 17px;*/
+	background-color : #ACC8EE;
+	background-image : url(../images/bg_menu_left.gif);
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+.headmenu {
+	background-image: url(../images/head-tbl.gif);
+}
+
+.head_link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #660099;
+	text-decoration: none;
+}
+
+.head_link:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FF2222;
+	text-decoration: underline;
+}
+
+/****** CONTROL OBJECTS ******/
+.checkbox {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 17px;
+	border: 1px solid #ADC1DC;
+	background-image: url(../images/bg_th_td.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.button {
+	color: #EEEEEE;
+	border: 1px solid #ADC1DC;
+	
+	background-color : #7AA3DF;
+	background-image : url(../images/bg_button.gif);
+	/*background-attachment: fixed;*/
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+.button_icon {
+	background-color: transparent;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: 0px solid #BBBBBB;
+	height: 19px;
+}
+
+/****** TABLE LIST ******/
+.table_list {
+	border: 1px solid #ADC1DC;
+	width: 100%;
+}
+
+.table_list th {
+	text-align: center;
+	color: #022D7B;
+}
+
+.table_list td, .table_list th{
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.table_list_bright{
+	background-color: #EEEEEE;
+}
+
+.table_list_dark{
+	background-color: #DDDDDD;
+}
+
+/****** TABLE FORM ******/
+.table_form {
+	border: 1px solid #ADC1DC;
+	width: 100%;
+	background-color: #E9F0FC;
+}
+
+.table_form th {
+	text-align: left;
+	color: #022D7B;
+}
+
+/****** INPUT ******/
+.table_input_list tr, table_input_list td {	
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.input_dark {
+	width: 100%;
+	background-color: #CCCCCC;
+}
+
+.input_bright {
+	width: 100%;
+	background-color: #DDDDDD;
+}
+
+/****** TABLE, TR, TD WITH 1px SOLID BORDER ******/
+.solid_border {
+	background-color: #ADC1DC;
+	width: 100%;
+}
+
+.solid_border td {
+	background-color: #FFFFFF;
+}
+
+
+
+
+/****** PAGING ******/
+.paging_nav {
+	background-color: #ADC1DC;
+}
+
+.paging_nav td {
+	background-color: #E9F0FC;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: center;
+	width: 15px;
+}
+
+.paging_disable {
+	color: #999999;
+}
+
+
+
+/****** ELEMENT ID ******/
+

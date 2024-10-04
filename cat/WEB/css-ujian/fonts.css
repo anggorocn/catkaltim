@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'FuturaBookC';
+    src: url('../fonts/Futura/futurabookc.eot');
+    src: url('../fonts/Futura/futurabookc.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Futura/futurabookc.woff') format('woff'),
+         url('../fonts/Futura/futurabookc.ttf') format('truetype'),
+         url('../fonts/Futura/futurabookc.svg#FuturaBookC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url('../fonts/Futura/futurademic.eot');
+    src: url('../fonts/Futura/futurademic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Futura/futurademic.woff') format('woff'),
+         url('../fonts/Futura/futurademic.ttf') format('truetype'),
+         url('../fonts/Futura/futurademic.svg#FuturaDemiC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

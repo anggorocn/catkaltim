@@ -1,0 +1,48 @@
+.area-detil-diklat{
+	*border: 2px solid red;
+	padding: 15px 15px;
+}
+.area-detil-diklat-inner{
+	
+}
+.area-detil-diklat-inner .nama{
+	font-size: 24px;
+}
+.area-detil-diklat-inner .tgl-diklat{
+	margin-bottom: 20px;
+}
+.area-detil-diklat-inner .judul{
+	font-weight: bold;
+}
+.area-detil-diklat-inner .keterangan{
+	
+}
+
+/****/
+.area-detil-diklat .ui-state-active a, 
+.area-detil-diklat .ui-state-active a:link, 
+.area-detil-diklat .ui-state-active a:visited {
+    *color: #ff0084;
+	color: #2c1b6d !important;
+    text-decoration: none;
+}
+.area-detil-diklat .ui-state-default a, 
+.area-detil-diklat .ui-state-default a:link, 
+.area-detil-diklat .ui-state-default a:visited, 
+.area-detil-diklat a.ui-button, 
+.area-detil-diklat a:link.ui-button, 
+.area-detil-diklat a:visited.ui-button, 
+.area-detil-diklat .ui-button {
+
+    color: #0073ea;
+	color: #999999;
+    text-decoration: none;
+
+}
+
+.area-detil-diklat .ui-state-default a:hover{
+	*background: #555555;
+	*border: none !important;
+	color: #FFFFFF;
+}
+

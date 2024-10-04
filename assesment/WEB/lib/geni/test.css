@@ -1,0 +1,67 @@
+/* line item */
+#line-item-acc tbody tr td input {
+    width: 110px;
+}
+
+#line-item-acc tbody tr td > [data-id="reference"],
+#line-item-acc tbody tr td > [data-id="res_id"]
+{
+    width: 170px;
+}
+
+
+
+#line-item-acc tbody tr td > [data-id="product"], 
+#line-item-acc tbody tr td > [data-id="product_name"] 
+{
+    width: 180px;
+}
+
+#line-item-acc tbody tr td > [data-id="warehouse"], 
+#line-item-acc tbody tr td > [data-id="storage"] 
+{
+    width: 130px;
+}
+
+#line-item-acc tbody tr td > [data-id="qty"],
+#line-item-acc tbody tr td > [data-id="qty_remaining"]
+{
+    width: 60px;
+}
+
+#line-item-acc tbody tr td select {
+    width: 110px;
+}
+
+#line-item-acc tbody tr td > [data-id="line_no"], 
+#line-item-acc tbody tr td > [data-id="billable"] 
+{
+    width: 50px;
+}
+
+#line-item-acc tbody tr td > button {
+    width: 40px;
+}
+
+#line-item-acc tbody tr td > [data-id="account"], 
+#line-item-acc tbody tr td > [data-id="gl_account"] 
+{
+    width: 120px;
+}
+
+#line-item-acc tbody tr td > [data-id="description"],
+#line-item-acc tbody tr td > [data-id="notes"],
+#line-item-acc tbody tr td > [data-id="product_description"]
+{
+    width: 200px;
+}
+
+#line-item-acc tbody tr td > [data-id="profit_center"],
+#line-item-acc tbody tr td > [data-id="profit_name"],
+#line-item-acc tbody tr td > [data-id="trading_partner"] {
+    width: 70px;
+}
+
+#line-item-acc tbody tr td >[data-id="tax"] {
+    width: 70px;
+}

@@ -1,0 +1,228 @@
+<?php
+include_once("../WEB/classes/utils/UserLogin.php");
+include_once("../WEB/functions/string.func.php");
+include_once("../WEB/functions/default.func.php");
+include_once("../WEB/functions/date.func.php");
+include_once("../WEB/classes/base-skp/PegawaiPenilai.php");
+include_once("../WEB/classes/base-skp/PeriodePenilaian.php");
+include_once("../WEB/classes/base-skp/Kategori.php");
+
+$pegawai_penilai = new PegawaiPenilai();
+$periode_penilaian = new PeriodePenilaian();
+$kategori = new Kategori();
+
+$reqMode = httpFilterGet("reqMode");
+$reqTahun = $periode_penilaian->getMaxTahun();
+
+
+$jumlah_kategori = $kategori->getCountByParams(array());
+
+/* LOGIN CHECK */
+/*if ($userLogin->checkUserLogin()) 
+{ 
+	$userLogin->retrieveUserInfo();
+}*/
+
+ini_set("memory_limit","500M");
+ini_set('max_execution_time', 520);
+
+
+$aColumns = array("PEGAWAI_ID_DINILAI", "NIP_LAMA", "NIP_BARU", "NAMA", "GOL_RUANG", "ESELON", "JABATAN", "BL1", "BL2", "BL3", "BL4", "BL5", "BL6", "BL7", "BL8", "BL9", "BL10", "BL11", "BL12");
+$aColumnsAlias = array("PEGAWAI_ID_DINILAI", "NIP_LAMA", "NIP_BARU", "NAMA", "GOL_RUANG", "ESELON", "JABATAN", "BL1", "BL2", "BL3", "BL4", "BL5", "BL6", "BL7", "BL8", "BL9", "BL10", "BL11", "BL12");
+
+for($i=1;$i<=$jumlah_kategori;$i++)
+{
+	$aColumns[] = "PK".$i;
+	$aColumnsAlias[] = "PK".$i;
+}
+
+/*
+ * Ordering
+ */
+if ( isset( $_GET['iSortCol_0'] ) )
+{
+	$sOrder = " ORDER BY ";
+	 
+	//Go over all sorting cols
+	for ( $i=0 ; $i<intval( $_GET['iSortingCols'] ) ; $i++ )
+	{
+		//If need to sort by current col
+		if ( $_GET[ 'bSortable_'.intval($_GET['iSortCol_'.$i]) ] == "true" )
+		{
+			//Add to the order by clause
+			$sOrder .= $aColumnsAlias[ intval( $_GET['iSortCol_'.$i] ) ];
+			 
+			//Determine if it is sorted asc or desc
+			if (strcasecmp(( $_GET['sSortDir_'.$i] ), "asc") == 0)
+			{
+				$sOrder .=" asc, ";
+			}else
+			{
+				$sOrder .=" desc, ";
+			}
+		}
+	}
+	
+	 
+	//Remove the last space / comma
+	$sOrder = substr_replace( $sOrder, "", -2 );
+	
+	//Check if there is an order by clause
+	if ( trim($sOrder) == "ORDER BY PEGAWAI_ID_DINILAI asc" )
+	{
+		/*
+		* If there is no order by clause - ORDER BY INDEX COLUMN!!! DON'T DELETE IT!
+		* If there is no order by clause there might be bugs in table display.
+		* No order by clause means that the db is not responsible for the data ordering,
+		* which means that the same row can be displayed in two pages - while
+		* another row will not be displayed at all.
+		*/
+		//$sOrder = " ORDER BY D.ESELON_ID ASC, C.PANGKAT_ID DESC,  C.TMT_PANGKAT ASC ";
+		$sOrder = "  ";
+		 
+	}
+}
+ 
+ 
+/*
+ * Filtering
+ * NOTE this does not match the built-in DataTables filtering which does it
+ * word by word on any field. It's possible to do here, but concerned about efficiency
+ * on very large tables.
+ */
+$sWhere = "";
+$nWhereGenearalCount = 0;
+if (isset($_GET['sSearch']))
+{
+	$sWhereGenearal = $_GET['sSearch'];
+}
+else
+{
+	$sWhereGenearal = '';
+}
+
+if ( $_GET['sSearch'] != "" )
+{
+	//Set a default where clause in order for the where clause not to fail
+	//in cases where there are no searchable cols at all.
+	$sWhere = " AND (";
+	for ( $i=0 ; $i<count($aColumnsAlias)+1 ; $i++ )
+	{
+		//If current col has a search param
+		if ( $_GET['bSearchable_'.$i] == "true" )
+		{
+			//Add the search to the where clause
+			$sWhere .= $aColumnsAlias[$i]." LIKE '%".$_GET['sSearch']."%' OR ";
+			$nWhereGenearalCount += 1;
+		}
+	}
+	$sWhere = substr_replace( $sWhere, "", -3 );
+	$sWhere .= ')';
+}
+ 
+/* Individual column filtering */
+$sWhereSpecificArray = array();
+$sWhereSpecificArrayCount = 0;
+for ( $i=0 ; $i<count($aColumnsAlias) ; $i++ )
+{
+	if ( $_GET['bSearchable_'.$i] == "true" && $_GET['sSearch_'.$i] != '' )
+	{
+		//If there was no where clause
+		if ( $sWhere == "" )
+		{
+			$sWhere = "AND ";
+		}
+		else
+		{
+			$sWhere .= " AND ";
+		}
+		 
+		//Add the clause of the specific col to the where clause
+		$sWhere .= $aColumnsAlias[$i]." LIKE '%' || :whereSpecificParam".$sWhereSpecificArrayCount." || '%' ";
+		 
+		//Inc sWhereSpecificArrayCount. It is needed for the bind var.
+		//We could just do count($sWhereSpecificArray) - but that would be less efficient.
+		$sWhereSpecificArrayCount++;
+		 
+		//Add current search param to the array for later use (binding).
+		$sWhereSpecificArray[] =  $_GET['sSearch_'.$i];
+		 
+	}
+}
+ 
+//If there is still no where clause - set a general - always true where clause
+if ( $sWhere == "" )
+{
+	$sWhere = " AND 1=1";
+}
+//Bind variables.
+if ( isset( $_GET['iDisplayStart'] ))
+{
+	$dsplyStart = $_GET['iDisplayStart'];
+}
+else{
+	$dsplyStart = 0;
+}
+ 
+if ( isset( $_GET['iDisplayLength'] ) && $_GET['iDisplayLength'] != '-1' )
+{
+	$dsplyRange = $_GET['iDisplayLength'];
+	if ($dsplyRange > (2147483645 - intval($dsplyStart)))
+	{
+		$dsplyRange = 2147483645;
+	}
+	else
+	{
+		$dsplyRange = intval($dsplyRange);
+	}
+}
+else
+{
+	$dsplyRange = 2147483645;
+}
+
+
+//$statement = " AND B.PEGAWAI_ID_PENILAI = '".$userLogin->pegawaiId."' ";
+$searchJson = " AND (UPPER(A.NAMA) LIKE '%".strtoupper($_GET['sSearch'])."%')";
+
+$allRecord = $pegawai_penilai->getCountByParamsMonitoring($reqTahun, array(), $statement);
+if($_GET['sSearch'] == "")
+	$allRecordFilter = $allRecord;
+else	
+	$allRecordFilter = $pegawai_penilai->getCountByParamsMonitoring($reqTahun, array(), $statement.$searchJson);
+
+$pegawai_penilai->selectByParamsMonitoringPencapaian($reqTahun, array(), $dsplyRange, $dsplyStart, $statement.$searchJson, $sOrder);     		
+//echo $pegawai_penilai->query;exit;
+//echo $pegawai_penilai->errorMsg;exit;
+
+/* Output */
+$output = array(
+	"sEcho" => intval($_GET['sEcho']),
+	"iTotalRecords" => $allRecord,
+	"iTotalDisplayRecords" => $allRecordFilter,
+	"aaData" => array()
+);
+
+while($pegawai_penilai->nextRow())
+{
+	$row = array();
+	for ( $i=0 ; $i<count($aColumns) ; $i++ )
+	{
+		if($aColumns[$i] == "TANGGAL")
+			$row[] = getFormattedDate($pegawai_penilai->getField($aColumns[$i]));
+		else if($aColumns[$i] == "BL1" || $aColumns[$i] == "BL2" || $aColumns[$i] == "BL3" || $aColumns[$i] == "BL4" || $aColumns[$i] == "BL5" || $aColumns[$i] == "BL6" || $aColumns[$i] == "BL7" || $aColumns[$i] == "BL8" || $aColumns[$i] == "BL9" || $aColumns[$i] == "BL10" || $aColumns[$i] == "BL11" || $aColumns[$i] == "BL12")
+		{
+			if($pegawai_penilai->getField($aColumns[$i]) == "proses" || $pegawai_penilai->getField($aColumns[$i]) == "validasi" || $pegawai_penilai->getField($aColumns[$i]) == "belum")
+				$row[] = "";
+			else
+				$row[] = "<a href=\"#\" onClick=\"openPencapaian('".$pegawai_penilai->getField("PEGAWAI_ID")."', '".str_replace("BL", "", $aColumns[$i])."', '".$pegawai_penilai->getField($aColumns[$i])."')\">".$pegawai_penilai->getField($aColumns[$i])."</a>";
+		}
+		else
+			$row[] = $pegawai_penilai->getField($aColumns[$i]);
+	}
+	
+	$output['aaData'][] = $row;
+}
+
+echo json_encode( $output );
+?>

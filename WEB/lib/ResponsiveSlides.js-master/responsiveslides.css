@@ -1,0 +1,60 @@
+/*! http://responsiveslides.com v1.51 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  
+  height:380px;
+  }
+  
+  /** TAMBAHAN DARI demo.css **/
+  .rslides {
+  *margin: 0 auto 40px;
+  }
+  
+  
+  /****/
+  .rslides li {
+	 *border: 1px solid red;
+	 overflow: hidden;
+	 
+	 height:380px;
+	 
+	 display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+ 
+  }
+  .rslides li img {
+	  width: 1170px;
+	  height: auto !important;
+	  
+	  margin: 0 auto !important;
+	  float: none;
+  }
