@@ -191,7 +191,7 @@ $(function(){
 <div class="col-lg-12">
     <div id="judul-halaman"><?=$arrayJudul["index"]["formulir_q_inta"]?></div>
     <div class="judul-halaman2"><img src="../WEB/images/icon-input.png" width="28px">  Pertanyaan</div>
-    <div id="pendaftaran">
+    <div id="pendaftaran" style="margin-bottom: 50px;">
         <form id="ff" method="post" novalidate enctype="multipart/form-data"> 
         <table style="width: 100%">
             <?

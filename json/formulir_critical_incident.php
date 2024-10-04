@@ -31,20 +31,22 @@ $reqSoalHeaderId= httpFilterPost("reqSoalHeaderId");
 
 $statusKondisi1='<br>Membanggakan :';
 $statusKondisi2='<br>Mengecewakan :';
-$statusTopik1='<br>❌ Topik';
-$statusTopik2='<br>❌ Topik';
-$statusTanggal1='<br>❌ Tanggal Kejadian ';
-$statusTanggal2='<br>❌ Tanggal Kejadian ';
-$statusCerita1='<br>❌ Garis Besar';
-$statusAlasan1='<br>❌ Alasan';
-$statusAnggota1='<br>❌ Anggota Terlibat';
-$statusUsaha1='<br>❌ Usaha dan Hasil';
-$statusAkhir1='<br>❌ Akhir';
-$statusCerita2='<br>❌ Garis Besar';
-$statusAlasan2='<br>❌ Alasan';
-$statusAnggota2='<br>❌ Anggota Terlibat';
-$statusUsaha2='<br>❌ Usaha dan Hasil';
-$statusAkhir2='<br>❌ Akhir';
+$statusTopik1='<br>❌ Topik Bagian 1';
+$statusTopik2='<br>❌ Topik Bagian 2';
+$statusTanggal1='<br>❌ Tanggal Bagian 1 ';
+$statusTanggal2='<br>❌ Tanggal Bagian 2 ';
+$statusCerita1='<br>❌ Soal No 1 Bagian 1';
+$statusAlasan1='<br>❌ Soal No 2 Bagian ';
+$statusAnggota1='<br>❌ Soal No 3 Bagian 1';
+$statusPerasaan1='<br>❌ Soal No 4 Bagian 1';
+$statusUsaha1='<br>❌ Soal No 5 Bagian 1';
+$statusAkhir1='<br>❌ Soal No 6 Bagian 1';
+$statusCerita2='<br>❌ Soal No 1 Bagian 2';
+$statusAlasan2='<br>❌ Soal No 2 Bagian 2';
+$statusAnggota2='<br>❌ Soal No 3 Bagian 2';
+$statusPerasaan2='<br>❌ Soal No 4 Bagian 2';
+$statusUsaha2='<br>❌ Soal No 5 Bagian 2';
+$statusAkhir2='<br>❌ Soal No 6 Bagian 2';
 
 // print_r($reqSoalHeaderId);exit;
 
@@ -112,40 +114,48 @@ for ($i = 0; $i < count($reqJawabanTambahan); $i++) {
 		$set->setField("JAWABAN", $reqJawabanTambahan[$i]);
 		
 		if($reqJawabanTambahan[$i]!=''){
-			if(($i+1) % 5==1){
-				if(floor(($i+1)/5)==0){
+			if(($i+1) % 6==1){
+				if(floor(($i+1)/6)==0){
 					$statusCerita1='';
 				}
 				else{
 					$statusCerita2='';
 				}
 			}
-			else if (($i+1) % 5==2){
-				if(floor(($i+1)/5)==0){
+			else if (($i+1) % 6==2){
+				if(floor(($i+1)/6)==0){
 					$statusAlasan1='';
 				}
 				else{
 					$statusAlasan2='';
 				}
 			}
-			else if (($i+1) % 5==3){
-				if(floor(($i+1)/5)==0){
+			else if (($i+1) % 6==3){
+				if(floor(($i+1)/6)==0){
 					$statusAnggota1='';
 				}
 				else{
 					$statusAnggota2='';
 				}
 			}
-			else if (($i+1) % 5==4){
-				if(floor(($i+1)/5)==0){
+			else if (($i+1) % 6==4){
+				if(floor(($i+1)/6)==0){
+					$statusPerasaan1='';
+				}
+				else{
+					$statusPerasaan2='';
+				}
+			}
+			else if (($i+1) % 6==5){
+				if(floor(($i+1)/6)==0){
 					$statusUsaha1='';
 				}
 				else{
 					$statusUsaha2='';
 				}
 			}
-			else if (($i+1) % 5==0){
-				if(floor(($i+1)/5)==0){
+			else if (($i+1) % 6==0){
+				if(floor(($i+1)/6)==2){
 					$statusAkhir1='';
 				}
 				else{

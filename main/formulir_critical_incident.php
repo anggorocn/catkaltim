@@ -264,7 +264,7 @@ $(function(){
 <div class="col-lg-12">
     <div id="judul-halaman"><?=$arrayJudul["index"]["formulir_critical_incident"]?></div>
 
-    <div id="pendaftaran">
+    <div id="pendaftaran" style="margin-bottom: 50px;">
         <form id="ff" method="post" novalidate enctype="multipart/form-data"> 
 
         <div class="judul-halaman2"><img src="../WEB/images/icon-input.png" width="28px">  Pertanyaan</div>
@@ -325,7 +325,7 @@ $(function(){
                             // var_dump($reqSoalJawabanId);
                             ?>
                         <tr>
-                            <td style="vertical-align: middle !important;"><?=$reqSoalNew?>
+                            <td style="vertical-align: middle !important;"><?=$index_tes+1?>.<?=$reqSoalNew?>
                             </td>
                         </tr>
                         <tr>
@@ -354,7 +354,7 @@ $(function(){
                               $reqSoalHeaderId= $reqSoalId;
                             ?>
                         <tr>
-                            <td style="vertical-align: middle !important;"><?=$reqSoalNew?>
+                            <td style="vertical-align: middle !important;"><?=$index_tes+1?>.<?=$reqSoalNew?>
                             </td>
                         </tr>
                         <tr>

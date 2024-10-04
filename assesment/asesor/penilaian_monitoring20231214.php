@@ -1,93 +1,3 @@
-<head>
-  <meta charset="utf-8">
-
-  <!-- Include Font Awesome. -->
-  <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
-
-  <!-- Include Editor style. -->
-<!--   <link href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.3/css/froala_editor.min.css" rel="stylesheet" type="text/css" />
-  <link href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.3/css/froala_style.min.css" rel="stylesheet" type="text/css" /> -->
-  <link rel="stylesheet" href="../WEB/lib/froala_editor_4.0.16/css/froala_editor.css">
-  <link rel="stylesheet" href="../WEB/lib/froala_editor_4.0.16/css/froala_style.css">
-
-  <!-- Include Code Mirror style -->
-  <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css"> -->
-
-  <!-- Include Editor Plugins style. -->
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/char_counter.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/code_view.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/colors.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/emoticons.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/file.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/fullscreen.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/image.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/image_manager.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/line_breaker.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/quick_insert.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/table.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/video.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/special_characters.min.css">
-
-
-  <!-- Include jQuery. -->
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-  <!-- Include JS files. -->
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/froala_editor.min.js"></script>
-`
-  <!-- Include Code Mirror. -->
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
-
-  <!-- Include Plugins. -->
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/align.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/char_counter.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/code_beautifier.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/code_view.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/colors.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/draggable.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/emoticons.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/entities.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/file.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/font_family.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/font_size.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/fullscreen.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/image.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/image_manager.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/inline_style.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/line_breaker.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/link.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/lists.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/paragraph_format.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/paragraph_style.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/quick_insert.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/quote.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/table.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/save.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/url.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/video.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/special_characters.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/print.min.js"></script>
-</head>
-
-<body>
-  <div id="froala-editor"></div>
-</body>
-
-<script type="text/javascript">
-
-
-$(function() { 
-  // createfroala();
-  new FroalaEditor('.froala', {
-    key: "qc1H2pF1C3A2B6D7B5D5hBi1a2d2Za1IXBh1f1THTBPLIIWBORpF1F1E1H4F1C11C7C2B5G5==",
-    toolbarButtons: ['underline', 'bold', 'italic', 'quote','align', 'formatUL', 'formatOL', 'outdent','undo', 'redo'],
-  })
-});
-
-      
-</script>
-
 <?
 include_once("../WEB/classes/utils/UserLogin.php");
 include_once("../WEB/page_config.php");
@@ -120,29 +30,50 @@ if ($userLogin->checkUserLogin())
 $xmlfile = "../WEB/web.xml";
 $data = simplexml_load_file($xmlfile);
 $urlLink= $data->urlConfig->main->urlLink;
-
-ini_set('memory_limit', -1);
-ini_set('max_execution_time', -1);
+// ini_set('max_execution_time', '0');
+// ini_set('display_errors', '1');
+// ini_set('display_startup_errors', '1');
+// error_reporting(E_ALL);
+// ini_set('max_execution_time', 500000);
+// ini_set("memory_limit", 500000000000000000);
+// ini_set("max_input_vars", 5000);
 
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+// echo $actual_link; exit;
 $reqEror=httpFilterGet("reqEror");
-// if($reqEror==1){
+// echo $reqEror; exit;
+if($reqEror==1){
+  // echo "Sasasa"; exit;
   flush();
   ob_flush();
-// }
+}
 
+//$max_time = ini_get("max_execution_time");
+//echo $max_time;
 $tempAsesorId= $userLogin->userAsesorId;
 $reqJadwalTesId= httpFilterGet("reqJadwalTesId");
 $reqSelectPenggalianId= httpFilterGet("reqSelectPenggalianId");
 $reqTab= httpFilterGet("reqTab");
 $reqPegawaiId= httpFilterGet("reqPegawaiId");
 $reqTanggalTes= httpFilterGet("reqTanggalTes");
+// echo $reqSelectPenggalianId;exit();
+
+// if($tempAsesorId == "")
+// {
+//   echo '<script language="javascript">';
+//   echo 'alert("anda tidak memeliki account pada aplikasi, hubungi administrator untuk lebih lanjut.");';
+//   echo 'top.location.href = "../main/login.php";';
+//   echo '</script>';   
+//   exit;
+// }
 
 $statement= " AND A.PEGAWAI_ID = ".$reqPegawaiId." AND A.JADWAL_TES_ID = ".$reqJadwalTesId;
 $set= new Penilaian();
 $set->selectByParamsTahunPenilaian($statement);
 $set->firstRow();
 $reqTahun= $set->getField("TAHUN");
+
+
 
 //hasil cat
 $setJadwal= new JadwalTesSimulasiAsesor();
@@ -174,9 +105,13 @@ $jumlah_cat= $index_dataJadwal;
 $set= new CetakanPdf();
 $statement1= " AND A.PEGAWAI_ID= ".$reqPegawaiId." AND A.JADWAL_TES_ID = ".$reqJadwalTesId;
 $statement2= " AND B.PEGAWAI_ID= ".$reqPegawaiId;
+ // $set->selectByParamsMonitoringTableTalentPoolJPMMonitoring(array(), -1, -1, $statement1,$statement2);
 $set->selectByParamsMonitoringTableTalentPoolMonitoring(array(), -1, -1, $statement1, $statement2, "", $reqTahun, "");
 // echo $set->query;exit;
 $set->firstRow();
+// $namaKuadran= $set->getField("NAMA_KUADRAN");
+// $kodeKuadran= $set->getField("KODE_KUADRAN");
+// $rekomKuadran= $set->getField("REKOMENDASI_KUADRAN");
 $namaKuadran= $set->getField("NAMA_KUADRAN");
 $kodeKuadran= $set->getField("KODE_KUADRAN");
 $rekomKuadran= $set->getField("NAMA_KUADRAN");
@@ -189,16 +124,22 @@ $checktray->firstRow();
 $tempFileTrayCheck= $checktray->getField("LINK_FILE");
 $tempFileTray= str_replace("../upload", "../../cat/upload", $tempFileTrayCheck);
 
+
+
 $checkdokumen= new UploadFile();
 $statementcheck= " AND A.PEGAWAI_ID= ".$reqPegawaiId;
 $checkdokumen->selectByParams(array(), -1, -1, $statementcheck);
 $checkdokumen->firstRow();
+// echo $checktray->query;exit;
 $tempFileRiwayatCheck= $checkdokumen->getField("LINK_FILE1");
 $tempFileKompetensiCheck= $checkdokumen->getField("LINK_FILE2");
 $tempFileCriticalCheck= $checkdokumen->getField("LINK_FILE3");
 $tempFileRiwayat= str_replace("../uploads", "../../uploads", $tempFileRiwayatCheck);
 $tempFileKompetensi= str_replace("../uploads", "../../uploads", $tempFileKompetensiCheck);
 $tempFileCritical= str_replace("../uploads", "../../uploads", $tempFileCriticalCheck);
+
+// echo $tempFileTraycheck;exit;
+
 
 $set= new CetakanPdf();
 $statement= " AND A.PEGAWAI_ID= ".$reqPegawaiId." AND A.JADWAL_TES_ID = ".$reqJadwalTesId;
@@ -249,6 +190,7 @@ if ($jpm > 100)
   $jpm = 100;
 
 //perhitungan
+//echo 
 if($tempTipeTes == '1')
 {
   if ($jpm >= 80)
@@ -354,6 +296,8 @@ $data = json_decode(file_get_contents($url), true);
 
 $index_loop= 0;
 $arrAsesor="";
+// $statementcount= $statement= " AND A.ASESOR_ID = ".$tempAsesorId." AND A.JADWAL_TES_ID = ".$reqJadwalTesId."
+// AND EXISTS (SELECT 1 FROM jadwal_pegawai X WHERE X.PEGAWAI_ID = ".$reqPegawaiId." AND A.JADWAL_ASESOR_ID = X.JADWAL_ASESOR_ID)";
 $statementcount= $statement= " AND A.JADWAL_TES_ID = ".$reqJadwalTesId."
 AND EXISTS (SELECT 1 FROM jadwal_pegawai X WHERE X.PEGAWAI_ID = ".$reqPegawaiId." AND A.JADWAL_ASESOR_ID = X.JADWAL_ASESOR_ID)";
 
@@ -405,6 +349,11 @@ $set= new JadwalAsesor();
 $tempJumlahAsesorPegangCbi= $set->getCountByParamsPenggalianAsesorPegawai($statementcount, $statementdetil);
 // echo $set->query;exit;
 
+// if($tempJumlahAsesorPegangCbi > 0){}
+// else
+// $statement.= " AND B.PENGGALIAN_ID > 0 ";
+// $statement.= " AND A.ASESOR_ID = ".$tempAsesorId;
+
 $kondisiasesorsaranid= "";
 $jumlahNilaiAkhir=0;
 $set= new JadwalAsesor();
@@ -445,6 +394,11 @@ $reqNilaiAkhirSaranPengembangan= $set->getField("KETERANGAN");
 
 $index_loop= 0;
 $arrPegawaiAsesor="";
+// $statement= " AND A.PEGAWAI_ID = ".$reqPegawaiId." AND B.PENGGALIAN_ID > 0
+// AND EXISTS
+// (
+//   SELECT 1 FROM jadwal_asesor X WHERE JADWAL_TES_ID = ".$reqJadwalTesId." AND A.JADWAL_ASESOR_ID = X.JADWAL_ASESOR_ID
+// )";
 
 $statement= " AND A.PEGAWAI_ID = ".$reqPegawaiId." AND B.PENGGALIAN_ID = 0
 AND EXISTS
@@ -471,7 +425,14 @@ $tempKondisiNilaiAkhir= $arrAsesor[0]["PENGGALIAN_KODE_STATUS"];
 $index_loop= 0;
 $arrPegawaiNilai="";
 $set= new JadwalPegawaiDetil();
+
+// $statement= " AND C.JADWAL_TES_ID = ".$reqJadwalTesId." AND B.ASESOR_ID = ".$tempAsesorId." AND A.PEGAWAI_ID = ".$reqPegawaiId." AND C1.PENGGALIAN_ID > 0 AND F.ASPEK_ID = 2";
+
 $statement= " AND C.JADWAL_TES_ID = ".$reqJadwalTesId." AND A.PEGAWAI_ID = ".$reqPegawaiId." AND C1.PENGGALIAN_ID > 0 AND F.ASPEK_ID = 2";
+// if($tempJumlahAsesorPegangCbi > 0){}
+// else
+// $statement.= " AND C1.PENGGALIAN_ID > 0 ";
+// $statement.= " AND B.ASESOR_ID = ".$tempAsesorId;
 
 // sesuai atribut penggalian kondisional
 $statement.= " AND EXISTS (SELECT 1 FROM atribut_penggalian X WHERE D.FORMULA_ATRIBUT_ID = X.FORMULA_ATRIBUT_ID AND C1.PENGGALIAN_ID = X.PENGGALIAN_ID)";
@@ -551,6 +512,8 @@ while($set->nextRow())
     $reqPenilaianPotensiProfilKepribadian= $set->getField("PROFIL_KEPRIBADIAN");
     $reqPenilaianPotensiKesesuaianRumpun= $set->getField("KESESUAIAN_RUMPUN");
     $reqPenilaianPotensiProfilKompetensi= $set->getField("RINGKASAN_PROFIL_KOMPETENSI");
+
+
   }
 
   $arrPenilaian[$index_loop]["PENILAIAN_DETIL_ID"]= $set->getField("PENILAIAN_DETIL_ID");
@@ -566,6 +529,8 @@ while($set->nextRow())
   $arrPenilaian[$index_loop]["NILAI"]= $set->getField("NILAI");
   $arrPenilaian[$index_loop]["GAP"]= $set->getField("GAP");
   $arrPenilaian[$index_loop]["ASESOR_POTENSI_ID"]= $reqAsesorPotensiPegawaiId;
+  // $arrPenilaian[$index_loop]["NILAI"]= 4;
+  // $arrPenilaian[$index_loop]["GAP"]= 1;
 
   $arrPenilaian[$index_loop]["CATATAN"]= $set->getField("CATATAN");
   $arrPenilaian[$index_loop]["BUKTI"]= $set->getField("BUKTI");
@@ -573,7 +538,6 @@ while($set->nextRow())
   $index_loop++;
 }
 $jumlah_penilaian= $index_loop;
-// print_r($arrPenilaian);exit;
 
 // onecheck: awal tambahan rekomendasi
 $index_catatan= 0;
@@ -729,6 +693,9 @@ $index_loop= 0;
 $arrAsesorPenilaianKompetensi="";
 $set= new JadwalAsesor();
 
+// $statement= " AND C.JADWAL_TES_ID = ".$reqJadwalTesId." AND A.PEGAWAI_ID = ".$reqPegawaiId." AND C1.PENGGALIAN_ID > 0 AND F.ASPEK_ID = 2";
+// $statement.= " AND EXISTS (SELECT 1 FROM atribut_penggalian X WHERE D.FORMULA_ATRIBUT_ID = X.FORMULA_ATRIBUT_ID AND C1.PENGGALIAN_ID = X.PENGGALIAN_ID)";
+// $statement= " AND C.JADWAL_TES_ID = ".$reqJadwalTesId." AND A.PEGAWAI_ID = ".$reqPegawaiId." AND C1.PENGGALIAN_ID = 0 AND F.ASPEK_ID = 2";
 $statement= " AND C.JADWAL_TES_ID = ".$reqJadwalTesId." AND A.PEGAWAI_ID = ".$reqPegawaiId." AND F.ASPEK_ID = 2
 AND EXISTS
 (
@@ -743,12 +710,15 @@ $set->selectByParamsAsesorKompetensi(array(),-1,-1,$statement);
 while($set->nextRow())
 {
   $arrAsesorPenilaianKompetensi[$index_loop]["PENGGALIAN_ID"]= $set->getField("PENGGALIAN_ID");
+  // $arrAsesorPenilaianKompetensi[$index_loop]["PENGGALIAN_ASESOR_ID"]= $set->getField("ATRIBUT_ID")."-".$set->getField("ASESOR_ID")."-".$set->getField("PENGGALIAN_ID");
   $arrAsesorPenilaianKompetensi[$index_loop]["PENGGALIAN_ASESOR_ID"]= $set->getField("ATRIBUT_ID")."-".$set->getField("ASESOR_ID");
+
   $arrAsesorPenilaianKompetensi[$index_loop]["ASESOR_ID"]= $set->getField("ASESOR_ID");
   $index_loop++;
 }
 $jumlah_asesor_penilaian_kompetensi= $index_loop;
 // print_r($arrAsesorPenilaianKompetensi);exit;
+
 
 $setdetil= new JadwalTes();
 $setdetil->selectByParams(array("JADWAL_TES_ID"=>$reqJadwalTesId),-1,-1);
@@ -790,393 +760,439 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Aplikasi Pelaporan Hasil Assesment</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Aplikasi Pelaporan Hasil Assesment</title>
 
-  <!-- BOOTSTRAP -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link href="../WEB/lib/bootstrap/bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="../WEB/css/gaya-main.css" type="text/css">
-  <link rel="stylesheet" href="../WEB/css/gaya-assesor.css" type="text/css">
-  <link rel="stylesheet" href="../WEB/lib/Font-Awesome-4.5.0/css/font-awesome.css">
+    <!-- BOOTSTRAP -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="../WEB/lib/bootstrap/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../WEB/css/gaya-main.css" type="text/css">
+    <link rel="stylesheet" href="../WEB/css/gaya-assesor.css" type="text/css">
+    <link rel="stylesheet" href="../WEB/lib/Font-Awesome-4.5.0/css/font-awesome.css">
+    
+    <!--<script type='text/javascript' src="../WEB/lib/bootstrap/jquery.js"></script> -->
 
-  <script>
-    function reloaderor(){
-      location.href = "<?=$actual_link?>&reqEror=1";
-      // console.log('xxx');
-    }
-
-      function kembali(){
-      location.href = "<?=$urlLink?>asesor/index.php?reqTanggalTes=<?=$reqTanggalTes?>&reqMode=<?=$reqMode?>";
-      // console.log('<?=$urlLink?>');
-    }
-
-    function openPopup() {
-      // Display a ajax modal, with a title
-      eModal.ajax('konten.html', 'Judul Popup')
-    }
-
-    function cetak(url)
-    {
-      newWindow = window.open('../ikk/'+url+'.php?reqId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTahun=<?=$tahunjadwaltes?>');
-      newWindow.focus();          
-    }
-
-     function cetakKhusus(url)
-    {
-      newWindow = window.open('../ikk/'+url+'&reqId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTahun=<?=$tahunjadwaltes?>');
-      newWindow.focus();          
-    }
-
-    function cetakRekap(url)
-    {
-      newWindow = window.OpenDHTMLDetil('../ikk/infografik.php?reqInfoLink=Ringkasan Laporan Individu&reqLink=cetak_ringkasan_pdf&reqId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTahun=<?=$tahunjadwaltes?>', '<?=$reqJadwalPegawaiNip?> - <?=$reqJadwalPegawaiNama?>', '880', '495');
-      newWindow.focus();          
-    }
-
-     function CetakDataPeserta(pegawaiId,mode)
-    {
-
-      var IdPegawai = pegawaiId;
-      var Mode = mode;
-      newWindow = window.open('../pengaturan/cetak_data_pribadi_pdf.php?reqPegawaiId='+IdPegawai+'&reqId=<?=$reqId?>&reqMode='+Mode, '<?=$reqJadwalPegawaiNip?> - <?=$reqJadwalPegawaiNama?>');
-      newWindow.focus();          
-    }
-  </script>
-
-  <!-- FLUSH FOOTER -->
-  <style>
-
+<style>
     .col-md-12{
       *padding-left:0px;
       *padding-right:0px;
     }
-    html, body {
-      height: 100%;
-      margin-top: -19px;
-    }
 
+</style>
+
+<!-- <script src="../WEB/lib/emodal/eModal.js"></script> -->
+<script>
+
+  function reloaderor(){
+    location.href = "<?=$actual_link?>&reqEror=1";
+    // console.log('xxx');
+  }
+
+    function kembali(){
+    location.href = "<?=$urlLink?>asesor/index.php?reqTanggalTes=<?=$reqTanggalTes?>&reqMode=<?=$reqMode?>";
+    // console.log('<?=$urlLink?>');
+  }
+
+  function openPopup() {
+    //document.getElementById("demo").innerHTML = "Hello World";
+    //alert('hhh');
+    // Display a ajax modal, with a title
+    eModal.ajax('konten.html', 'Judul Popup')
+    //  .then(ajaxOnLoadCallback);
+  }
+
+  function cetak(url)
+  {
+    newWindow = window.open('../ikk/'+url+'.php?reqId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTahun=<?=$tahunjadwaltes?>');
+    newWindow.focus();          
+  }
+
+   function cetakKhusus(url)
+  {
+    newWindow = window.open('../ikk/'+url+'&reqId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTahun=<?=$tahunjadwaltes?>');
+    newWindow.focus();          
+  }
+
+  function cetakRekap(url)
+  {
+    newWindow = window.OpenDHTMLDetil('../ikk/infografik.php?reqInfoLink=Ringkasan Laporan Individu&reqLink=cetak_ringkasan_pdf&reqId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTahun=<?=$tahunjadwaltes?>', '<?=$reqJadwalPegawaiNip?> - <?=$reqJadwalPegawaiNama?>', '880', '495');
+
+     // newWindow = window.OpenDHTMLDetil('../ikk/infografik.php?reqInfoLink=Ringkasan Laporan Individu&reqLink=cetak_ringkasan_pdf&reqId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTahun=<?=$tahunjadwaltes?>,<?=$reqJadwalPegawaiNip?>-<?=$reqJadwalPegawaiNama?>', '880', '495');
+    newWindow.focus();          
+  }
+
+   function CetakDataPeserta(pegawaiId,mode)
+  {
+
+    var IdPegawai = pegawaiId;
+    var Mode = mode;
+    // newWindow = window.open('../pengaturan/cetak_data_pribadi_pdf.php?reqPegawaiId='+IdPegawai+'&reqId=<?=$reqId?>&reqMode='+Mode, '<?=$reqJadwalPegawaiNip?> - <?=$reqJadwalPegawaiNama?>', '880', '495');
+    newWindow = window.open('../pengaturan/cetak_data_pribadi_pdf.php?reqPegawaiId='+IdPegawai+'&reqId=<?=$reqId?>&reqMode='+Mode, '<?=$reqJadwalPegawaiNip?> - <?=$reqJadwalPegawaiNama?>');
+    newWindow.focus();          
+     // newWindow = window.OpenDHTMLDetil('../ikk/infografik.php?reqInfoLink=Ringkasan Laporan Individu&reqLink=cetak_ringkasan_pdf&reqId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTahun=<?=$tahunjadwaltes?>,<?=$reqJadwalPegawaiNip?>-<?=$reqJadwalPegawaiNama?>', '880', '495');
+    // newWindow.focus();          
+  }
+ 
+</script>
+
+<!-- FLUSH FOOTER -->
+<style>
+html, body {
+  height: 100%;
+  margin-top: -19px;
+}
+
+#wrap-utama {
+  min-height: 100%;
+  *min-height: calc(100% - 10px);
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:50px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:20px;
+  *background:cyan;
+
+  text-align:center;
+  color:#FFF;
+}
+@media screen and (max-width:767px) {
     .footer {
-      position: relative;
-      height: 50px;
-      clear:both;
-      padding-top:20px;
-      text-align:center;
-      margin-left: -15px;
-      margin-right: -15px;  
+        font-size:12px;
     }
+}
 
-    @media screen and (max-width:767px) {
-      .footer {
-          font-size:12px;
-      }
-    }
+.nicEdit-main{
+     background-color: white;
+     color: black;
+}
 
-    .nicEdit-main{
-      background-color: white;
-      color: black;
-    }
-    .rbtn ul{
-      list-style-type:none;
-    }
-    .rbtn ul li{
-      display:inherit;
-      padding:5px;
-      margin:-5px;
-      -moz-border-radius: 4px; 
-      -webkit-border-radius: 4px; 
-      -khtml-border-radius: 4px; 
-      border-radius: 4px; 
-      text-align:left;
-      font-family: 'Open SansRegular';
-      font-size: 13px;
-      letter-spacing: normal;
-    }
-    .over{
-      background: #063a69;
-    }
+</style>
 
-    .sebelumselected{
-      background-color: #FFFFFF;
-      border: 1px solid #dadada;
-    }
-
-    .sebelumselected:before{
-      font-family:"FontAwesome";
-      content:"\f096";
-      color:#f8a406;
-      font-size:18px;
-    }
-
-    .selected{
-      background-color: #767676;
-      border: 1px solid #767676;
-      color: #FFFFFF;
-    }
-    .selected:before{
-      font-family:"FontAwesome";
-      content:"\f046";
-      color:#f8a406;
-      font-size:18px;
-    }
-
-    body {
-      margin: 0;
-    }
-
-    h1 { margin:150px auto 50px auto; text-align:center;}
-
-    p { font-size: 13px }
-
-    h2 { font-size: 16px; }
-
-    .ui-scroll-tabs-header:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    /* Scroll tab default css*/
-
-    .ui-scroll-tabs-view {
-      z-index: 1;
-      overflow: hidden;
-      margin-bottom: -7px !important;
-    }
-
-    .ui-scroll-tabs-view .ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
-
-    }
-
-    .ui-scroll-tabs-view .ui-widget-header {
-      border: none;
-      background: transparent;
-    }
-
-    .ui-scroll-tabs-view li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab {
-      border: none;
-      background-color: transparent;
-    }
-
-    .ui-scroll-tabs-view li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active {
-
-    }
-
-    .ui-scroll-tabs-view li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab a {
-      border-bottom: 6px solid rgba(0,0,0,0);
-      color: rgba(0,0,0,0.4);
-    }
-
-    .ui-scroll-tabs-view li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab a:hover {
-      color: #333333;
-    }
-
-    .ui-scroll-tabs-view li.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab a center button {
-      top: inherit !important;
-      position: absolute;
-    }
-
-    .ui-scroll-tabs-header {
-      position: relative;
-      overflow: hidden;
-    }
-
-    .ui-scroll-tabs-header .stNavMain {
-      position: absolute;
-      top: 0;
-      z-index: 2;
-      height: 100%;
-      opacity: 0;
-      transition: left .5s, right .5s, opacity .8s;
-      transition-timing-function: swing;
-    }
-
-    .ui-scroll-tabs-header .stNavMain button { height: 100%; }
-
-    .ui-scroll-tabs-header .stNavMainLeft { left: -250px; }
-
-    .ui-scroll-tabs-header .stNavMainLeft.stNavVisible {
-      left: 0;
-      opacity: 1;
-    }
-
-    .ui-scroll-tabs-header .stNavMainRight { right: -250px; }
-
-    .ui-scroll-tabs-header .stNavMainRight.stNavVisible {
-      right: 0;
-      opacity: 1;
-    }
-
-    .ui-scroll-tabs-header ul.ui-tabs-nav {
-      position: relative;
-      white-space: nowrap;
-    }
-
-    .ui-scroll-tabs-header ul.ui-tabs-nav li {
-      display: inline-block;
-      float: none;
-    }
-
-    .ui-scroll-tabs-header ul.ui-tabs-nav li.stHasCloseBtn a { padding-right: 0.5em; }
-
-    .ui-scroll-tabs-header ul.ui-tabs-nav li span.stCloseBtn {
-      float: left;
-      padding: 4px 2px;
-      border: none;
-      cursor: pointer;
-    }
-
-    .ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active{
-      
-    }
-    .ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab > a.ui-tabs-anchor{
-
-    }
-    .ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active > a.ui-tabs-anchor{
-      border-bottom: 6px solid #f2d149;
-      color: #333333
-      
-    }
-    #fr-logo{
-      display: none;
-    }
+<style>
+  .rbtn ul{
+    list-style-type:none;
+  }
+  .rbtn ul li{
+    *cursor:pointer;
+    *display:inline-block; 
+    display:inherit;
+    *width:100px; 
+    border:1px solid #06345f; 
+    padding:5px;
+    margin:-5px;
+    *margin-right:5px; 
+    
+    -moz-border-radius: 3px; 
+    -webkit-border-radius: 3px; 
+    -khtml-border-radius: 3px; 
+    border-radius: 3px; 
+    
+    *text-align:center;
+    text-align:left;
+    
+  }
+  .over{
+    background: #063a69;
+  }
+  
+  .sebelumselected{
+    background: #063a69; 
+    color:#fff;
+    *margin:2px;
+  }
+  
+  .sebelumselected:before{
+    font-family:"FontAwesome";
+    content:"\f096";
+    *margin-right:10px;
+    color:#f8a406;
+    font-size:18px;
+    *vertical-align:middle;
+  }
+  
+  .selected{
+    background: #063a69; 
+    color:#fff;
+  }
+  .selected:before{
+    font-family:"FontAwesome";
+    content:"\f046";
+    *margin-right:10px;
+    color:#f8a406;
+    font-size:18px;
+    *vertical-align:middle;
+  }
   </style>
 
-  <!-- SCROLLING TAB -->
-  <link href="../WEB/lib/Scrolling/jquerysctipttop.css" rel="stylesheet" type="text/css">
-  <link href="../WEB/lib/Scrolling/jquery-ui.css" rel="stylesheet" type="text/css">
+<!-- SCROLLING TAB -->
+<link href="../WEB/lib/Scrolling/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="../WEB/lib/Scrolling/jquery-ui.css" rel="stylesheet" type="text/css">
+<!-- <link rel="stylesheet" href="../WEB/lib/Scrolling-jQuery-UI-Tabs-jQuery-ScrollTabs/css/style.css" type="text/css"> -->
+  
+<style type="text/css">
+body {
+  font-size: 12px;
+  font-family: "Roboto", HelveticaNeue, Helvetica, sans-serif;
+  margin: 0;
+  background-color:#fafafa;
+}
+h1 { margin:150px auto 50px auto; text-align:center;}
+p { font-size: 13px }
+
+h2 { font-size: 16px; }
+
+.ui-scroll-tabs-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Scroll tab default css*/
+
+.ui-scroll-tabs-view {
+  z-index: 1;
+  overflow: hidden;
+}
+
+.ui-scroll-tabs-view .ui-widget-header {
+  border: none;
+  background: transparent;
+}
+
+.ui-scroll-tabs-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.ui-scroll-tabs-header .stNavMain {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  height: 100%;
+  opacity: 0;
+  transition: left .5s, right .5s, opacity .8s;
+  transition-timing-function: swing;
+}
+
+.ui-scroll-tabs-header .stNavMain button { height: 100%; }
+
+.ui-scroll-tabs-header .stNavMainLeft { left: -250px; }
+
+.ui-scroll-tabs-header .stNavMainLeft.stNavVisible {
+  left: 0;
+  opacity: 1;
+}
+
+.ui-scroll-tabs-header .stNavMainRight { right: -250px; }
+
+.ui-scroll-tabs-header .stNavMainRight.stNavVisible {
+  right: 0;
+  opacity: 1;
+}
+
+.ui-scroll-tabs-header ul.ui-tabs-nav {
+  position: relative;
+  white-space: nowrap;
+}
+
+.ui-scroll-tabs-header ul.ui-tabs-nav li {
+  display: inline-block;
+  float: none;
+}
+
+.ui-scroll-tabs-header ul.ui-tabs-nav li.stHasCloseBtn a { padding-right: 0.5em; }
+
+.ui-scroll-tabs-header ul.ui-tabs-nav li span.stCloseBtn {
+  float: left;
+  padding: 4px 2px;
+  border: none;
+  cursor: pointer;
+}
+
+/*End of scrolltabs css*/
+</style>
+
+<style>
+.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active{
+  *border: 1px solid red;
+}
+.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab > a.ui-tabs-anchor{
+  padding: 20px;
+  *background: #dddddd;
+  
+  background-color: #dddddd;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dddddd), to(#c0c0c0));
+  background: -webkit-linear-gradient(top, #dddddd, #c0c0c0);
+  background: -moz-linear-gradient(top, #dddddd, #c0c0c0);
+  background: -ms-linear-gradient(top, #dddddd, #c0c0c0);
+  background: -o-linear-gradient(top, #dddddd, #c0c0c0);
+
+}
+.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active > a.ui-tabs-anchor{
+  background: #f8a406;
+  color: #FFFFFF;
+}
+</style>
 
 </head>
 
 <body>
 
-    <div id="wrap-utama">
-        <div id="main" class="container-fluid clear-top">
+    <div id="wrap-utama" style="height:100%; ">
+        <div id="main" class="container-fluid clear-top" style="height:100%;">
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="area-header">
                         <span class="judul-app"><a href="index.php"><img src="../WEB/images/logo-judul.png"> Aplikasi Pelaporan Hasil Assessment</a></span>
+
                         <div class="area-akun">
                             Selamat datang, <strong><?=$tempAsesorNama?></strong> - 
                             <a href="../main/login.php?reqMode=submitLogout">Logout</a>
                         </div>
+
                     </div>
                 </div>
             </div>
 
-            <div class="row row-konten">
-                <div class="col-md-12">
+            <div class="row" style="height:calc(100% - 20px);">
+                <div class="col-md-12" style="height:100%;">
+
                     <div class="container area-menu-app">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="breadcrumb"><a href="index.php"><i class="fa fa-home"></i> Home</a></div>
                                 <div class="row profil-area" style="min-height:205px">
-                                    <div class="col-md-3">
-                                      <div class="profil-data">
+                                    <div class="col-md-2">
                                         <div class="profil-foto">
                                             <img id="reqImagePeserta" />
                                         </div>
-                                        <div class="nama-nip">
-                                          <div class="nama"><? if($data['glr_depan']=='-'){ } else{ echo $data['glr_depan']; }?> <?=$data['nama']?> <? if($data['glr_belakang']=='-'){ } else{ echo $data['glr_belakang']; }?> </div>
-                                          <div class="nip"><?=$reqJadwalPegawaiNip?></div>
-                                        </div>
-                                        <div class="inner">
-                                          <div class="form-group">
-                                            <label>Pangkat / Gol.Ruang:</label>
-                                            <div><?=$data['pangkat']?></div>
-                                          </div>
-                                          <div class="form-group">
-                                            <label>Jabatan:</label>
-                                            <div>
+                                    </div>
+                                    <div class="col-md-10">
+                                       <div class="judul-halaman">Info Asessee</div>
+                                       <table class="profil">
+                                        <tr>
+                                            <th style="width:165px">Nama</th>
+                                            <th style="width:5px">:</th>
+                                            <td  colspan="4"><? if($data['glr_depan']=='-'){ } else{ echo $data['glr_depan']; }?> <?=$data['nama']?> <? if($data['glr_belakang']=='-'){ } else{ echo $data['glr_belakang']; }?> </td>
+                                        </tr>
+                                        <tr>
+                                            <th>NIP</th>
+                                            <th>:</th>
+                                            <td colspan="4"><?=$reqJadwalPegawaiNip?></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Pangkat / Gol.Ruang</th>
+                                            <th>:</th>
+                                            <td colspan="4"><?=$data['pangkat']?></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Jabatan</th>
+                                            <th>:</th>
+                                            <td colspan="4">
                                               <?
                                               $url = 'https://api-simpeg.kaltimbkd.info/pns/riwayat-jabatan/'.$reqJadwalPegawaiNip.'/?api_token=f5a46b71f13fe1fd00f8747806f3b8fa';
                                               $dataApiJabatan = json_decode(file_get_contents($url), true);     
                                                 if($dataApiJabatan[0]['jabatan']!='')
                                                 {
                                                 ?>
-                                                  <?=$dataApiJabatan[0]['jabatan']?>
+                                                <?=$dataApiJabatan[0]['jabatan']?>
                                                 <?
                                                 }
                                                 else
                                                 {
                                                 ?>
-                                                  <?=$tempJabatan?>
+                                                <?=$tempJabatan?>
                                                 <?
                                                 }
                                                 ?>
-                                            </div>
-                                          </div>
-                                          <div class="form-group">
-                                            <label>Assesment:</label>
-                                            <div><?=$reqKeterangan?></div>
-                                          </div>
-                                          <div class="form-group">
-                                            <label>Tanggal:</label>
-                                            <div><?=$TanggalTes?></div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-9">
-                                      <div class="judul-halaman">Info Asessee</div>
-                                      <div class="area-konten">
-                                        <table class="profil">
-                                          <tr>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Assesment</th>
+                                            <th>:</th>
+                                            <td colspan="4"><?=$reqKeterangan?></td>
+                                        </tr>
+                                        <tr>
+                                            <th>Tanggal</th>
+                                            <th>:</th>
+                                            <td colspan="4"><?=$TanggalTes?></td>
+                                        </tr>                                        
+                                        <tr>
                                             <th>JPM Potensi</th>
                                             <th>:</th>
                                             <td><?=$jpmPotensi?></td> 
                                             <th style="width:165px">JPM Kompetensi</th>
                                             <th style="width:5px">:</th>
                                             <td><?=$jpmKompetensi?></td>
-                                          </tr>
-                                          <tr>
+                                        </tr>
+                                        <tr>
                                             <th>JPM Final</th>
                                             <th>:</th>
                                             <td><?=$jpm?></td>
+
                                             <th style="width:165px">IKK</th>
                                             <th style="width:5px">:</th>
                                             <td><?=$ikk?></td> 
-                                          </tr>
-                                          <tr>
+                                        </tr>
+                                        <tr>
                                             <th>Kategori</th>
                                             <th>:</th>
                                             <td colspan="4"><?=$HasilKonversi?></td>
-                                          </tr>
-                                          <tr>
+                                        </tr>
+                                        <tr>
                                             <th>Kode Kuadran</th>
                                             <th>:</th>
                                             <td><?=$kodeKuadran?></td> 
                                             <th style="width:165px">Nama Kuadran</th>
                                             <th style="width:5px">:</th>
                                             <td><?=$namaKuadran?></td>
-                                          </tr>
-                                          <tr>
+                                        </tr>
+                                        <tr>
                                             <th>Rekomendasi</th>
                                             <th>:</th>
                                             <td colspan="4"><?=$rekomKuadran?></td>
-                                          </tr>
-                                          <tr>
+                                        </tr>
+                                        <tr>
                                             <th>Cetak Psikogram Asesor</th>
                                             <th>:</th>
                                             <td colspan="1">
-                                              <a href="javascript: void(0)" onclick="cetakKhusus('cetak_psikogram_assesment_new_pdf.php?reqTipe=sederhana')" title="Cetak Sederhana"><img src="../WEB/images/down_icon.png"/>Sederhana</a>
-                                              <a href="javascript: void(0)" onclick="cetakKhusus('cetak_psikogram_assesment_new_pdf.php?reqTipe=sedang')" title="Cetak Sedang"><img src="../WEB/images/down_icon.png"/> Sedang</a>
-                                              <a href="javascript: void(0)" onclick="cetakKhusus('cetak_psikogram_assesment_new_pdf.php?reqTipe=kompleks')"title="Cetak Kompleks"><img src="../WEB/images/down_icon.png"/> Kompleks</a>
-                                              <a href="javascript: void(0)" onclick="cetakKhusus('cetak_psikogram_assesment_new_pdf.php?reqTipe=baru')"title="Cetak Kompleks"><img src="../WEB/images/down_icon.png"/> Sederhana 2</a>
+                                              <a href="javascript: void(0)" style="color: white;" onclick="cetakKhusus('cetak_psikogram_assesment_new_pdf.php?reqTipe=sederhana')" title="Cetak Sederhana"><img src="../WEB/images/down_icon.png"/>Sederhana</a>
+
+                                                <a href="javascript: void(0)"  style="color: white;" onclick="cetakKhusus('cetak_psikogram_assesment_new_pdf.php?reqTipe=sedang')" title="Cetak Sedang"><img src="../WEB/images/down_icon.png"/> Sedang</a>
+
+                                                <a href="javascript: void(0)" style="color: white;" onclick="cetakKhusus('cetak_psikogram_assesment_new_pdf.php?reqTipe=kompleks')"title="Cetak Kompleks"><img src="../WEB/images/down_icon.png"/> Kompleks</a>
+
+                                                <a href="javascript: void(0)" style="color: white;" onclick="cetakKhusus('cetak_psikogram_assesment_new_pdf.php?reqTipe=baru')"title="Cetak Kompleks"><img src="../WEB/images/down_icon.png"/> Sederhana 2</a>
+
                                             </td>
+
                                             <th>Cetak Ringkasan</th>
                                             <th>:</th>
-                                            <td colspan="1"><a href="javascript: void(0)" onclick="cetakRekap('cetak_ringkasan_pdf')" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>                                              
-                                          </tr>
-                                          <tr>
+                                            <td colspan="1"><a href="javascript: void(0)" onclick="cetakRekap('cetak_ringkasan_pdf')" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>
+                                            
+                                        </tr>
+                                        <tr>
                                             <th>Data Pribadi Peserta</th>
                                             <th>:</th>
                                             <td colspan="1"><a href="javascript: void(0)" onclick="CetakDataPeserta(<?=$reqPegawaiId?>)" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>
+
                                             <th>Critical Incident</th>
                                             <th>:</th>
-                                            <td colspan="1"><a href="javascript: void(0)" onclick="CetakDataPeserta(<?=$reqPegawaiId?>,'CI')" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>                                              
-                                          </tr>
-                                          <tr>
+                                            <td colspan="1"><a href="javascript: void(0)" onclick="CetakDataPeserta(<?=$reqPegawaiId?>,'CI')" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>
+                                            
+                                        </tr>
+                                        <tr>
                                             <th>Q Inta</th>
                                             <th>:</th>
                                             <td colspan="1"><a href="javascript: void(0)" onclick="CetakDataPeserta(<?=$reqPegawaiId?>,'QI')" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>
@@ -1189,14 +1205,28 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <th>Q Kompetensi Eselon</th>
                                             <th>:</th>
                                             <td colspan="1"><a href="javascript: void(0)" onclick="CetakDataPeserta(<?=$reqPegawaiId?>,'QK_Eselon')" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>
-                                            <?}?>                                              
-                                          </tr>
-                                            <th style="width:165px">In Tray</th>
+                                            <?}?>
+                                            
+                                        </tr>
+                                        <th style="width:165px">In Tray</th>
                                             <th style="width:5px">:</th>
-                                            <td colspan="4"><a href="<?=$tempFileTray?>" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td> 
-                                          </tr> 
-                                          <tr>
-                                            <th>Portofolio</th>
+
+                                            <? if (!empty($tempFileTray))
+                                            {
+                                            ?>
+                                              <td colspan="4"><a href="<?=$tempFileTray?>" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>
+                                            <?
+                                            }
+                                            else
+                                            {
+                                            ?>
+                                            <td colspan="4"><a href="<?=$tempFileTray?>" title="Cetak"></td>
+                                            <?
+                                             }
+                                             ?> 
+                                        </tr> 
+                                        <tr>
+                                              <th>Portofolio</th>
                                             <th>:</th>
 
                                             <? if (!empty($tempFileRiwayat))
@@ -1227,16 +1257,17 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             ?>
                                             <td colspan="1"><a href="<?=$tempFileKompetensi?>" title="Cetak"></td>
                                             <?
-                                            }
-                                            ?>
-                                          </tr>
-                                          <tr>                                             
+                                             }
+                                             ?>
+                                        </tr>
+                                        <tr>
+                                           
                                             <th>Detil Pegawai</th>
                                             <th>:</th>
-                                            <td colspan="4"><a href="../silat/pegawai_edit.php?reqId=<?=$reqPegawaiId?>" title="Cetak" target="_blank">Detil Pegawai</a></td>
-                                          </tr>
-                                          <tr>
-                                            <th>Hasil File Test</th>
+                                            <td colspan="4"><a style ="color:#FFFFFF !important" href="../silat/pegawai_edit.php?reqId=<?=$reqPegawaiId?>" title="Cetak" target="_blank">Detil Pegawai</a></td>
+                                        </tr>
+                                         <tr>
+                                              <th>Hasil File Test</th>
                                             <th>:</th>                                             
                                             <td  colspan="4">
                                                 <?
@@ -1259,48 +1290,48 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                                         if(file_exists($infolinkfile))
                                                         {
                                                 ?>
-                                                          <a href="<?=$infolinkfile?>" title="<?=$infolabel?>" target="_blank"><?=$infolabel?></a><br> 
+                                                          <a style ="color:#FFFFFF !important" href="<?=$infolinkfile?>" title="<?=$infolabel?>" target="_blank"><?=$infolabel?></a><br> 
                                                 <?
                                                         }
                                                         else
                                                         {
                                                 ?>
-                                                          <a href="javascript:void(0)" title="<?=$infolabel?>"><?=$infolabel?> : belum upload</a><br>
+                                                          <a style="cursor: none; text-decoration: none; color:#FFFFFF !important" href="javascript:void(0)" title="<?=$infolabel?>"><?=$infolabel?> : belum upload</a><br>
                                                 <?
                                                         }
                                                     }
                                                     else
                                                     {
                                                 ?>
-                                                          <a href="javascript:void(0)" title="<?=$infolabel?>"><?=$infolabel?> : belum upload</a><br> 
+                                                          <a style="cursor: none; text-decoration: none; color:#FFFFFF !important" href="javascript:void(0)" title="<?=$infolabel?>"><?=$infolabel?> : belum upload</a><br> 
                                                 <?
                                                     }
                                                 }
                                                 ?>
                                             </td> 
-                                          </tr>
-                                        </table>
-                                      </div>
-                                      <div class="row">
-                                        <div class="col-md-12 text-right">
-                                          <br>
-                                          <a class="btn btn-danger" onclick="reloaderor()">Klik Jika Error</a>
-                                          <a class="btn btn-primary" onclick="kembali()">Kembali</a>
-                                          <?if ($reqMode!=''){?>
-                                            <a class="btn btn-primary" onclick="CetakKeseluruhan()">Cetak Keseluruhan</a>
-                                          <?}?>
-                                        </div>
-                                      </div>
+                                        </tr>
+                                    </table>
                                 </div>
+
                             </div>
+
                         </div>
                     </div>
-                    
+                    <br>
+                    <a style="padding:10px; background-color: royalblue; color: white; border-radius: 10px;cursor: pointer" onclick="reloaderor()">Klik Jika Eror</a>
+                    <a style="padding:10px; background-color: royalblue; color: white; border-radius: 10px;cursor: pointer;" onclick="kembali()">Kembali</a>
+                    <?if ($reqMode!=''){?>
+                    <a style="padding:10px; background-color: royalblue; color: white; border-radius: 10px;" onclick="CetakKeseluruhan()">Cetak Keseluruhan</a>
+                    <?}?>
+                    <br>
+                    <br>
+                    <!------>
                     <div id="example_0">
                       <ul role="tablist" style="z-index: 100;">
                         <?
                         for($index_loop=0; $index_loop < $jumlah_asesor; $index_loop++)
                         {
+                          // $arrAsesor[$index_loop]["JADWAL_ASESOR_ID"];
                           $reqInfoPenggalianId= $arrAsesor[$index_loop]["PENGGALIAN_ID"];
                           $reqInfoPenggalianAsesor= $arrAsesor[$index_loop]["NAMA_ASESOR"];
                           $reqInfoPenggalianKode= $arrAsesor[$index_loop]["PENGGALIAN_KODE"];
@@ -1316,6 +1347,8 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                         <li role="tab" class="<?=$tabSelectCss?>"><a href="#tabs-<?=$reqInfoPenggalianId?>" role="presentation" onclick="selecttabs('<?=$reqInfoPenggalianId?>')"><center><?=$reqInfoPenggalianKode?> <button onclick="downloadCetakan('<?=$reqInfoPenggalianKode?>')" style="background: url('../WEB/images/down_icon.png');height: 15px;width: 15px;border: none;top: 23px;position: absolute;margin-left: 5px;" ></button> <br><span style="font-size:10px">(<?=$reqInfoPenggalianAsesor?>)</span></center></a></li>
                         <?
                         }
+                        ?>
+                        <?
                         $tempKondisiNilaiAkhir= 1;
                         if($tempKondisiNilaiAkhir == "1")
                         {
@@ -1326,7 +1359,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                         <li role="tab" class="<?=$tabSelectCss?>"><a href="#tabs-nilaiakhir" role="presentation" onclick="selecttabs('nilai_akhir')"><center>Nilai Akhir<br><span style="font-size:10px">(<?=$reqInfoPenggalianAsesorLast ?>)</span></center></a></li>
                         <?
                         }
+                        ?>
 
+                        <?
                         $tabSelectCss= "";
                         if("kesimpulan" == $reqTab){
                           $tabSelectCss= "ui-tabs-active ui-state-active";
@@ -1339,15 +1374,19 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                           $tabSelectCss= "ui-tabs-active ui-state-active";
                         }
                         ?>
-                        <li role="tab" class="<?=$tabSelectCss?>"><a href="#tabs-rekap" role="presentation" onclick="selecttabs('rekap_penilaian')"><center>Rekap Penilaian <br><span style="font-size:10px">&nbsp;</span> <button onclick="downloadCetakan('Rekap')" style="background: url('../WEB/images/down_icon.png');height: 15px;width: 15px;border: none;" ></button> </span></center></a></li>
+                        <li role="tab" class="<?=$tabSelectCss?>"><a href="#tabs-rekap" role="presentation" onclick="selecttabs('rekap_penilaian')"><center>Rekap Penilaian <br> <button onclick="downloadCetakan('Rekap')" style="background: url('../WEB/images/down_icon.png');height: 15px;width: 15px;border: none;" ></button> </span></center></a></li>
                       </ul>
                       <?
                       for($index_loop=0; $index_loop < $jumlah_asesor; $index_loop++)
                       {
+                        // $arrAsesor[$index_loop]["JADWAL_ASESOR_ID"];
                         $reqInfoPenggalianId= $arrAsesor[$index_loop]["PENGGALIAN_ID"];
+                        // $arrAsesor[$index_loop]["PENGGALIAN_NAMA"];
                         $reqInfoPenggalianKode= $arrAsesor[$index_loop]["PENGGALIAN_KODE"];
                       ?>
-                      <div class="ne-except area-penilaian-catatan" id="tabs-<?=$reqInfoPenggalianId?>" role="tabpanel">
+                      <div class="ne-except" style="height: 600px;overflow: scroll; background-color: rgb(6, 58, 105) !important;" id="tabs-<?=$reqInfoPenggalianId?>" role="tabpanel" style="background: #063a69 !important;">
+
+
                         <?
                         // set form kalau potensi
                         if($reqInfoPenggalianId == "0")
@@ -1357,9 +1396,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                           <div class="col-md-12">
 
                             <div class="area-table-assesor">
-                              <!-- <br> -->
+                              <br>
                               <div class="judul-halaman">Penilaian Psikotes</div>
-                              <form id="ff-<?=$reqInfoPenggalianId?>" method="post" novalidate style="height: 300px;overflow: scroll;">
+                              <form id="ff-<?=$reqInfoPenggalianId?>" method="post" novalidate>
 
                                 <table style="margin-bottom:60px;" class="profil"> 
                                   <tbody>
@@ -1377,6 +1416,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         $index_row= $arrayKey[$index_detil];
 
                                         $reqPenilaianPotensiDataAsesorId= $arrPenilaian[$index_row]["ASESOR_POTENSI_ID"];
+
                                         $reqPenilaianPotensiAspekId= $arrPenilaian[$index_row]["ASPEK_ID"];
                                         $reqPenilaianPotensiAtributNama= $arrPenilaian[$index_row]["NAMA"];
                                         $reqPenilaianPotensiNilaiStandar= $arrPenilaian[$index_row]["NILAI_STANDAR"];
@@ -1395,6 +1435,12 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         $reqPenilaianPotensiAtributIdParent= $arrPenilaian[$index_row]["ATRIBUT_ID_PARENT"];
                                         $reqPenilaianPotensiAtributGroup= $arrPenilaian[$index_row]["ATRIBUT_GROUP"];
                                         $reqPenilaianPotensiDetilId= $arrPenilaian[$index_row]["PENILAIAN_DETIL_ID"];
+
+                                        // $reqPenilaianPotensiNilaiMentah= $arrPenilaian[$index_row]["NILAI"];
+                                        // $reqPenilaianPotensiNilaiPecah= explode(".",$reqPenilaianPotensiNilaiMentah);
+                                        // $reqPenilaianPotensiNilai= $reqPenilaianPotensiNilaiPecah[0];
+                                        // $reqPenilaianPotensiNilaiDecimal= $reqPenilaianPotensiNilaiPecah[1];
+
                                         $reqPenilaianPotensiNilai= $arrPenilaian[$index_row]["NILAI"];
                                         $reqPenilaianPotensiGap= $arrPenilaian[$index_row]["GAP"];
 
@@ -1408,8 +1454,18 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           $reqPenilaianPotensiNilaiPokok= $reqPenilaianPotensiNilai;
                                         }
 
+                                        // if($reqPenilaianPotensiGap == "" || $reqPenilaianPotensiGap == "0"){
+                                        //   $reqPenilaianPotensiGap= 0;
+                                        // }
+                                        // else{
+                                        //   $reqPenilaianPotensiGap= $reqPenilaianPotensiNilaiMentah-$reqPenilaianPotensiNilaiStandar;
+                                        //   echo "xxxx".$reqPenilaianPotensiNilaiMentah."ppppp".$reqPenilaianPotensiGap;
+                                        // }
+
                                         $reqPenilaianPotensiCatatan= $arrPenilaian[$index_row]["CATATAN"];
                                         $reqPenilaianPotensiBukti= $arrPenilaian[$index_row]["BUKTI"];
+
+                                        // $reqPenilaianPotensiCatatan= str_replace("<br>", "\n", $reqPenilaianPotensiCatatan);
 
                                         //kondisi parent
                                         if($reqPenilaianPotensiGroup == $reqPenilaianPotensiAtributGroup)
@@ -1424,13 +1480,12 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
 
                                         $reqPenilaianPotensiGroup= $reqPenilaianPotensiAtributGroup;
 
-                                        if($index_atribut_parent % 2 == 0){
+                                        if($index_atribut_parent % 2 == 0)
                                           $css= "terang";
-                                        }
-                                        else{
+                                        else
                                           $css= "gelap";
-                                        }
-
+                                    ?>
+                                        <?
                                         if($reqPenilaianPotensiAtributIdParent == "0")
                                         {
                                         ?>
@@ -1439,6 +1494,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <td style="text-align:center;" rowspan="2">ATRIBUT & INDIKATOR</td>
                                             <td style="text-align:center; width: 10%" rowspan="2">Standar</td>
                                             <td style="text-align:center" colspan="7">Hasil Individu</td>
+                                            <!-- <td style="text-align:center; width: 10%" rowspan="2">Gap</td> -->
+                                            <!-- <td style="text-align:center" rowspan="2">Deskripsi</td>
+                                            <td style="text-align:center" rowspan="2">Saran Pengembang</td> -->
                                           </tr>
                                           <tr>
                                             <td style="text-align:center; width: 10%">0</td>
@@ -1588,21 +1646,76 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               <input value="<?=$reqPenilaianPotensiNilaiDecimal?>" id ='reqPenilaianPotensiNilaiDecimal<?=$reqPenilaianPotensiAspekId?>-<?=$index_detil?>'type="number" name="reqPenilaianPotensiNilaiDecimal[]" style="color:black;" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..?)\../g, '$1');">
                                               <?}?>
                                             </td>
+                                            <!-- <td align="center"><label id="reqPenilaianPotensiGapInfo<?=$reqPenilaianPotensiAspekId?>-<?=$index_detil?>"><?=$reqPenilaianPotensiGap?></label>&nbsp;</td> -->
                                           </tr>
 
-                                          
+                                          <!-- onesebelumupdate -->
+                                          <!-- <?
+                                          if($checkmunculsaranpotensi == "1")
+                                          {
+                                          ?>
+                                          <tr>
+                                            <td colspan="9">
+                                              <?
+                                              $munculsarancss="";
+                                              // if($reqPenilaianPotensiGap == 0)
+                                              // $munculsarancss="display:none";
+
+                                              if($disabledatribut == "")
+                                              {
+                                              ?>
+                                              <fieldset>
+                                                <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; color: white !important;">Deskripsi</legend>
+                                                <textarea name="reqPenilaianPotensiBukti[]" id="reqPenilaianPotensiBukti<?=$reqPenilaianPotensiAspekId?>-<?=$index_detil?>" style="width:95%" rows="1" ><?=$reqPenilaianPotensiBukti?></textarea>
+                                              </fieldset>
+                                              <span style="<?=$munculsarancss?>" id="reqPenilaianPotensiSaran<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>">
+                                                <fieldset>
+                                                  <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; color: white !important;">Saran Pengembangan</legend>
+                                                  <textarea name="reqPenilaianPotensiCatatan[]" id="reqPenilaianPotensiCatatan<?=$reqPenilaianPotensiAspekId?>-<?=$index_detil?>" style="width:95%" rows="1" ><?=$reqPenilaianPotensiCatatan?></textarea>
+                                                </fieldset>
+                                              </span>
+                                              <?
+                                              }
+                                              else
+                                              {
+                                              ?>
+                                              <fieldset style="border: 1px solid; padding: 10px !important">
+                                                <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; color: white !important;">Deskripsi</legend>
+                                                <input type="hidden" name="reqPenilaianPotensiBukti[]" value="<?=$reqPenilaianPotensiBukti?>" />
+                                                <?=$reqPenilaianPotensiBukti?>
+                                              </fieldset>
+                                              <span style="<?=$munculsarancss?>" id="reqPenilaianPotensiSaran<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>">
+                                                <fieldset style="border: 1px solid; padding: 10px !important">
+                                                  <legend style="font-size: 14px !important; border: medium none !important; margin-top: 20px; margin-bottom: 10px; color: white !important;">Saran Pengembangan</legend>
+                                                  <input type="hidden" name="reqPenilaianPotensiCatatan[]" value="<?=$reqPenilaianPotensiCatatan?>" />
+                                                  <?=$reqPenilaianPotensiCatatan?>
+                                                </fieldset>
+                                              </span>
+                                              <?
+                                              }
+                                              ?>
+                                            </td>
+                                          </tr>
+                                          <?
+                                          }
+                                          else
+                                          {
+                                          ?>
+                                          <input type="hidden" name="reqPenilaianPotensiBukti[]" id="reqPenilaianPotensiBukti<?=$reqPenilaianPotensiAspekId?>-<?=$index_detil?>" />
+                                          <input type="hidden" name="reqPenilaianPotensiCatatan[]" id="reqPenilaianPotensiCatatan<?=$reqPenilaianPotensiAspekId?>-<?=$index_detil?>" />
+                                          <?
+                                          }
+                                          ?> -->
+                                          <!-- onesebelumupdate -->
+
                                           <tr>
                                             <td colspan="9" style="color:black !important ;background-color: white !important;">
                                               <?
                                               if($disabledatribut == "")
                                               {
                                               ?>
-                                              <center>
-                                                <!-- <a href="javascript: void(0)" class="btn btn-primary btn-sm" onclick="resetpenilaianpsikotes(<?=$reqPenilaianPotensiAspekId?>,<?=$index_detil?>)" title="Cetak">Reset Penilaian</a> -->
-                                                <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" />
-                                                <br>
-                                              </center>
-                                              <textarea class='froala' name="reqPenilaianPotensiCatatan[]" class="easyui-validatebox" data-options="validType:'justText'" style="color:#000 !important "><?=$reqPenilaianPotensiCatatan?></textarea>
+                                              <center><a href="javascript: void(0)" style="background-color: blue;color: white; width:200px" onclick="resetpenilaianpsikotes(<?=$reqPenilaianPotensiAspekId?>,<?=$index_detil?>)" title="Cetak">Reset Penilaian</a></center>
+                                              <textarea name="reqPenilaianPotensiCatatan[]" class="easyui-validatebox" data-options="validType:'justText'" style="color:#000 !important "><?=$reqPenilaianPotensiCatatan?></textarea>
                                               <?
                                               }
                                               else
@@ -1615,9 +1728,16 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               ?>
                                             </td>
                                           </tr>
+
+
+                           
                                         <?
                                         }
+                                        ?>
+                                      <?
                                       }
+                                      ?>
+                                    <?
                                     }
                                     ?>
                                     <tr>
@@ -1683,7 +1803,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                                     </select>
                                                   </td>
                                                   <td>
-                                                    <textarea class='froala' name="reqKompetensiKet[]" ><?=$setPenilaianKompetensi->getField("keterangan")?></textarea>
+                                                    <textarea name="reqKompetensiKet[]" ><?=$setPenilaianKompetensi->getField("keterangan")?></textarea>
                                                   </td>
                                                 </tr>
                                                 <?
@@ -1715,7 +1835,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         }
                                           else{
                                       ?>
-                                      <td colspan="10">  <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianKeteranganKepribadian"><?=$reqPenilaianKeteranganKepribadian?></textarea>
+                                      <td colspan="10">  <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianKeteranganKepribadian"><?=$reqPenilaianKeteranganKepribadian?></textarea>
                                           <input type="hidden" style="color:#000 !important" name="reqPenilaianKperibadianPegawaiId" value="<?=$reqPegawaiId?>" />
                                           <input type="hidden" style="color:#000 !important" name="reqPenilaianKperibadianjadwalId" value="<?=$reqJadwalTesId?>" />
                                         </td>
@@ -1750,7 +1870,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           $reqinfocatatan= $arrUraianPotensi[$index_catatan]["KETERANGAN"];
                                         ?>
                                           <p>
-                                            <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianPotensi[]"><?=$reqinfocatatan?></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianPotensi[]"><?=$reqinfocatatan?></textarea>
                                             <?
                                             if($index_catatan > 0)
                                             {
@@ -1766,7 +1886,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         {
                                         ?>
                                           <p>
-                                            <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianPotensi[]"></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianPotensi[]"></textarea>
                                           </p>
                                         <?
                                         }
@@ -1830,104 +1950,88 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                           <div class="col-md-12">
 
                             <div class="area-table-assesor">
-                              <!-- <br> -->
-                              <?
-                              echo "";?>
+                              <br>
                               <div class="judul-halaman">Penilaian dan Catatan :</div>
-                                <form id="ff-<?=$reqInfoPenggalianId?>" method="post" novalidate style="height: 300px;overflow: scroll;">
-                                  <table style="margin-bottom:60px;" class="profil">
-                                    <thead>
-                                      <tr>
-                                        <th width="100%" colspan="2">Hasil Individu</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <?
-                                      $arrayKey= in_array_column($reqInfoPenggalianId, "PENGGALIAN_ID", $arrPegawaiNilai);
-                                      // print_r($arrayKey);
+                              <form id="ff-<?=$reqInfoPenggalianId?>" method="post" novalidate>
+                                <table style="margin-bottom:60px;" class="profil">
+                                  <thead>
+                                    <tr>
+                                      <th width="100%" colspan="2">Hasil Individu</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <?
+                                    $arrayKey= in_array_column($reqInfoPenggalianId, "PENGGALIAN_ID", $arrPegawaiNilai);
+                                    // print_r($arrayKey);
 
-                                      if($arrayKey == ''){}
-                                      else
+                                    if($arrayKey == ''){}
+                                    else
+                                    {
+                                      $indexKeterangan= 0;
+                                      $indexTr= 1;
+                                      $reqJadwalPegawaiAtributIdLookUp= "";
+                                      for($index_detil=0; $index_detil < count($arrayKey); $index_detil++)
                                       {
-                                        $indexKeterangan= 0;
-                                        $indexTr= 1;
-                                        $reqJadwalPegawaiAtributIdLookUp= "";
-                                        for($index_detil=0; $index_detil < count($arrayKey); $index_detil++)
+                                        $index_row= $arrayKey[$index_detil];
+                                        $reqJadwalPegawaiDetilId= $arrPegawaiNilai[$index_row]["JADWAL_PEGAWAI_DETIL_ID"];
+
+                                        $reqJadwalPegawaiDataAsesorId= $arrPegawaiNilai[$index_row]["ASESOR_ID"];
+
+                                        $reqJadwalPegawaiDataId= $arrPegawaiNilai[$index_row]["JADWAL_PEGAWAI_ID"];
+                                        $reqJadwalPegawaiJadwalAsesorId= $arrPegawaiNilai[$index_row]["JADWAL_ASESOR_ID"];
+                                        $reqJadwalPegawaiPenggalianId= $arrPegawaiNilai[$index_row]["PENGGALIAN_ID"];
+                                        $reqJadwalPegawaiFormPermenId= $arrPegawaiNilai[$index_row]["FORM_PERMEN_ID"];
+                                        $reqJadwalPegawaiAtributId= $arrPegawaiNilai[$index_row]["ATRIBUT_ID"];
+                                        $reqJadwalPegawaiIndikatorId= $arrPegawaiNilai[$index_row]["INDIKATOR_ID"];
+                                        $reqJadwalPegawaiLevelId= $arrPegawaiNilai[$index_row]["LEVEL_ID"];
+                                        $reqJadwalPegawaiIndikatorDataId= $arrPegawaiNilai[$index_row]["PEGAWAI_INDIKATOR_ID"];
+                                        $reqJadwalPegawaiLevelDataId= $arrPegawaiNilai[$index_row]["PEGAWAI_LEVEL_ID"];
+                                        $reqJadwalPegawaiAtributNama= $arrPegawaiNilai[$index_row]["ATRIBUT_NAMA"];
+                                        $reqJadwalPegawaiNamaIndikator= $arrPegawaiNilai[$index_row]["NAMA_INDIKATOR"];
+                                        $reqJadwalPegawaiJumlahLevel= $arrPegawaiNilai[$index_row]["JUMLAH_LEVEL"];
+
+                                        $reqDetilAtributDetilAtributId= $arrPegawaiNilai[$index_row]["JADWAL_PEGAWAI_DETIL_ATRIBUT_ID"];
+                                        $reqDetilAtributNilaiStandar= $arrPegawaiNilai[$index_row]["NILAI_STANDAR"];
+                                        $reqDetilAtributNilai= $arrPegawaiNilai[$index_row]["NILAI"];
+                                        $reqDetilAtributNilaiRekap[$reqInfoPenggalianId][]= $arrPegawaiNilai[$index_row]["NILAI"];
+                                        // echo "xxx".$reqDetilAtributNilai;
+                                        $reqDetilAtributGap= $arrPegawaiNilai[$index_row]["GAP"];
+                                        $reqDetilAtributCatatan= $arrPegawaiNilai[$index_row]["CATATAN"];
+                                        $reqDetilAtributDecimal= $arrPegawaiNilai[$index_row]["DECIMAL"];
+                                        // echo "xx".$reqDetilAtributCatatan;
+                                        if($reqDetilAtributNilai!=''){
+                                          $reqDetilAtributNilai2= explode(".",$reqDetilAtributNilai);
+                                          // print_r($reqDetilAtributNilai);
+
+                                          if ($reqDetilAtributNilai2[1] !=''){
+                                            $reqDetilAtributDecimalJadi= $reqDetilAtributNilai2[1];
+                                            $reqDetilAtributNilai= $reqDetilAtributNilai2[0];
+                                          }
+                                        }
+
+                                        $cssIndikator= "sebelumselected";
+                                        if($reqJadwalPegawaiDetilId == ""){}
+                                        else
+                                          $cssIndikator= "selected";
+
+                                        // $cssIndikator= "sebelumselected";
+                                        ?>
+                                        <?
+                                        if($reqJadwalPegawaiAtributIdLookUp == $reqJadwalPegawaiAtributId)
                                         {
-                                          $index_row= $arrayKey[$index_detil];
-                                          $reqJadwalPegawaiDetilId= $arrPegawaiNilai[$index_row]["JADWAL_PEGAWAI_DETIL_ID"];
-                                          $reqJadwalPegawaiDataAsesorId= $arrPegawaiNilai[$index_row]["ASESOR_ID"];
-                                          $reqJadwalPegawaiDataId= $arrPegawaiNilai[$index_row]["JADWAL_PEGAWAI_ID"];
-                                          $reqJadwalPegawaiJadwalAsesorId= $arrPegawaiNilai[$index_row]["JADWAL_ASESOR_ID"];
-                                          $reqJadwalPegawaiPenggalianId= $arrPegawaiNilai[$index_row]["PENGGALIAN_ID"];
-                                          $reqJadwalPegawaiFormPermenId= $arrPegawaiNilai[$index_row]["FORM_PERMEN_ID"];
-                                          $reqJadwalPegawaiAtributId= $arrPegawaiNilai[$index_row]["ATRIBUT_ID"];
-                                          $reqJadwalPegawaiIndikatorId= $arrPegawaiNilai[$index_row]["INDIKATOR_ID"];
-                                          $reqJadwalPegawaiLevelId= $arrPegawaiNilai[$index_row]["LEVEL_ID"];
-                                          $reqJadwalPegawaiIndikatorDataId= $arrPegawaiNilai[$index_row]["PEGAWAI_INDIKATOR_ID"];
-                                          $reqJadwalPegawaiLevelDataId= $arrPegawaiNilai[$index_row]["PEGAWAI_LEVEL_ID"];
-                                          $reqJadwalPegawaiAtributNama= $arrPegawaiNilai[$index_row]["ATRIBUT_NAMA"];
-                                          $reqJadwalPegawaiNamaIndikator= $arrPegawaiNilai[$index_row]["NAMA_INDIKATOR"];
-                                          $reqJadwalPegawaiJumlahLevel= $arrPegawaiNilai[$index_row]["JUMLAH_LEVEL"];
-                                          $reqDetilAtributDetilAtributId= $arrPegawaiNilai[$index_row]["JADWAL_PEGAWAI_DETIL_ATRIBUT_ID"];
-                                          $reqDetilAtributNilaiStandar= $arrPegawaiNilai[$index_row]["NILAI_STANDAR"];
-                                          $reqDetilAtributNilai= $arrPegawaiNilai[$index_row]["NILAI"];
-                                          $reqDetilAtributNilaiRekap[$reqInfoPenggalianId][]= $arrPegawaiNilai[$index_row]["NILAI"];
-                                          // echo "xxx".$reqDetilAtributNilai;
-                                          $reqDetilAtributGap= $arrPegawaiNilai[$index_row]["GAP"];
-                                          $reqDetilAtributCatatan= $arrPegawaiNilai[$index_row]["CATATAN"];
-                                          $reqDetilAtributDecimal= $arrPegawaiNilai[$index_row]["DECIMAL"];
-                                          // echo "xx".$reqDetilAtributCatatan;
-                                          if($reqDetilAtributNilai!=''){
-                                            $reqDetilAtributNilai2= explode(".",$reqDetilAtributNilai);
-                                            // print_r($reqDetilAtributNilai);
-
-                                            if ($reqDetilAtributNilai2[1] !=''){
-                                              $reqDetilAtributDecimalJadi= $reqDetilAtributNilai2[1];
-                                              $reqDetilAtributNilai= $reqDetilAtributNilai2[0];
-                                            }
-                                          }
-
-                                          $cssIndikator= "sebelumselected";
-                                          if($reqJadwalPegawaiDetilId == ""){}
-                                          else{
-                                            $cssIndikator= "selected";
-                                          }
-
-                                          // $cssIndikator= "sebelumselected";
-                                          if($reqJadwalPegawaiAtributIdLookUp == $reqJadwalPegawaiAtributId)
-                                          {
-                                            $indexTr++;
-                                          }
-                                          else
-                                          {
-                                            ?>
-                                            <tr>
-                                              <td style="vertical-align:top; width:51%">
-                                                <div style="margin-bottom: 10px;"><?=$reqJadwalPegawaiAtributNama?></div>
-                                                <div class="rbtn">
-                                                  <ul>
-                                                    <li style="width:100%; text-align:left" id="rbtn-<?=$index_detil?>-<?=$reqJadwalPegawaiIndikatorId?>-<?=$reqJadwalPegawaiLevelId?>-<?=$reqInfoPenggalianId?>-<?=$reqJadwalPegawaiDataAsesorId?>-<?=$tempAsesorId?>" class=" <?=$cssIndikator?>">
-                                                      <input type="hidden" id="reqJadwalPegawaiDetilId<?=$reqJadwalPegawaiIndikatorId?>" style="color:#000 !important" name="reqJadwalPegawaiDetilId[]" value="<?=$reqJadwalPegawaiDetilId?>" />
-                                                      <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiTesId[]" value="<?=$reqJadwalTesId?>" />
-                                                      <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiPenggalianId[]" value="<?=$reqInfoPenggalianId?>" />
-                                                      <input type="hidden" id="reqJadwalPegawaiLevelDataId<?=$reqJadwalPegawaiIndikatorId?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqJadwalPegawaiLevelDataId[]" value="<?=$reqJadwalPegawaiLevelDataId?>" />
-                                                      <input type="hidden" id="reqJadwalPegawaiIndikatorDataId<?=$reqJadwalPegawaiIndikatorId?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqJadwalPegawaiIndikatorDataId[]" value="<?=$reqJadwalPegawaiIndikatorDataId?>" />
-                                                      <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiDataId[]" value="<?=$reqJadwalPegawaiDataId?>" />
-                                                      <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiJadwalAsesorId[]" value="<?=$reqJadwalPegawaiJadwalAsesorId?>" />
-                                                      <input type="hidden" id="reqJadwalPegawaiAtributId<?=$reqJadwalPegawaiIndikatorId?>" style="color:#000 !important" name="reqJadwalPegawaiAtributId[]" value="<?=$reqJadwalPegawaiAtributId?>" />
-                                                      <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiPegawaiId[]" value="<?=$reqPegawaiId?>" />
-                                                      <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiAsesorId[]" value="<?=$tempAsesorId?>" />
-                                                      <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiFormPermenId[]" value="<?=$reqJadwalPegawaiFormPermenId?>" />
-                                                      <?=$reqJadwalPegawaiNamaIndikator?>.
-                                                    </li>
-                                            <?
-                                          }
-
-                                          if($reqJadwalPegawaiAtributIdLookUp == $reqJadwalPegawaiAtributId && $indexTr <= $reqJadwalPegawaiJumlahLevel)
-                                          {
-                                            ?>
-                                              <br/><li style="width:100%; text-align:left" id="rbtn-<?=$index_detil?>-<?=$reqJadwalPegawaiIndikatorId?>-<?=$reqJadwalPegawaiLevelId?>-<?=$reqInfoPenggalianId?>-<?=$reqJadwalPegawaiDataAsesorId?>-<?=$tempAsesorId?>" class=" <?=$cssIndikator?>">
+                                          $indexTr++;
+                                        ?>
+                                        <?
+                                        }
+                                        else
+                                        {
+                                        ?>
+                                      <tr>
+                                        <td style="vertical-align:top; width:51%">
+                                          <div style="margin-bottom: 10px;"><?=$reqJadwalPegawaiAtributNama?></div>
+                                          <div class="rbtn">
+                                            <ul>
+                                              <li style="width:100%; text-align:left" id="rbtn-<?=$index_detil?>-<?=$reqJadwalPegawaiIndikatorId?>-<?=$reqJadwalPegawaiLevelId?>-<?=$reqInfoPenggalianId?>-<?=$reqJadwalPegawaiDataAsesorId?>-<?=$tempAsesorId?>" class=" <?=$cssIndikator?>">
                                                 <input type="hidden" id="reqJadwalPegawaiDetilId<?=$reqJadwalPegawaiIndikatorId?>" style="color:#000 !important" name="reqJadwalPegawaiDetilId[]" value="<?=$reqJadwalPegawaiDetilId?>" />
                                                 <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiTesId[]" value="<?=$reqJadwalTesId?>" />
                                                 <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiPenggalianId[]" value="<?=$reqInfoPenggalianId?>" />
@@ -1939,233 +2043,259 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                                 <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiPegawaiId[]" value="<?=$reqPegawaiId?>" />
                                                 <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiAsesorId[]" value="<?=$tempAsesorId?>" />
                                                 <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiFormPermenId[]" value="<?=$reqJadwalPegawaiFormPermenId?>" />
-                                                <?=$reqJadwalPegawaiNamaIndikator?>
+                                                <?=$reqJadwalPegawaiNamaIndikator?>.
                                               </li>
-                                            <?
-                                          }
+                                        <?
+                                        }
+                                        ?>
 
-                                          if($indexTr == $reqJadwalPegawaiJumlahLevel)
-                                          {
-                                            // reset info
-                                            $indexTr= 1;
-                                            $reqJadwalPegawaiAtributIdLookUp= "";
+                                        <?
+                                        if($reqJadwalPegawaiAtributIdLookUp == $reqJadwalPegawaiAtributId && $indexTr <= $reqJadwalPegawaiJumlahLevel)
+                                        {
+                                        ?>
+                                            <br/><li style="width:100%; text-align:left" id="rbtn-<?=$index_detil?>-<?=$reqJadwalPegawaiIndikatorId?>-<?=$reqJadwalPegawaiLevelId?>-<?=$reqInfoPenggalianId?>-<?=$reqJadwalPegawaiDataAsesorId?>-<?=$tempAsesorId?>" class=" <?=$cssIndikator?>">
+                                              <input type="hidden" id="reqJadwalPegawaiDetilId<?=$reqJadwalPegawaiIndikatorId?>" style="color:#000 !important" name="reqJadwalPegawaiDetilId[]" value="<?=$reqJadwalPegawaiDetilId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiTesId[]" value="<?=$reqJadwalTesId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiPenggalianId[]" value="<?=$reqInfoPenggalianId?>" />
+                                              <input type="hidden" id="reqJadwalPegawaiLevelDataId<?=$reqJadwalPegawaiIndikatorId?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqJadwalPegawaiLevelDataId[]" value="<?=$reqJadwalPegawaiLevelDataId?>" />
+                                              <input type="hidden" id="reqJadwalPegawaiIndikatorDataId<?=$reqJadwalPegawaiIndikatorId?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqJadwalPegawaiIndikatorDataId[]" value="<?=$reqJadwalPegawaiIndikatorDataId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiDataId[]" value="<?=$reqJadwalPegawaiDataId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiJadwalAsesorId[]" value="<?=$reqJadwalPegawaiJadwalAsesorId?>" />
+                                              <input type="hidden" id="reqJadwalPegawaiAtributId<?=$reqJadwalPegawaiIndikatorId?>" style="color:#000 !important" name="reqJadwalPegawaiAtributId[]" value="<?=$reqJadwalPegawaiAtributId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiPegawaiId[]" value="<?=$reqPegawaiId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiAsesorId[]" value="<?=$tempAsesorId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqJadwalPegawaiFormPermenId[]" value="<?=$reqJadwalPegawaiFormPermenId?>" />
+                                              <?=$reqJadwalPegawaiNamaIndikator?>
+                                            </li>
+                                        <?
+                                        }
+                                        ?>
 
-                                            $arrChecked= "";
-                                            if($reqDetilAtributNilai == ""){}
-                                            else{
-                                              $arrChecked= radioPenilaian($reqDetilAtributNilai);
-                                            }
-                                              // echo $reqDetilAtributNilai;
-                                            // print_r($arrChecked);
-                                            ?>
-                                                  </ul>
-                                                </div>
+                                      <?
+                                      if($indexTr == $reqJadwalPegawaiJumlahLevel)
+                                      {
+                                        // reset info
+                                        $indexTr= 1;
+                                        $reqJadwalPegawaiAtributIdLookUp= "";
+
+                                        $arrChecked= "";
+                                        if($reqDetilAtributNilai == ""){}
+                                        else{
+                                          $arrChecked= radioPenilaian($reqDetilAtributNilai);
+                                        }
+                                          // echo $reqDetilAtributNilai;
+                                      // print_r($arrChecked);
+                                      ?>
+                                            </ul>
+                                          </div>
+                                        </td>
+
+                                        <!-- set data atribut -->
+                                        <td style="vertical-align:top; background-color:transparent; color:#000 !important">
+                                           <table style="width:100%; border:none">
+                                            <tr>
+                                              <td style="text-align:center; <?if ($arrChecked[0] != ""){?>background-color: orange !important;<?}?>">0</td>
+                                              <td style="text-align:center; <?if ($arrChecked[1] != ""){?>background-color: orange !important;<?}?>">1</td>
+                                              <td style="text-align:center; <?if ($arrChecked[2] != ""){?>background-color: orange !important;<?}?>">2</td>
+                                              <td style="text-align:center; <?if ($arrChecked[3] != ""){?>background-color: orange !important;<?}?>">3</td>
+                                              <td style="text-align:center; <?if ($arrChecked[4] != ""){?>background-color: orange !important;<?}?>">4</td>
+                                              <td style="text-align:center; <?if ($arrChecked[5] != ""){?>background-color: orange !important;<?}?>">5</td>
+                                              <td style="text-align:center" width="20%">Decimal</td>
+                                            </tr>
+                                            <tr>
+                                              <?
+                                              $kondisilihatatribut="1";
+                                              $disabledatribut= "disabled";
+                                              // button muncul apabila asesor yg berwenang
+                                              if($reqJadwalPegawaiDataAsesorId == $tempAsesorId)
+                                              {
+                                                $disabledatribut= "";
+                                                $kondisilihatatribut="";
+                                              }
+                                            
+                                              ?>
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributDetilAtributId[]" value="<?=$reqDetilAtributDetilAtributId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributJadwalTesId[]" value="<?=$reqJadwalTesId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributPenggalianId[]" value="<?=$reqInfoPenggalianId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributJadwalPegawaiDataId[]" value="<?=$reqJadwalPegawaiDataId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributJadwalAsesorId[]" value="<?=$reqJadwalPegawaiJadwalAsesorId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributAtributId[]" value="<?=$reqJadwalPegawaiAtributId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributPegawaiId[]" value="<?=$reqPegawaiId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributAsesorId[]" value="<?=$tempAsesorId?>" />
+                                              <input type="hidden" style="color:#000 !important" name="reqDetilAtributFormPermenId[]" value="<?=$reqJadwalPegawaiFormPermenId?>" />
+
+                                              <input type="hidden" id="reqDetilAtributNilaiStandar<?=$index_detil?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqDetilAtributNilaiStandar[]" value="<?=$reqDetilAtributNilaiStandar?>" />
+                                              <input type="hidden" id="reqDetilAtributNilai<?=$index_detil?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqDetilAtributNilai[]" <?if ($reqDetilAtributNilai==''){?> value="0" <?}else{?>value="<?=$reqDetilAtributNilai?>"<?}?> />
+                                              <input type="hidden" id="reqDetilAtributGap<?=$index_detil?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqDetilAtributGap[]"<?if ($reqDetilAtributGap==''){?> value="0" <?}else{?>value="<?=$reqDetilAtributGap?>"<?}?> />
+
+                                              <td align="center">
+                                                <?
+                                                if($kondisilihatatribut == "1" && $arrChecked[0] !== "")
+                                                {
+                                                ?>
+                                                <label><?=valuechecked($arrChecked[0])?></label>
+                                                <?
+                                                }
+                                                else
+                                                {
+                                                ?>
+                                                <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[0]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-0" value="0" data-options="validType:'requireRadio[\'#ff-<?=$reqInfoPenggalianId?> input[name=reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>]\', \'Pilih nilai\']'"/>
+                                                <?
+                                                }
+                                                ?>
                                               </td>
-
-                                            <!-- set data atribut -->
-                                              <td style="vertical-align:top; background-color:transparent; color:#000 !important">
-                                                <table style="width:100%; border:none">
-                                                  <tr>
-                                                    <td style="text-align:center; <?if ($arrChecked[0] != ""){?>background-color: orange !important;<?}?>">0</td>
-                                                    <td style="text-align:center; <?if ($arrChecked[1] != ""){?>background-color: orange !important;<?}?>">1</td>
-                                                    <td style="text-align:center; <?if ($arrChecked[2] != ""){?>background-color: orange !important;<?}?>">2</td>
-                                                    <td style="text-align:center; <?if ($arrChecked[3] != ""){?>background-color: orange !important;<?}?>">3</td>
-                                                    <td style="text-align:center; <?if ($arrChecked[4] != ""){?>background-color: orange !important;<?}?>">4</td>
-                                                    <td style="text-align:center; <?if ($arrChecked[5] != ""){?>background-color: orange !important;<?}?>">5</td>
-                                                    <td style="text-align:center" width="20%">Decimal</td>
-                                                  </tr>
-                                                  <tr>
-                                                    <?
-                                                    $kondisilihatatribut="1";
-                                                    $disabledatribut= "disabled";
-                                                    // button muncul apabila asesor yg berwenang
-                                                    if($reqJadwalPegawaiDataAsesorId == $tempAsesorId)
-                                                    {
-                                                      $disabledatribut= "";
-                                                      $kondisilihatatribut="";
-                                                    }
-                                                  
-                                                    ?>
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributDetilAtributId[]" value="<?=$reqDetilAtributDetilAtributId?>" />
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributJadwalTesId[]" value="<?=$reqJadwalTesId?>" />
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributPenggalianId[]" value="<?=$reqInfoPenggalianId?>" />
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributJadwalPegawaiDataId[]" value="<?=$reqJadwalPegawaiDataId?>" />
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributJadwalAsesorId[]" value="<?=$reqJadwalPegawaiJadwalAsesorId?>" />
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributAtributId[]" value="<?=$reqJadwalPegawaiAtributId?>" />
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributPegawaiId[]" value="<?=$reqPegawaiId?>" />
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributAsesorId[]" value="<?=$tempAsesorId?>" />
-                                                    <input type="hidden" style="color:#000 !important" name="reqDetilAtributFormPermenId[]" value="<?=$reqJadwalPegawaiFormPermenId?>" />
-
-                                                    <input type="hidden" id="reqDetilAtributNilaiStandar<?=$index_detil?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqDetilAtributNilaiStandar[]" value="<?=$reqDetilAtributNilaiStandar?>" />
-                                                    <input type="hidden" id="reqDetilAtributNilai<?=$index_detil?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqDetilAtributNilai[]" <?if ($reqDetilAtributNilai==''){?> value="0" <?}else{?>value="<?=$reqDetilAtributNilai?>"<?}?> />
-                                                    <input type="hidden" id="reqDetilAtributGap<?=$index_detil?>-<?=$reqInfoPenggalianId?>" style="color:#000 !important" name="reqDetilAtributGap[]"<?if ($reqDetilAtributGap==''){?> value="0" <?}else{?>value="<?=$reqDetilAtributGap?>"<?}?> />
-
-                                                    <td align="center">
-                                                      <?
-                                                      if($kondisilihatatribut == "1" && $arrChecked[0] !== "")
-                                                      {
-                                                      ?>
-                                                      <label><?=valuechecked($arrChecked[0])?></label>
-                                                      <?
-                                                      }
-                                                      else
-                                                      {
-                                                      ?>
-                                                      <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[0]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-0" value="0" data-options="validType:'requireRadio[\'#ff-<?=$reqInfoPenggalianId?> input[name=reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>]\', \'Pilih nilai\']'"/>
-                                                      <?
-                                                      }
-                                                      ?>
-                                                    </td>
-                                                     <td align="center">
-                                                      <?
-                                                      if($kondisilihatatribut == "1" && $arrChecked[1] !== "")
-                                                      {
-                                                      ?>
-                                                      <label><?=valuechecked($arrChecked[1])?></label>
-                                                      <?
-                                                      }
-                                                      else
-                                                      {
-                                                      ?>
-                                                      <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[1]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-1" value="1" data-options="validType:'requireRadio[\'#ff-<?=$reqInfoPenggalianId?> input[name=reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>]\', \'Pilih nilai\']'"/>
-                                                      <?
-                                                      }
-                                                      ?>
-                                                    </td>
-                                                    <td align="center">
-                                                      <?
-                                                      if($kondisilihatatribut == "1" && $arrChecked[2] !== "")
-                                                      {
-                                                      ?>
-                                                      <label><?=valuechecked($arrChecked[2])?></label>
-                                                      <?
-                                                      }
-                                                      else
-                                                      {
-                                                      ?>
-                                                      <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[2]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-2" value="2" />
-                                                      <?
-                                                      }
-                                                      ?>
-                                                    </td>
-                                                    <td align="center">
-                                                      <?
-                                                      if($kondisilihatatribut == "1" && $arrChecked[3] !== "")
-                                                      {
-                                                      ?>
-                                                      <label><?=valuechecked($arrChecked[3])?></label>
-                                                      <?
-                                                      }
-                                                      else
-                                                      {
-                                                      ?>
-                                                      <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[3]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-3" value="3" />
-                                                      <?
-                                                      }
-                                                      ?>
-                                                    </td>
-                                                    <td align="center">
-                                                      <?
-                                                      if($kondisilihatatribut == "1" && $arrChecked[4] !== "")
-                                                      {
-                                                      ?>
-                                                      <label><?=valuechecked($arrChecked[4])?></label>
-                                                      <?
-                                                      }
-                                                      else
-                                                      {
-                                                      ?>
-                                                      <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[4]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-4" value="4" />
-                                                      <?
-                                                      }
-                                                      ?>
-                                                    </td>
-                                                    <td align="center">
-                                                      <?
-                                                      if($kondisilihatatribut == "1" && $arrChecked[5] !== "")
-                                                      {
-                                                      ?>
-                                                      <label><?=valuechecked($arrChecked[5])?></label>
-                                                      <?
-                                                      }
-                                                      else
-                                                      {
-                                                      ?>
-                                                      <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[5]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-5" value="5" />
-                                                      <?
-                                                      }
-                                                      ?>
-                                                    </td>
-                                                    <td>
-                                                      <?
-                                                      if($disabledatribut != "")
-                                                      {?>
-                                                        <?=$reqDetilAtributDecimalJadi?>
-                                                      <?
-                                                      }else{?>
-                                                      <input value="<?=$reqDetilAtributDecimalJadi?>" type="number" name="decimalValue[]" style="color:black;" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..?)\../g, '$1');">
-                                                      <?}?>
-                                                    </td>
-                                                  </tr>
-                                                  <tr>
-                                                    <td colspan="7" style="background-color:white !important;color: black;">
-                                                      <?
-                                                      if($disabledatribut == "")
-                                                      {
-                                                      ?>
-                                                     <center>
-                                                      <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" />
-                                                     <br>
-                                                   </center>
-                                                      <textarea class='froala' name="reqDetilAtributCatatan[]" class="easyui-validatebox froala" data-options="validType:'justText'"><?=$reqDetilAtributCatatan?></textarea>
-                                                      <?
-                                                      }
-                                                      else
-                                                      {
-                                                      ?>
-                                                      <input type="hidden" name="reqDetilAtributCatatan[]" style="color:black" value="<?=$reqDetilAtributCatatan?>" />
-                                                      <?=$reqDetilAtributCatatan?>
-                                                      <?
-                                                      }
-                                                      ?>
-                                                    </td>
-                                                    <?
-                                                    // biar ga eror
-                                                    echo " ";
-                                                    ?>
-                                                  </tr>
-                                                </table>
+                                               <td align="center">
+                                                <?
+                                                if($kondisilihatatribut == "1" && $arrChecked[1] !== "")
+                                                {
+                                                ?>
+                                                <label><?=valuechecked($arrChecked[1])?></label>
+                                                <?
+                                                }
+                                                else
+                                                {
+                                                ?>
+                                                <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[1]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-1" value="1" data-options="validType:'requireRadio[\'#ff-<?=$reqInfoPenggalianId?> input[name=reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>]\', \'Pilih nilai\']'"/>
+                                                <?
+                                                }
+                                                ?>
+                                              </td>
+                                              <td align="center">
+                                                <?
+                                                if($kondisilihatatribut == "1" && $arrChecked[2] !== "")
+                                                {
+                                                ?>
+                                                <label><?=valuechecked($arrChecked[2])?></label>
+                                                <?
+                                                }
+                                                else
+                                                {
+                                                ?>
+                                                <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[2]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-2" value="2" />
+                                                <?
+                                                }
+                                                ?>
+                                              </td>
+                                              <td align="center">
+                                                <?
+                                                if($kondisilihatatribut == "1" && $arrChecked[3] !== "")
+                                                {
+                                                ?>
+                                                <label><?=valuechecked($arrChecked[3])?></label>
+                                                <?
+                                                }
+                                                else
+                                                {
+                                                ?>
+                                                <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[3]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-3" value="3" />
+                                                <?
+                                                }
+                                                ?>
+                                              </td>
+                                              <td align="center">
+                                                <?
+                                                if($kondisilihatatribut == "1" && $arrChecked[4] !== "")
+                                                {
+                                                ?>
+                                                <label><?=valuechecked($arrChecked[4])?></label>
+                                                <?
+                                                }
+                                                else
+                                                {
+                                                ?>
+                                                <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[4]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-4" value="4" />
+                                                <?
+                                                }
+                                                ?>
+                                              </td>
+                                              <td align="center">
+                                                <?
+                                                if($kondisilihatatribut == "1" && $arrChecked[5] !== "")
+                                                {
+                                                ?>
+                                                <label><?=valuechecked($arrChecked[5])?></label>
+                                                <?
+                                                }
+                                                else
+                                                {
+                                                ?>
+                                                <input type="radio" <?=$disabledatribut?> class="easyui-validatebox" <?=$arrChecked[5]?> name="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>" id="reqRadio<?=$index_detil?>-<?=$reqInfoPenggalianId?>-5" value="5" />
+                                                <?
+                                                }
+                                                ?>
+                                              </td>
+                                              <td>
+                                                <?
+                                                if($disabledatribut != "")
+                                                {?>
+                                                  <?=$reqDetilAtributDecimalJadi?>
+                                                <?
+                                                }else{?>
+                                                <input value="<?=$reqDetilAtributDecimalJadi?>" type="number" name="decimalValue[]" style="color:black;" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..?)\../g, '$1');">
+                                                <?}?>
                                               </td>
                                             </tr>
-                                            <?
-                                          }
-                                          $reqJadwalPegawaiAtributIdLookUp= $reqJadwalPegawaiAtributId;
-                                        }
-                                      }
-                  
-                                      // button muncul apabila asesor yg berwenang
-                                      if($reqJadwalPegawaiDataAsesorId == $tempAsesorId)
-                                      {
-                                        ?>
-                                        <tr>
-                                          <td colspan="2" align="center">
-                                           <input type="hidden" name="reqMode" value="insert">
-                                           <input name="submit1" type="submit" value="Simpan" />
-                                         </td>
-                                        </tr>
-                                        <?
+                                            <tr>
+                                              <td colspan="7" style="background-color:white !important;color: black;">
+                                                <?
+                                                if($disabledatribut == "")
+                                                {
+                                                ?>
+                                               <!-- <button onclick="resetpenilaian()">Reset Penilaian</button> -->
+                                               <center>
+                                               <a href="javascript: void(0)" style="background-color: blue;color: white; width:200px" onclick="resetpenilaiancbi(<?=$index_detil?>,<?=$reqInfoPenggalianId?>)" title="Cetak">Reset Penilaian</a></center>
+                                                <textarea name="reqDetilAtributCatatan[]" class="easyui-validatebox" data-options="validType:'justText'"><?=$reqDetilAtributCatatan?></textarea>
+                                                <?
+                                                }
+                                                else
+                                                {
+                                                ?>
+                                                <input type="hidden" name="reqDetilAtributCatatan[]" style="color:black" value="<?=$reqDetilAtributCatatan?>" />
+                                                <?=$reqDetilAtributCatatan?>
+                                                <?
+                                                }
+                                                ?>
+                                              </td>
+                                            </tr>
+                                          </table>
+                                        </td>
+
+                                      </tr>
+
+                                      <?
                                       }
                                       ?>
-                                 </tbody>
-                               </table>
-                             </form>
-                           </div>
-                          </div>
+                                  <?
+                                      $reqJadwalPegawaiAtributIdLookUp= $reqJadwalPegawaiAtributId;
+                                    }
+                                  }
+                                  ?>
+
+                                  <?
+                                  // button muncul apabila asesor yg berwenang
+                                  if($reqJadwalPegawaiDataAsesorId == $tempAsesorId)
+                                  {
+                                  ?>
+                                  <tr>
+                                    <td colspan="2" align="center">
+                                     <input type="hidden" name="reqMode" value="insert">
+                                     <input name="submit1" type="submit" value="Simpan" />
+                                   </td>
+                                 </tr>
+                                 <?
+                                 }
+                                 ?>
+                               </tbody>
+                             </table>
+                           </form>
+                         </div>
+                        </div>
                         </div>
                         <?
                         }
                         // set form kalau bukan potensi
                         ?>
+
                       </div>
                       <?
                       }
@@ -2176,16 +2306,21 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                       {
                         $tempsimpankompetensi= "";
                       ?>
-                      <div id="tabs-nilaiakhir" role="tabpanel" class="area-penilaian-catatan">
+                      <div id="tabs-nilaiakhir" role="tabpanel" style="height: 600px;overflow: scroll; background-color: rgb(6, 58, 105) !important;">
                         <!-- start of -->
                         <div class="row">
                           <div class="col-md-12">
+
                             <div class="area-table-assesor">
-                              <!-- <br> -->
+                              <br>
                               <div class="judul-halaman">Penilaian Kompetensi</div>
-                              <form id="ff-" method="post" novalidate style="height: 300px;overflow: scroll;">
+                              <form id="ff-" method="post" novalidate>
+
                                 <table style="margin-bottom:60px;" class="profil">
                                   <thead>
+                                    <!-- <tr>
+                                      <th width="100%" colspan="10">Potensi Kecerdasan</th>
+                                    </tr> -->
                                   </thead>
                                   <tbody>
                                     <?
@@ -2213,15 +2348,19 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         $decimalValueNilaiAkhir= $pecahdecimal[1];
                                         $reqPenilaianKompetensiNilai= $pecahdecimal[0];
                                         $reqPenilaianKompetensiGap= $arrPenilaian[$index_row]["GAP"];
-                                        if($reqPenilaianKompetensiGap == "" || $reqPenilaianKompetensiGap == "0"){
+                                          // $reqPenilaianKompetensiGap= 0;
+
+
+                                        if($reqPenilaianKompetensiGap == "" || $reqPenilaianKompetensiGap == "0")
                                           $reqPenilaianKompetensiGap= 0;
-                                        }
-                                        else{
+                                        else
                                           $reqPenilaianKompetensiGap= $reqPenilaianKompetensiNilaiAsli-$reqPenilaianKompetensiNilaiStandar;
-                                        }
 
                                         $reqPenilaianKompetensiCatatan= $arrPenilaian[$index_row]["BUKTI"];
                                         $reqPenilaianKompetensiBukti= $arrPenilaian[$index_row]["CATATAN"];
+
+                                        
+                                        // $reqPenilaianKompetensiCatatan= str_replace("<br>", "\n", $reqPenilaianKompetensiCatatan);
 
                                         // kondisi khusus karena salah data
                                         if($reqPenilaianKompetensiAtributId == "02")
@@ -2247,15 +2386,16 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         }
 
                                         $reqPenilaianKompetensiGroup= $reqPenilaianKompetensiAtributGroup;
-                                        if($index_atribut_parent % 2 == 0){
-                                          $css= "terang";
-                                        }
-                                        else{
-                                          $css= "gelap";
-                                        }
 
+                                        if($index_atribut_parent % 2 == 0)
+                                          $css= "terang";
+                                        else
+                                          $css= "gelap";
+                                    ?>
+                                        <?
                                         if($reqPenilaianKompetensiAtributIdParent == "0")
                                         {
+                                          // $tempcolspan= 9 + ($jumlahNilaiAkhir - 1);
                                           $tempcolspan= 8 + ($jumlah_pegawai_asesor);
                                           $tempcolspandetil= $tempcolspan+1;
                                         ?>
@@ -2277,9 +2417,20 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           <tr class="">
                                             <td style="text-align:center; width: 1%" rowspan="2">No</td>
                                             <td style="text-align:center;" rowspan="2">ATRIBUT & INDIKATOR</td>
+                                            <?
+                                            // for($index_loop=0; $index_loop < $jumlah_pegawai_asesor; $index_loop++)
+                                            // {
+                                            //   $reqInfoPenggalianKode= $arrPegawaiAsesor[$index_loop]["PENGGALIAN_KODE"];
+                                            ?>
+                                            <!-- <td style="text-align:center; width: 5%" rowspan="2">Nilai <?=$reqInfoPenggalianKode?></td> -->
+                                            <?
+                                            // }
+                                            ?>
                                             <td style="text-align:center; width: 5%" rowspan="2">Standar Rating</td>
                                             <td style="text-align:center" colspan="7">Hasil Individu</td>
                                             <td style="text-align:center; width: 5%" rowspan="2">Gap</td>
+                                            <!-- <td style="text-align:center" rowspan="2">Deskripsi</td>
+                                            <td style="text-align:center" rowspan="2">Saran Pengembang</td> -->
                                           </tr>
                                           <tr>
                                             <td style="text-align:center; width: 5%; <?if ($arrChecked[0] !== ""){?>background-color: orange !important;<?}?>">0</td>
@@ -2304,9 +2455,15 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             for($index_loop=0; $index_loop < $jumlah_pegawai_asesor; $index_loop++)
                                             {
                                               $reqInfoPenggalianKode= $arrPegawaiAsesor[$index_loop]["PENGGALIAN_KODE"];
+
                                               $tempCariDataDetilNilai= $arrPegawaiAsesor[$index_loop]["PENGGALIAN_ID"]."-".$reqPenilaianKompetensiAtributId;
+
                                               $arrayDetilKey= "";
+                                              // $arrayDetilKey= in_array_column($tempCariDataDetilNilai, "ATRIBUT_ID", $arrPegawaiPenilaian);
                                               $arrayDetilKey= in_array_column($tempCariDataDetilNilai, "PENGGALIAN_ATRIBUT", $arrPegawaiPenilaian);
+                                              // echo "sasasas".$tempCariDataDetilNilai; exit;
+                                              // print_r($arrayDetilKey);
+                                              // exit;
                                               $tempInfoDataPenggalianAtributNilai= "-";
                                               if($arrayDetilKey == ''){}
                                               else
@@ -2315,24 +2472,40 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                                 $tempInfoDataPenggalianAtributNilai= $arrPegawaiPenilaian[$index_detil_row]["NILAI"];
                                               }
 
+                                              //============================
+                                              // $tempCariDataDetilNilai= $reqPenilaianKompetensiAtributId."-".$tempAsesorId."-".$arrPegawaiAsesor[$index_loop]["PENGGALIAN_ID"];
                                               $tempCariDataDetilNilai= $reqPenilaianKompetensiAtributId."-".$tempAsesorId;
                                               $arrayDetilKey= "";
-                                              $arrayDetilKey= in_array_column($tempCariDataDetilNilai, "PENGGALIAN_ASESOR_ID", $arrAsesorPenilaianKompetensi); ?>
-                                              <span style="display:none;">asdasdasd</span><? 
+                                              $arrayDetilKey= in_array_column($tempCariDataDetilNilai, "PENGGALIAN_ASESOR_ID", $arrAsesorPenilaianKompetensi);
+                                              // $arrayDetilKey= in_array_column($tempCariDataDetilNilai, "PENGGALIAN_ASESOR_ID", $arrAsesorPenilaianKompetensi);
+                                             
+                                              // print_r($arrAsesorPenilaianKompetensi);
+                                              ?><span style="display:none;">asdasdasd</span><? 
+                                            // echo "xxxx".$tempCariDataDetilNilai."yyy"; 
+
+                                              // print_r($arrayDetilKey); exit;
                                               if($arrayDetilKey == ''){
+
+
                                               }
                                               else
                                               {
                                                 $index_detil_row= $arrayDetilKey[0];
                                                 $reqInfoDataPenggalianAsesorId= $arrAsesorPenilaianKompetensi[$index_detil_row]["ASESOR_ID"];
+ // echo "xxxx".$reqInfoDataPenggalianAsesorDataId; exit;
+                                                // echo $reqInfoDataPenggalianAsesorId."<br/>";
                                                 // kalau data asesor kosong maka set untuk validasi entri
                                                 if($reqInfoDataPenggalianAsesorDataId == "")
                                                 {                                                  
                                                   $reqInfoDataPenggalianAsesorDataId= $reqInfoDataPenggalianAsesorId;
                                                 }
                                               }
+                                            ?>
+                                              <!-- <td style="text-align:center;"><?=$tempInfoDataPenggalianAtributNilai?></td> -->
+                                            <?
                                             }
                                             // exit();
+                                            // echo "xxxxxxxxx".$reqInfoDataPenggalianAsesorDataId."-".$tempAsesorId; exit;
                                            
                                             $bolehsimpan="";
                                             $kondisilihatatribut="1";
@@ -2463,10 +2636,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <td></td>
                                             <td colspan="9">
                                               <?if($disabledatribut==''){?>
-                                              <center>
-                                                <!-- <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" /> -->
-                                                <br>
-                                              </center>
+                                              <center><a href="javascript: void(0)" style="background-color:white ;color: blue; width:200px" onclick="resetpenilaianna(<?=$reqPenilaianKompetensiAspekId?>,<?=$index_detil?>)" title="Cetak">Reset Penilaian</a></center>
                                               <?}?>
                                             </td>
                                           </tr>
@@ -2482,23 +2652,22 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               {
                                               ?>
                                               <fieldset>
-                                                <legend>Deskripsi</legend>
-                                                <textarea class="froala" name="reqPenilaianKompetensiBukti[]" id="reqPenilaianKompetensiBukti<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>" style="width:95%;" rows="1" ><?=$reqPenilaianKompetensiBukti?></textarea>
+                                                <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; color: white !important; ">Deskripsi</legend>
+                                                <textarea name="reqPenilaianKompetensiBukti[]" id="reqPenilaianKompetensiBukti<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>" style="width:95%;" rows="1" ><?=$reqPenilaianKompetensiBukti?></textarea>
                                               </fieldset>
                                               <span style="<?=$munculsarancss?>" id="reqPenilaianKompetensiSaran<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>">
                                                 <fieldset>
-                                                  <legend>Saran Pengembangan</legend>
-                                                  <textarea class='froala' name="reqPenilaianKompetensiCatatan[]" id="reqPenilaianKompetensiCatatan<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>" style="width:95%" rows="1" ><?=$reqPenilaianKompetensiCatatan?></textarea>
+                                                  <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; color: white !important;">Saran Pengembangan</legend>
+                                                  <textarea name="reqPenilaianKompetensiCatatan[]" id="reqPenilaianKompetensiCatatan<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>" style="width:95%" rows="1" ><?=$reqPenilaianKompetensiCatatan?></textarea>
                                                 </fieldset>
                                               </span>
-                                                <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" />
                                               <?
                                               }
                                               else
                                               {
                                               ?>
                                               <fieldset style="border: 1px solid; padding: 10px !important">
-                                                <legend>Deskripsi</legend>
+                                                <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; color: white !important; ">Deskripsi</legend>
                                                 <input type="hidden" name="reqPenilaianKompetensiBukti[]" value="<?=$reqPenilaianKompetensiBukti?>" />
                                                 <?=$reqPenilaianKompetensiBukti?>
                                               </fieldset>
@@ -2516,9 +2685,15 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           </tr>
                                         <?
                                         }
+                                        ?>
+                                      <?
                                       }
+                                      ?>
+                                    <?
                                     }
+                                    ?>
 
+                                    <?
                                     $tempsarancolspan= $tempcolspan + 1;
                                     ?>
                                     <tr>
@@ -2549,7 +2724,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           $reqinfocatatan= $arrNilaiAkhirSaranPengembangan[$index_catatan]["KETERANGAN"];
                                         ?>
                                           <p>
-                                            <textarea class="froala" rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqNilaiAkhirSaranPengembangan[]"><?=$reqinfocatatan?></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqNilaiAkhirSaranPengembangan[]"><?=$reqinfocatatan?></textarea>
                                             <?
                                             if($index_catatan > 0)
                                             {
@@ -2565,7 +2740,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         {
                                         ?>
                                           <p>
-                                            <textarea class='froala' rows="1" class="froala" style="margin: 4px auto; width:100%; color:#06345f;" name="reqNilaiAkhirSaranPengembangan[]"></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqNilaiAkhirSaranPengembangan[]"></textarea>
                                           </p>
                                         <?
                                         }
@@ -2622,7 +2797,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           $reqinfocatatan= $arrUraianKompetensi[$index_catatan]["KETERANGAN"];
                                         ?>
                                           <p>
-                                            <textarea class="froala" rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianKompetensi[]"><?=$reqinfocatatan?></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianKompetensi[]"><?=$reqinfocatatan?></textarea>
                                             <?
                                             if($index_catatan > 0)
                                             {
@@ -2638,7 +2813,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         {
                                         ?>
                                           <p>
-                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianKompetensi[]" class="froala"></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianKompetensi[]"></textarea>
                                           </p>
                                         <?
                                         }
@@ -2669,6 +2844,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                     </tr>
 
                                     <?
+                                    // $tempsimpankompetensi= "1";
                                     if($tempsimpankompetensi == "1")
                                     {
                                     ?>
@@ -2685,18 +2861,24 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                    ?>
                                   </tbody>
                                 </table>
+
                               </form>
                             </div>
+
                           </div>
                         </div>
+                        <!-- end of -->
                       </div>
 
-                      <div id="tabs-lain" role="tabpanel" class="area-penilaian-catatan">
+                      <div id="tabs-lain" role="tabpanel" style="height: 600px;overflow: scroll; background-color: rgb(6, 58, 105) !important;">
                         <div class="row">
                           <div class="col-md-12">
+
                             <div class="area-table-assesor">
+                              <br>
                               <div class="judul-halaman">Kesimpulan</div>
-                              <form id="ff-simpan" method="post" novalidate style="height: 300px;overflow: scroll;">
+                              <form id="ff-simpan" method="post" novalidate>
+
                                 <table style="margin-bottom:60px;" class="profil">
                                   <thead>
 
@@ -2705,6 +2887,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                 
                                     <tr>
                                       <td colspan="5"  style="background-color:white !important; color:black;">
+
                                         <?
                                         // untuk reset bisa entri
                                         $disabledatribut= "";
@@ -2717,13 +2900,15 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Kekuatan
                                               <a style="cursor:pointer; display: inline !important" title="Tambah" onClick="createRow('<?=$moderekomendasi?>')"><img src="../WEB/images/icn_add.gif" /></a>
                                             </legend>
+                                            <!--  <textarea name="reqPenilaianPotensiStrength" id="reqPenilaianPotensiStrength" style="width:95%" rows="1" ><?=$reqPenilaianPotensiStrength?></textarea> -->
                                             <?
                                             for($index_catatan=0; $index_catatan<$jumlahPotensiStrength; $index_catatan++)
                                             {
                                               $reqinfocatatan= $arrPotensiStrength[$index_catatan]["KETERANGAN"];
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiStrength[]" value="<?=$reqinfocatatan?>" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiStrength[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiStrength[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2738,8 +2923,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             if($index_catatan == 0)
                                             {
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiStrength[]" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiStrength[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiStrength[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2754,6 +2940,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         ?>
                                         <fieldset style="border: 1px solid; padding: 10px !important">
                                           <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Kekuatan</legend>
+                                          <!-- <input type="hidden" name="reqPenilaianPotensiStrength" value="<?=$reqPenilaianPotensiStrength?>" /><?=$reqPenilaianPotensiStrength?> -->
                                           <?
                                           for($index_catatan=0; $index_catatan<$jumlahPotensiStrength; $index_catatan++)
                                           {
@@ -2766,7 +2953,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         </fieldset>
                                         <?
                                         }
+                                        ?>
 
+                                        <?
                                         if($disabledatribut == "")
                                         {
                                           $moderekomendasi= "PenilaianPotensiWeaknes";
@@ -2776,13 +2965,15 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Kelemahan
                                               <a style="cursor:pointer; display: inline !important" title="Tambah" onClick="createRow('<?=$moderekomendasi?>')"><img src="../WEB/images/icn_add.gif" /></a>
                                             </legend>
+                                            <!--  <textarea name="reqPenilaianPotensiWeaknes" id="reqPenilaianPotensiWeaknes" style="width:95%" rows="1" ><?=$reqPenilaianPotensiWeaknes?></textarea> -->
                                             <?
                                             for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiWeaknes; $index_catatan++)
                                             {
                                               $reqinfocatatan= $arrPenilaianPotensiWeaknes[$index_catatan]["KETERANGAN"];
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiWeaknes[]" value="<?=$reqinfocatatan?>" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiWeaknes[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiWeaknes[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2797,8 +2988,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             if($index_catatan == 0)
                                             {
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiWeaknes[]" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiWeaknes[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiWeaknes[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2813,6 +3005,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         ?>
                                         <fieldset style="border: 1px solid; padding: 10px !important">
                                           <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Kelemahan</legend>
+                                          <!-- <input type="hidden" name="reqPenilaianPotensiWeaknes" value="<?=$reqPenilaianPotensiWeaknes?>" /><?=$reqPenilaianPotensiWeaknes?> -->
                                           <?
                                           for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiWeaknes; $index_catatan++)
                                           {
@@ -2837,13 +3030,15 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Rekomendasi
                                               <a style="cursor:pointer; display: inline !important" title="Tambah" onClick="createRow('<?=$moderekomendasi?>')"><img src="../WEB/images/icn_add.gif" /></a>
                                             </legend>
+                                            <!--  <textarea name="reqPenilaianPotensiKesimpulan" id="reqPenilaianPotensiKesimpulan" style="width:95%" rows="1" ><?=$reqPenilaianPotensiKesimpulan?></textarea> -->
                                             <?
                                             for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiKesimpulan; $index_catatan++)
                                             {
                                               $reqinfocatatan= $arrPenilaianPotensiKesimpulan[$index_catatan]["KETERANGAN"];
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiKesimpulan[]" value="<?=$reqinfocatatan?>" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiKesimpulan[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiKesimpulan[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2858,8 +3053,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             if($index_catatan == 0)
                                             {
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiKesimpulan[]" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiKesimpulan[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiKesimpulan[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2874,6 +3070,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         ?>
                                         <fieldset style="border: 1px solid; padding: 10px !important">
                                           <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Rekomendasi</legend>
+                                          <!-- <input type="hidden" name="reqPenilaianPotensiKesimpulan" value="<?=$reqPenilaianPotensiKesimpulan?>" /><?=$reqPenilaianPotensiKesimpulan?> -->
                                           <?
                                           for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiKesimpulan; $index_catatan++)
                                           {
@@ -2886,7 +3083,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         </fieldset>
                                         <?
                                         }
+                                        ?>
 
+                                        <?
                                         if($disabledatribut == "")
                                         {
                                           $moderekomendasi= "PenilaianPotensiSaranPengembangan";
@@ -2896,13 +3095,15 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Saran Pengembangan
                                               <a style="cursor:pointer; display: inline !important" title="Tambah" onClick="createRow('<?=$moderekomendasi?>')"><img src="../WEB/images/icn_add.gif" /></a>
                                             </legend>
+                                            <!--  <textarea name="reqPenilaianPotensiSaranPengembangan" id="reqPenilaianPotensiSaranPengembangan" style="width:95%" rows="1" ><?=$reqPenilaianPotensiSaranPengembangan?></textarea> -->
                                             <?
                                             for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiSaranPengembangan; $index_catatan++)
                                             {
                                               $reqinfocatatan= $arrPenilaianPotensiSaranPengembangan[$index_catatan]["KETERANGAN"];
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiSaranPengembangan[]" value="<?=$reqinfocatatan?>" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                               <p>
-                                                <textarea class='froala'rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPengembangan[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPengembangan[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2917,8 +3118,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             if($index_catatan == 0)
                                             {
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiSaranPengembangan[]" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                                <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPengembangan[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPengembangan[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2933,6 +3135,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         ?>
                                         <fieldset style="border: 1px solid; padding: 10px !important">
                                           <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Saran Pengembangan</legend>
+                                          <!-- <input type="hidden" name="reqPenilaianPotensiSaranPengembangan" value="<?=$reqPenilaianPotensiSaranPengembangan?>" /><?=$reqPenilaianPotensiSaranPengembangan?> -->
                                           <?
                                           for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiSaranPengembangan; $index_catatan++)
                                           {
@@ -2945,6 +3148,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         </fieldset>
                                         <?
                                         }
+                                        ?>
+
+                                        <?
                                         if($disabledatribut == "")
                                         {
                                           $moderekomendasi= "PenilaianPotensiSaranPenempatan";
@@ -2954,13 +3160,16 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Saran Penempatan
                                               <a style="cursor:pointer; display: inline !important" title="Tambah" onClick="createRow('<?=$moderekomendasi?>')"><img src="../WEB/images/icn_add.gif" /></a>
                                             </legend>
+                                            <!--  <textarea name="reqPenilaianPotensiSaranPenempatan" id="reqPenilaianPotensiSaranPenempatan" style="width:95%" rows="1" ><?=$reqPenilaianPotensiSaranPenempatan?></textarea> -->
                                             <?
                                             for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiSaranPenempatan; $index_catatan++)
                                             {
                                               $reqinfocatatan= $arrPenilaianPotensiSaranPenempatan[$index_catatan]["KETERANGAN"];
                                             ?>
+                                             <!--  <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiSaranPenempatan[]" value="<?=$reqinfocatatan?>" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> 
+                                             -->
                                              <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPenempatan[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPenempatan[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2975,8 +3184,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             if($index_catatan == 0)
                                             {
                                             ?>
+                                              <!-- <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiSaranPenempatan[]" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                                <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPenempatan[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPenempatan[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2991,6 +3201,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         ?>
                                         <fieldset style="border: 1px solid; padding: 10px !important">
                                           <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Saran Penempatan</legend>
+                                          <!-- <input type="hidden" name="reqPenilaianPotensiSaranPenempatan" value="<?=$reqPenilaianPotensiSaranPenempatan?>" /><?=$reqPenilaianPotensiSaranPenempatan?> -->
                                           <?
                                           for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiSaranPenempatan; $index_catatan++)
                                           {
@@ -3006,19 +3217,49 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         ?>
                                         
                                         <?
+                                        // if($disabledatribut == "" || $reqInfoPenggalianId == "0")
                                         if($disabledatribut == "" && ($reqPenilaianPotensiDataAsesorId == $tempAsesorId || $tempsimpankompetensi == "1") )
                                         {
                                           $moderekomendasi= "PenilaianKeteranganKepribadian";
                                         ?>
-                                          <div id ="<?=$moderekomendasi?>">                                          
+                                          <div id ="<?=$moderekomendasi?>">
+                                          
                                           </div> 
                                           <br>
+                                        
                                         <?
                                         }
                                         else
                                         {
-                                        }
+                                        ?>
 
+                                        <?
+                                        }
+                                        ?>
+
+                                        <?
+                                        if($disabledatribut == "")
+                                        {
+                                        ?>
+                                       <!--  <fieldset>
+                                          <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; color: white !important;">Kesesuaian Rumpun Pekerjaan</legend>
+                                          <textarea name="reqPenilaianPotensiKesesuaianRumpun" id="reqPenilaianPotensiKesesuaianRumpun" style="width:95%" rows="1" ><?=$reqPenilaianPotensiKesesuaianRumpun?></textarea>
+                                        </fieldset> -->
+                                        <?
+                                        }
+                                        else
+                                        {
+                                        ?>
+                                        <!-- <fieldset style="border: 1px solid; padding: 10px !important">
+                                          <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; color: white !important;">Kesesuaian Rumpun Pekerjaan</legend>
+                                          <input type="hidden" name="reqPenilaianPotensiKesesuaianRumpun" value="<?=$reqPenilaianPotensiKesesuaianRumpun?>" />
+                                          <?=$reqPenilaianPotensiKesesuaianRumpun?>
+                                        </fieldset> -->
+                                        <?
+                                        }
+                                        ?>
+
+                                        <?
                                         if($disabledatribut == "")
                                         {
                                           $moderekomendasi= "PenilaianPotensiProfilKompetensi";
@@ -3028,13 +3269,15 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Ringkasan Profil Kompetensi
                                               <a style="cursor:pointer; display: inline !important" title="Tambah" onClick="createRow('<?=$moderekomendasi?>')"><img src="../WEB/images/icn_add.gif" /></a>
                                             </legend>
+                                            <!--  <textarea name="reqPenilaianPotensiProfilKompetensi" id="reqPenilaianPotensiProfilKompetensi" style="width:95%" rows="1" ><?=$reqPenilaianPotensiProfilKompetensi?></textarea> -->
                                             <?
                                             for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiProfilKompetensi; $index_catatan++)
                                             {
                                               $reqinfocatatan= $arrPenilaianPotensiProfilKompetensi[$index_catatan]["KETERANGAN"];
                                             ?>
+                                             <!--  <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiProfilKompetensi[]" value="<?=$reqinfocatatan?>" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                              <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiProfilKompetensi[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiProfilKompetensi[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -3049,8 +3292,9 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             if($index_catatan == 0)
                                             {
                                             ?>
+                                             <!--  <input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="reqPenilaianPotensiProfilKompetensi[]" /> <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev('input').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a> -->
                                              <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiProfilKompetensi[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiProfilKompetensi[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -3065,6 +3309,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         ?>
                                         <fieldset style="border: 1px solid; padding: 10px !important">
                                           <legend style="font-size: 14px !important; border: medium none !important; margin-bottom: 10px; ">Ringkasan Profil Kompetensi</legend>
+                                          <!-- <input type="hidden" name="reqPenilaianPotensiProfilKompetensi" value="<?=$reqPenilaianPotensiProfilKompetensi?>" /><?=$reqPenilaianPotensiProfilKompetensi?> -->
                                           <?
                                           for($index_catatan=0; $index_catatan<$jumlahPenilaianPotensiProfilKompetensi; $index_catatan++)
                                           {
@@ -3084,6 +3329,8 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                     </tr>
                                  
                                     <?
+                                    // $tempsimpankompetensi= "1";
+                                    // if($tempsimpankompetensi == "1" || $reqInfoPenggalianId == "0")
                                     if($reqPenilaianPotensiDataAsesorId == $tempAsesorId || $tempsimpankompetensi == "1")
                                     {
                                     ?>
@@ -3108,13 +3355,16 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                         </div>
                       </div>
 
-                      <div id="tabs-rekap" role="tabpanel" class="area-penilaian-catatan">
+                      <div id="tabs-rekap" role="tabpanel" style="height: 600px;overflow: scroll; background-color: rgb(6, 58, 105) !important;">
                         <div class="row">
                           <div class="col-md-12">
 
                             <div class="area-table-assesor">
+                              <br>
                               <div class="judul-halaman">Rekap</div>
-                                <table style="margin-bottom:60px;" class="profil tabel-rekap">
+                              <?
+                              ?>
+                                <table style="margin-bottom:60px;" class="profil">
                                   <tr>
                                     <td style="background-color: #f8a406 !important;text-align: center;width: 5%;">No</td>
                                     <td style="background-color: #f8a406 !important;text-align: center;width: 30%;">Kompetensi</td>
@@ -3134,12 +3384,13 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                     <td style="background-color: #f8a406 !important;text-align: center;width: 30%;">Kesimpulan</td>
                                   </tr>
                                  <?
+                                 // $arrayKey= in_array_column("2", "ASPEK_ID", $arrPenilaian);
                                 
                                   $arrayKey= in_array_column($arrAsesor[0]["PENGGALIAN_ID"], "PENGGALIAN_ID", $arrPegawaiNilai);
                                   // print_r($arrPegawaiNilai); exit;
                                   $ceknama='';
                                   $no='1';
-                                  $arrayKeysss= in_array_column("2", "ASPEK_ID", $arrPenilaian);
+                                   $arrayKeysss= in_array_column("2", "ASPEK_ID", $arrPenilaian);
                                   for($index_detil=0; $index_detil < count($arrayKey); $index_detil++)
                                   {
                                     $index_row= $arrayKey[$index_detil];
@@ -3154,10 +3405,15 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                     <?
                                       for($index_loop=0; $index_loop < count($arrAsesor); $index_loop++)
                                       {
+                                        // echo "xxxx";
+                                        // print_r($arrAsesor);
+                                        // print_r($reqDetilAtributNilaiRekap[$arrAsesor[$index_loop]['PENGGALIAN_ID']][$index_detil]); 
+                                        // exit;
                                         $reqInfoPenggalianKode= $arrAsesor[$index_loop]["PENGGALIAN_KODE"];
                                         if($arrAsesor[$index_loop]['PENGGALIAN_NAMA']!='Psikotes'){
                                       ?>
                                         <td><center><?=$reqDetilAtributNilaiRekap[$arrAsesor[$index_loop]['PENGGALIAN_ID']][$index_detil]?></center></td>
+                                        <!-- <td><?=$reqInfoPenggalianId['PENGGALIAN_ID']?></td> -->
                                       <?
                                         }
                                       }
@@ -3178,14 +3434,52 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                 </table>
                                 <br>
                               <div class="judul-halaman">Data Tes Psikologi</div>
-                                <table style="margin-bottom:60px;" class="profil tabel-rekap">
+                              <!--   <table style="margin-bottom:60px;" class="profil">
                                   <tr>
                                     <td style="background-color: #f8a406 !important;text-align: center;width: 5%;">No</td>
-                                    <td style="background-color: #f8a406 !important;text-align: center;width: 40%;">Aspek Potensi</td>
-                                    <td style="background-color: #f8a406 !important;text-align: center;width: 20%;">Rating</td>
+                                    <td style="background-color: #f8a406 !important;text-align: center;">Aspek Potensi</td>
+                                    <td style="background-color: #f8a406 !important;text-align: center;">Rating</td>
+                                  </tr>
+                                 <?
+                                 // $arrayKey= in_array_column("2", "ASPEK_ID", $arrPenilaian);
+                                    $arrayKey= in_array_column("1", "ASPEK_ID", $arrPenilaian);
+
+                                  // $arrayKey= in_array_column($reqInfoPenggalianId, "PENGGALIAN_ID", $arrPegawaiNilai);
+                                  $ceknama='';
+                                  $no='1';
+                                  // print_r($arrayKey); exit;
+
+                                  for($index_detil=0; $index_detil < count($arrayKey); $index_detil++)
+                                  {
+                                    $index_row= $arrayKey[$index_detil];
+                                    $reqPenilaianPotensiAtributNama= $arrPenilaian[$index_row]["NAMA"];
+                                    $reqPenilaianPotensiAtributParent= $arrPenilaian[$index_row]["ATRIBUT_ID_PARENT"];
+                                    if($reqPenilaianPotensiAtributParent==0){?>
+                                    <tr>
+                                      <td colspan="3"><?=$reqPenilaianPotensiAtributNama?></td>
+                                    </tr>
+                                    <? 
+                                    $no='1';
+                                    }
+                                    else{?>
+                                    <tr>
+                                      <td style="background-color: #f8a406 !important;text-align: center;"><?=$no?></td>
+                                      <td><?=$reqPenilaianPotensiAtributNama?></td>
+                                      <td></td>
+                                    </tr>
+                                  <? 
+                                    $no++;
+                                    }
+                                  }?>
+                                </table> -->
+                                  <table style="margin-bottom:60px;" class="profil">
+                                  <tr>
+                                    <td style="background-color: #f8a406 !important;text-align: center;width: 5%;">No</td>
+                                    <td style="background-color: #f8a406 !important;text-align: center;">Aspek Potensi</td>
+                                    <td style="background-color: #f8a406 !important;text-align: center;">Rating</td>
                                     <td style="background-color: #f8a406 !important;text-align: center;">Keterangan</td>
                                   </tr>
-                                  <?
+                                 <?
                                   $arrayKey= in_array_column("1", "ASPEK_ID", $arrPenilaian);
                                   
                                   if($arrayKey == ''){}
@@ -3229,214 +3523,172 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                           </div>
                         </div>
                       </div>
+
                       <?
                       }
                       ?>
+
            </div>
+           
+           
+
        </div>
    </div>
+
+
+   <div style="margin:40px">&nbsp;</div>
+   
+</div>
 </div>
 <footer class="footer">
   © 2021 Pemprov Kaltim. All Rights Reserved. 
 </footer>
 
 <script type='text/javascript' src="../WEB/lib/bootstrap/angular.js"></script> 
+<!-- <script type='text/javascript' src="../WEB/lib/js/jquery.min.js"></script>  -->
 
 <!-- SCROLLING TAB -->
-<!-- <script src="../WEB/lib/Scrolling/jquery-1.12.4.min.js"></script> -->
+<script src="../WEB/lib/Scrolling/jquery-1.12.4.min.js"></script>
 <script src="../WEB/lib/Scrolling/jquery-ui.min.js"></script>
 <script src="../WEB/lib/Scrolling/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="../WEB/lib/Scrolling-jQuery-UI-Tabs-jQuery-ScrollTabs/jquery.ui.scrolltabs.js"></script>
+
 <link rel="stylesheet" type="text/css" href="../WEB/lib/easyui/themes/default/easyuiasesor.css">
+<!-- <script type="text/javascript" src="../WEB/lib/easyui/jquery-1.6.1.min.js"></script> -->
 <script type="text/javascript" src="../WEB/lib/easyui/jquery.easyui.min.js"></script>
-<link rel="stylesheet" href="../WEB/lib/DHTMLWindow/windowfiles/dhtmlwindow.css" type="text/css" />
-<script type="text/javascript" src="../WEB/lib/DHTMLWindow/windowfiles/dhtmlwindow.js"></script>
-<!-- <script type="text/javascript" src="../niceedit/nicedit.js"></script> -->
 
 <script>
-  $(document).ready(function() {
-    $(function(){
-      <?
-      if($data['foto_original'] == "")
-      {
+  // $.messager.alert('Info', "s", 'info');
+
+$(document).ready(function() {
+  $(function(){
+        <?
+         if($data['foto_original'] == "")
+       {
         ?>
         $("#reqImagePeserta").attr("src", "../WEB/images/no-picture.jpg");
         <?
-      }
-      else
-      {
+        }
+        else
+        {
+            ?>
+            $("#reqImagePeserta").attr("src", "<?=$data['foto_original']?>");
+            <?
+        }
         ?>
-        $("#reqImagePeserta").attr("src", "<?=$data['foto_original']?>");
-        <?
-      }
-      ?>
 
-      $('.rbtn ul li').click(function(){
+        $('.rbtn ul li').click(function(){
         // get the value from the id of the clicked li and attach it to the window object to be able to use it later.
-          var choice= this.id;
-          var text= $(this).text();
-          var element= choice.split('-');
+            var choice= this.id;
+            var text= $(this).text();
+            var element= choice.split('-');
 
-          var reqJadwalPegawaiIndikatorId= reqJadwalPegawaiLevelId= reqInfoPenggalianId= "";
-          reqJadwalPegawaiIndikatorId= element[2];
-          reqJadwalPegawaiLevelId= element[3];
-          reqInfoPenggalianId= element[4];
-          reqJadwalPegawaiDataAsesorId= element[5];
-          tempAsesorId= element[6];
+            var reqJadwalPegawaiIndikatorId= reqJadwalPegawaiLevelId= reqInfoPenggalianId= "";
+            reqJadwalPegawaiIndikatorId= element[2];
+            reqJadwalPegawaiLevelId= element[3];
+            reqInfoPenggalianId= element[4];
+            reqJadwalPegawaiDataAsesorId= element[5];
+            tempAsesorId= element[6];
 
-          if(reqJadwalPegawaiDataAsesorId == tempAsesorId)
-          {
-            if($('li[id^="'+choice+'"]').hasClass("selected") == true)
+            // cursor:not-allowed;
+            // button muncul apabila asesor yg berwenang
+            if(reqJadwalPegawaiDataAsesorId == tempAsesorId)
             {
-                $('li[id^="'+choice+'"]').removeClass('selected');
-                $('li[id^="'+choice+'"]').addClass('sebelumselected');
-                $("#reqJadwalPegawaiIndikatorDataId"+reqJadwalPegawaiIndikatorId+"-"+reqInfoPenggalianId+", #reqJadwalPegawaiLevelDataId"+reqJadwalPegawaiIndikatorId+"-"+reqInfoPenggalianId).val("");
+              if($('li[id^="'+choice+'"]').hasClass("selected") == true)
+              {
+                  $('li[id^="'+choice+'"]').removeClass('selected');
+                  $('li[id^="'+choice+'"]').addClass('sebelumselected');
+                  $("#reqJadwalPegawaiIndikatorDataId"+reqJadwalPegawaiIndikatorId+"-"+reqInfoPenggalianId+", #reqJadwalPegawaiLevelDataId"+reqJadwalPegawaiIndikatorId+"-"+reqInfoPenggalianId).val("");
+              }
+              else
+              {
+                  $('li[id^="'+choice+'"]').removeClass('sebelumselected');
+                  $('li[id^="'+choice+'"]').addClass('selected');
+                  $("#reqJadwalPegawaiIndikatorDataId"+reqJadwalPegawaiIndikatorId+"-"+reqInfoPenggalianId).val(reqJadwalPegawaiIndikatorId);
+                  $("#reqJadwalPegawaiLevelDataId"+reqJadwalPegawaiIndikatorId+"-"+reqInfoPenggalianId).val(reqJadwalPegawaiLevelId);
+              }
             }
+            
+        }); 
+        
+        $('.rbtn ul li').mouseover(function(){
+            var choice= this.id;
+            var text= $(this).text();
+            var element= choice.split('-');
+
+            var reqJadwalPegawaiIndikatorId= reqJadwalPegawaiLevelId= reqInfoPenggalianId= "";
+            reqJadwalPegawaiIndikatorId= element[2];
+            reqJadwalPegawaiLevelId= element[3];
+            reqInfoPenggalianId= element[4];
+            reqJadwalPegawaiDataAsesorId= element[5];
+            tempAsesorId= element[6];
+            // console.log("s");
+
+            $('.rbtn ul li').attr('style','cursor: pointer;');
+            // button muncul apabila asesor yg berwenang
+            if(reqJadwalPegawaiDataAsesorId == tempAsesorId){}
             else
             {
-                $('li[id^="'+choice+'"]').removeClass('sebelumselected');
-                $('li[id^="'+choice+'"]').addClass('selected');
-                $("#reqJadwalPegawaiIndikatorDataId"+reqJadwalPegawaiIndikatorId+"-"+reqInfoPenggalianId).val(reqJadwalPegawaiIndikatorId);
-                $("#reqJadwalPegawaiLevelDataId"+reqJadwalPegawaiIndikatorId+"-"+reqInfoPenggalianId).val(reqJadwalPegawaiLevelId);
+              $('.rbtn ul li').attr('style','cursor: not-allowed;');
             }
-          }
-          
-      }); 
-      
-      $('.rbtn ul li').mouseover(function(){
-          var choice= this.id;
-          var text= $(this).text();
-          var element= choice.split('-');
+            // $(this).addClass('over');
+        });
+        
+        $('.rbtn ul li').mouseout(function(){
+            // console.log("e");
+            // $(this).removeClass('over');
+        });
 
-          var reqJadwalPegawaiIndikatorId= reqJadwalPegawaiLevelId= reqInfoPenggalianId= "";
-          reqJadwalPegawaiIndikatorId= element[2];
-          reqJadwalPegawaiLevelId= element[3];
-          reqInfoPenggalianId= element[4];
-          reqJadwalPegawaiDataAsesorId= element[5];
-          tempAsesorId= element[6];
-          // console.log("s");
-
-          $('.rbtn ul li').attr('style','cursor: pointer;');
-          // button muncul apabila asesor yg berwenang
-          if(reqJadwalPegawaiDataAsesorId == tempAsesorId){}
-          else
-          {
-            $('.rbtn ul li').attr('style','cursor: not-allowed;');
-          }
-          // $(this).addClass('over');
-      });
-      
-      $('.rbtn ul li').mouseout(function(){
-          // console.log("e");
-          // $(this).removeClass('over');
-      });
     });
+});
+
+$(function(){
+  $.extend($.fn.validatebox.defaults.rules, {
+    requireRadio: {  
+      validator: function(value, param){  
+        var input = $(param[0]);
+        input.off('.requireRadio').on('click.requireRadio',function(){
+          $(this).focus();
+        });
+        // console.log(param[0]);
+        return true;
+        // return $(param[0] + ':checked').val() != undefined;
+      },  
+      message: 'Please choose option for {1}.'  
+    },
+    justText: {  
+     validator: function(value, param){
+       return true;
+       // if(value == "<br>")
+       // {
+       //  // console.log("ada");
+       //  return false;
+       // }
+       // else
+       //  return true;
+
+       // console.log(value);
+       // return !value.match(/[0-9]/);
+     },  
+     message: 'Please enter only text.'  
+    }
   });
 
-  $(function(){
-    $.extend($.fn.validatebox.defaults.rules, {
-      requireRadio: {  
-        validator: function(value, param){  
-          var input = $(param[0]);
-          input.off('.requireRadio').on('click.requireRadio',function(){
-            $(this).focus();
-          });
-          // console.log(param[0]);
-          return true;
-        },  
-        message: 'Please choose option for {1}.'  
-      },
-      justText: {  
-       validator: function(value, param){
-         return true;
-       },  
-       message: 'Please enter only text.'  
-      }
-    });
-    <?
+  <?
 
-    for($index_loop=0; $index_loop < $jumlah_asesor; $index_loop++)
-    {
-      $reqInfoPenggalianId= $arrAsesor[$index_loop]["PENGGALIAN_ID"];
-      $tempurl= "penilaian_monitoring.php";
-      ?>
-      $('#ff-<?=$reqInfoPenggalianId?>').form({
-        url:'../json-asesor/<?=$tempurl?>',
-        onSubmit:function(){
-          var temp= $(this).form('validate');
-          
-          if($(this).form('validate') == false)
-          {
-            $.messager.alert('Info', "Isi terlebih dahulu, atribut dan catatan", 'info');
-            return false;
-          }
-
-          return $(this).form('validate');
-        },
-        success:function(data){
-          data = data.split("-");
-          rowid= data[0];
-          infodata= data[1];
-          if(rowid == "xxx"){}
-          else if(rowid == "autologin"){
-              autologin(); return false ;
-          }
-          else
-          {
-            cektabs= $("#valtabsave").val()
-            vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>&reqTab="+cektabs;
-             setrekapnilai(vurl);
-          }
-        }
-      });
-      <?
-    }
-
-    if($tempKondisiNilaiAkhir == "1")
-    {
-      $tempurl= "penilaian_monitoring.php";
-      ?>
-      $('#ff-').form({
-        url:'../json-asesor/<?=$tempurl?>',
-        onSubmit:function(){
-          var temp= $(this).form('validate');
-          // console.log(<?=$tempurl?>+'-'+temp);
-          // return false;
-          if($(this).form('validate') == false)
-          {
-            $.messager.alert('Info', "Isi terlebih dahulu, atribut dan catatan", 'info');
-            return false;
-          }
-
-          return $(this).form('validate');
-        },
-        success:function(data){
-          data = data.split("-");
-          rowid= data[0];
-          infodata= data[1];
-          if(rowid == "xxx"){}
-          else if(rowid == "autologin"){
-              autologin(); return false ;
-          }
-          else
-          {
-            cektabs= $("#valtabsave").val()
-            vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>&reqTab="+cektabs;
-
-            setrekapnilai(vurl);
-          }
-        }
-      });
-    <?
-    }
-    ?>
-
-    $('#ff-simpan').form({
-      url:'../json-asesor/penilaian_monitoring.php',
+  for($index_loop=0; $index_loop < $jumlah_asesor; $index_loop++)
+  {
+    $reqInfoPenggalianId= $arrAsesor[$index_loop]["PENGGALIAN_ID"];
+    // $tempurl= "";
+    // if($reqInfoPenggalianId == "0"){}
+    // else
+    $tempurl= "penilaian_monitoring.php";
+  ?>
+    $('#ff-<?=$reqInfoPenggalianId?>').form({
+      url:'../json-asesor/<?=$tempurl?>',
       onSubmit:function(){
         var temp= $(this).form('validate');
-        // console.log('-'+temp);
-        // return false;
+        
         if($(this).form('validate') == false)
         {
           $.messager.alert('Info', "Isi terlebih dahulu, atribut dan catatan", 'info');
@@ -3446,27 +3698,42 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
         return $(this).form('validate');
       },
       success:function(data){
+                // autologin(); return false ;
+        
+        // console.log(data); return false;
+        // $.messager.alert('Info', data, 'info');
+        // $('#rst_form').click();
+        //parent.setShowHideMenu(3);
         data = data.split("-");
-        rowid= data[0];
-        infodata= data[1];
-        if(rowid == "xxx"){}
-        else if(rowid == "autologin"){
-            autologin(); return false ;
-        }
-        else
-        {
-          cektabs= $("#valtabsave").val()
-          vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>&reqTab="+cektabs;
-          setrekapnilai(vurl);
-        }
+            rowid= data[0];
+            infodata= data[1];
+         if(rowid == "xxx"){}
+            else if(rowid == "autologin"){
+                autologin(); return false ;
+            }
+            else
+            {
+               // vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=<?=$reqInfoPenggalianId?>&reqTanggalTes=<?=$reqTanggalTes?>";
+              // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=<?=$reqInfoPenggalianId?>';
+                cektabs= $("#valtabsave").val()
+                vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>&reqTab="+cektabs;
+
+               setrekapnilai(vurl);
+            }
+        // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=<?=$reqInfoPenggalianId?>';
       }
     });
-
-    $('#ff-simpanProfilKompetnsi').form({
-      url:'../json-asesor/profil_kompetensi.php',
+  <?
+  }
+  if($tempKondisiNilaiAkhir == "1")
+  {
+    $tempurl= "penilaian_monitoring.php";
+  ?>
+    $('#ff-').form({
+      url:'../json-asesor/<?=$tempurl?>',
       onSubmit:function(){
         var temp= $(this).form('validate');
-        // console.log('-'+temp);
+        // console.log(<?=$tempurl?>+'-'+temp);
         // return false;
         if($(this).form('validate') == false)
         {
@@ -3478,161 +3745,281 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
       },
       success:function(data){
         // console.log(data);return false;
+        // $.messager.alert('Info', data, 'info');
+        // $('#rst_form').click();
+        //parent.setShowHideMenu(3);
         data = data.split("-");
-              rowid= data[0];
-              infodata= data[1];
-         if(rowid == "xxx"){}
-              else if(rowid == "autologin"){
-                  autologin(); return false ;
-              }
-              else
-              {
-                   // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-kompetensi&reqTanggalTes=<?=$reqTanggalTes?>';
-                cektabs= $("#valtabsave").val()
-                  vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>&reqTab="+cektabs;
+            rowid= data[0];
+            infodata= data[1];
+          if(rowid == "xxx"){}
+            else if(rowid == "autologin"){
+                autologin(); return false ;
+            }
+            else
+            {
+                // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir';
+                // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir';
+                // vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>";
+              cektabs= $("#valtabsave").val()
+                vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>&reqTab="+cektabs;
 
-                  setrekapnilai(vurl);
-              }
-        // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-lain';
+                setrekapnilai(vurl);
+            }
+        // docume
+        // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir';
       }
     });
-    
-    $('input[id^="reqRadio"]').change(function(e) {
-      var tempId= $(this).attr('id');
-      var tempValId= $(this).val();
-      arrId= tempId.split('reqRadio');
-      arrId= arrId[1].split('-');
-      tempId= arrId[0];
-      reqInfoPenggalianId= arrId[1];
+  <?
+  }
+  ?>
 
-      rowid= tempId+"-"+reqInfoPenggalianId;
-      // console.log(rowid);
-
-      $("#reqDetilAtributNilai"+rowid).val(tempValId);
-      var gap= parseInt(tempValId) - parseInt($("#reqDetilAtributNilaiStandar"+rowid).val());
-      $("#reqDetilAtributGap"+rowid).val(gap);
-      // $("#reqGapInfo"+rowid).text(gap);
-    });
-
-    function roundToTwo(value, decimals) {
-      if(typeof decimals == "undefined" || infovalnilai == "")
+  $('#ff-simpan').form({
+    url:'../json-asesor/penilaian_monitoring.php',
+    onSubmit:function(){
+      var temp= $(this).form('validate');
+      // console.log('-'+temp);
+      // return false;
+      if($(this).form('validate') == false)
       {
-        decimals= 2;
+        $.messager.alert('Info', "Isi terlebih dahulu, atribut dan catatan", 'info');
+        return false;
       }
 
-      return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+      return $(this).form('validate');
+    },
+    success:function(data){
+      // console.log(data);return false;
+      data = data.split("-");
+            rowid= data[0];
+            infodata= data[1];
+       if(rowid == "xxx"){}
+            else if(rowid == "autologin"){
+                autologin(); return false ;
+            }
+            else
+            {
+                 // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-lain&reqTanggalTes=<?=$reqTanggalTes?>';
+              cektabs= $("#valtabsave").val()
+                vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>&reqTab="+cektabs;
+
+                setrekapnilai(vurl);
+            }
+      // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-lain';
     }
+  });
 
-    function pembulatandecimal(value, desimal)
-    {
-      vreturn= value;
-      if(parseFloat(desimal) > 0)
+  $('#ff-simpanProfilKompetnsi').form({
+    url:'../json-asesor/profil_kompetensi.php',
+    onSubmit:function(){
+      var temp= $(this).form('validate');
+      // console.log('-'+temp);
+      // return false;
+      if($(this).form('validate') == false)
       {
-        vreturn= parseInt(value)+"."+desimal;
+        $.messager.alert('Info', "Isi terlebih dahulu, atribut dan catatan", 'info');
+        return false;
       }
-      else
-      {
-        vreturn= parseInt(vreturn);
-      }
-      return vreturn;
+
+      return $(this).form('validate');
+    },
+    success:function(data){
+      // console.log(data);return false;
+      data = data.split("-");
+            rowid= data[0];
+            infodata= data[1];
+       if(rowid == "xxx"){}
+            else if(rowid == "autologin"){
+                autologin(); return false ;
+            }
+            else
+            {
+                 // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-kompetensi&reqTanggalTes=<?=$reqTanggalTes?>';
+              cektabs= $("#valtabsave").val()
+                vurl= "penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-nilaiakhir&reqTanggalTes=<?=$reqTanggalTes?>&reqTab="+cektabs;
+
+                setrekapnilai(vurl);
+            }
+      // document.location.href = 'penilaian_monitoring.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqSelectPenggalianId=tabs-lain';
     }
-
-    $('input[id^="reqPenilaianPotensiNilaiDecimal"]').keyup(function(e) {
-      var tempId= $(this).attr('id');
-      var tempValId= $(this).val();
-      arrId= tempId.split('reqPenilaianPotensiNilaiDecimal');
-      arrId= arrId[1].split('-');
-      tempAspekId= arrId[0];
-      reqIndekId= arrId[1];
-
-      rowid= tempAspekId+"-"+reqIndekId;
-
-      nilaiPotensiBulat= $("#reqPenilaianPotensiNilai"+rowid).val();
-      nilaiPotensiDecimal= tempValId;
-      nilaiPotensi= pembulatandecimal(nilaiPotensiBulat, nilaiPotensiDecimal);
-      $("#reqPenilaianPotensiNilai"+rowid).val(parseFloat(nilaiPotensi));
-
-      var gap= roundToTwo(parseFloat(nilaiPotensi) - parseFloat($("#reqPenilaianPotensiNilaiStandar"+rowid).val()));
-      $("#reqPenilaianPotensiGap"+rowid).val(gap);
-      $("#reqPenilaianPotensiGapInfo"+rowid).text(gap);
-    });
-
-    $('input[id^="reqPenilaianRadio"]').change(function(e) {
-      var tempId= $(this).attr('id');
-      var tempValId= $(this).val();
-      arrId= tempId.split('reqPenilaianRadio');
-      arrId= arrId[1].split('-');
-      tempAspekId= arrId[0];
-      reqIndekId= arrId[1];
-      rowid= tempAspekId+"-"+reqIndekId;
-      // console.log(rowid);
-      nilaiPotensiBulat= parseInt(tempValId);
-      nilaiPotensiDecimal=$("#reqPenilaianPotensiNilaiDecimal"+rowid).val();
-      nilaiPotensi= pembulatandecimal(nilaiPotensiBulat, nilaiPotensiDecimal);
-      $("#reqPenilaianPotensiNilai"+rowid).val(parseFloat(nilaiPotensi));
-      // nilaiPotensi= nilaiPotensiBulat+"."+nilaiPotensiDecimal;
-
-      var gap= roundToTwo(parseFloat(nilaiPotensi) - parseFloat($("#reqPenilaianPotensiNilaiStandar"+rowid).val()));
-      $("#reqPenilaianPotensiGap"+rowid).val(gap);
-      $("#reqPenilaianPotensiGapInfo"+rowid).text(gap);
-    });
-
-    $('input[id^="reqPenilaianKompetensiRadio"]').change(function(e) {
-      var tempId= $(this).attr('id');
-      var tempValId= $(this).val();
-      arrId= tempId.split('reqPenilaianKompetensiRadio');
-      arrId= arrId[1].split('-');
-      tempAspekId= arrId[0];
-      reqIndekId= arrId[1];
-
-      rowid= tempAspekId+"-"+reqIndekId;
-      // console.log(rowid);
-
-      nilaikoma= $("#decimalValueNilaiAkhir"+rowid).val();
-
-      $("#reqPenilaianKompetensiNilai"+rowid).val(tempValId);
-      var gap= parseFloat(tempValId+"."+nilaikoma) - parseFloat($("#reqPenilaianKompetensiNilaiStandar"+rowid).val());
-      $("#reqPenilaianKompetensiGap"+rowid).val(gap);
-      $("#reqPenilaianKompetensiGapInfo"+rowid).text(gap);
-
-      $("#reqPenilaianKompetensiSaran"+rowid).show();
-      if(parseFloat(gap) >= 0)
-      $("#reqPenilaianKompetensiSaran"+rowid).hide();
-    });
-
-    $('input[id^="decimalValueNilaiAkhir"]').keyup(function(e) {
-      var tempId= $(this).attr('id');
-      var nilaikoma= $(this).val();
-      arrId= tempId.split('decimalValueNilaiAkhir');
-      arrId= arrId[1].split('-');
-      tempAspekId= arrId[0];
-      reqIndekId= arrId[1];
-
-      rowid= tempAspekId+"-"+reqIndekId;
-      tempValId= $("input[name='reqPenilaianKompetensiRadio"+rowid+"']:checked").val();
-
-      $("#reqPenilaianKompetensiNilai"+rowid).val(tempValId);
-      var gap= parseFloat(tempValId+"."+nilaikoma) - parseFloat($("#reqPenilaianKompetensiNilaiStandar"+rowid).val());
-      $("#reqPenilaianKompetensiGap"+rowid).val(gap);
-      $("#reqPenilaianKompetensiGapInfo"+rowid).text(gap);
-
-      $("#reqPenilaianKompetensiSaran"+rowid).show();
-      if(parseFloat(gap) >= 0)
-      $("#reqPenilaianKompetensiSaran"+rowid).hide();
-    });
   });
   
-  var editors = {}; //Keep track of all added nicEditors for removal later  
+  $('input[id^="reqRadio"]').change(function(e) {
+    var tempId= $(this).attr('id');
+    var tempValId= $(this).val();
+    arrId= tempId.split('reqRadio');
+    arrId= arrId[1].split('-');
+    tempId= arrId[0];
+    reqInfoPenggalianId= arrId[1];
+
+    rowid= tempId+"-"+reqInfoPenggalianId;
+    // console.log(rowid);
+
+    $("#reqDetilAtributNilai"+rowid).val(tempValId);
+    var gap= parseInt(tempValId) - parseInt($("#reqDetilAtributNilaiStandar"+rowid).val());
+    $("#reqDetilAtributGap"+rowid).val(gap);
+    // $("#reqGapInfo"+rowid).text(gap);
+  });
+
+  function roundToTwo(value, decimals) {
+    if(typeof decimals == "undefined" || infovalnilai == "")
+    {
+      decimals= 2;
+    }
+
+    return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+  }
+
+  function pembulatandecimal(value, desimal)
+  {
+    vreturn= value;
+    if(parseFloat(desimal) > 0)
+    {
+      vreturn= parseInt(value)+"."+desimal;
+    }
+    else
+    {
+      vreturn= parseInt(vreturn);
+    }
+    return vreturn;
+  }
+
+  $('input[id^="reqPenilaianPotensiNilaiDecimal"]').keyup(function(e) {
+    var tempId= $(this).attr('id');
+    var tempValId= $(this).val();
+    arrId= tempId.split('reqPenilaianPotensiNilaiDecimal');
+    arrId= arrId[1].split('-');
+    tempAspekId= arrId[0];
+    reqIndekId= arrId[1];
+
+    rowid= tempAspekId+"-"+reqIndekId;
+
+    nilaiPotensiBulat= $("#reqPenilaianPotensiNilai"+rowid).val();
+    nilaiPotensiDecimal= tempValId;
+    // console.log(nilaiPotensiBulat);
+    // console.log(nilaiPotensiDecimal);
+    nilaiPotensi= pembulatandecimal(nilaiPotensiBulat, nilaiPotensiDecimal);
+    $("#reqPenilaianPotensiNilai"+rowid).val(parseFloat(nilaiPotensi));
+    // console.log(nilaiPotensi);
+
+    var gap= roundToTwo(parseFloat(nilaiPotensi) - parseFloat($("#reqPenilaianPotensiNilaiStandar"+rowid).val()));
+    // console.log(parseFloat(nilaiPotensi));
+    // console.log(parseFloat($("#reqPenilaianPotensiNilaiStandar"+rowid).val()));
+    // console.log(gap);
+    $("#reqPenilaianPotensiGap"+rowid).val(gap);
+    $("#reqPenilaianPotensiGapInfo"+rowid).text(gap);
+  });
+
+  $('input[id^="reqPenilaianRadio"]').change(function(e) {
+    var tempId= $(this).attr('id');
+    var tempValId= $(this).val();
+    arrId= tempId.split('reqPenilaianRadio');
+    arrId= arrId[1].split('-');
+    tempAspekId= arrId[0];
+    reqIndekId= arrId[1];
+
+    rowid= tempAspekId+"-"+reqIndekId;
+    // console.log(rowid);
+
+    
+    // nilaiPotensi=$("#reqPenilaianPotensiNilai"+rowid).val(tempValId)+"."+$("#reqPenilaianPotensiNilaiDecimal"+rowid).val(tempValId);
+    // console.log(nilaiPotensi);
+    nilaiPotensiBulat= parseInt(tempValId);
+    nilaiPotensiDecimal=$("#reqPenilaianPotensiNilaiDecimal"+rowid).val();
+    nilaiPotensi= pembulatandecimal(nilaiPotensiBulat, nilaiPotensiDecimal);
+    $("#reqPenilaianPotensiNilai"+rowid).val(parseFloat(nilaiPotensi));
+    // nilaiPotensi= nilaiPotensiBulat+"."+nilaiPotensiDecimal;
+
+    var gap= roundToTwo(parseFloat(nilaiPotensi) - parseFloat($("#reqPenilaianPotensiNilaiStandar"+rowid).val()));
+    $("#reqPenilaianPotensiGap"+rowid).val(gap);
+    $("#reqPenilaianPotensiGapInfo"+rowid).text(gap);
+
+    /*$("#reqPenilaianPotensiSaran"+rowid).show();
+    if(gap == 0)
+    $("#reqPenilaianPotensiSaran"+rowid).hide();*/
+
+  });
+
+  $('input[id^="reqPenilaianKompetensiRadio"]').change(function(e) {
+    var tempId= $(this).attr('id');
+    var tempValId= $(this).val();
+    arrId= tempId.split('reqPenilaianKompetensiRadio');
+    arrId= arrId[1].split('-');
+    tempAspekId= arrId[0];
+    reqIndekId= arrId[1];
+
+    rowid= tempAspekId+"-"+reqIndekId;
+    // console.log(rowid);
+
+    nilaikoma= $("#decimalValueNilaiAkhir"+rowid).val();
+    // console.log(parseFloat(tempValId+"."+nilaikoma));
+
+    $("#reqPenilaianKompetensiNilai"+rowid).val(tempValId);
+    var gap= parseFloat(tempValId+"."+nilaikoma) - parseFloat($("#reqPenilaianKompetensiNilaiStandar"+rowid).val());
+    $("#reqPenilaianKompetensiGap"+rowid).val(gap);
+    $("#reqPenilaianKompetensiGapInfo"+rowid).text(gap);
+
+    $("#reqPenilaianKompetensiSaran"+rowid).show();
+    if(parseFloat(gap) >= 0)
+    $("#reqPenilaianKompetensiSaran"+rowid).hide();
+
+  });
+
+  $('input[id^="decimalValueNilaiAkhir"]').keyup(function(e) {
+    var tempId= $(this).attr('id');
+    var nilaikoma= $(this).val();
+    arrId= tempId.split('decimalValueNilaiAkhir');
+    arrId= arrId[1].split('-');
+    tempAspekId= arrId[0];
+    reqIndekId= arrId[1];
+
+    rowid= tempAspekId+"-"+reqIndekId;
+    // console.log(rowid);
+    // console.log(nilaikoma);
+    
+    tempValId= $("input[name='reqPenilaianKompetensiRadio"+rowid+"']:checked").val();
+    // console.log(tempValId);
+    // console.log(parseFloat(tempValId+"."+nilaikoma));
+
+    $("#reqPenilaianKompetensiNilai"+rowid).val(tempValId);
+    var gap= parseFloat(tempValId+"."+nilaikoma) - parseFloat($("#reqPenilaianKompetensiNilaiStandar"+rowid).val());
+    $("#reqPenilaianKompetensiGap"+rowid).val(gap);
+    $("#reqPenilaianKompetensiGapInfo"+rowid).text(gap);
+
+    $("#reqPenilaianKompetensiSaran"+rowid).show();
+    if(parseFloat(gap) >= 0)
+    $("#reqPenilaianKompetensiSaran"+rowid).hide();
+
+  });
+
+
+
+
+});
   
+  var editors = {}; //Keep track of all added nicEditors for removal later  
   function createRow(mode)
   {
     var scntDiv = $("#"+mode +" fieldset");
-    infodata= '<textarea class="froala"  rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="req'+mode+'[]"></textarea>';
-    var elm = $(infodata).appendTo(scntDiv); 
 
-    // createfroala();
-    // new FroalaEditor('.froala', {key: "qc1H2pF1C3A2B6D7B5D5hBi1a2d2Za1IXBh1f1THTBPLIIWBORpF1F1E1H4F1C11C7C2B5G5=="})
-    new FroalaEditor('.froala', {key: "TEB9iE6A5C3E3E3A2C9aIVLEABVAYFKc1Ce1MYGD1c1NYVMiB3B9B6E5C2C4D4H3A2A2=="})
+    // infodata= '<input style="margin: 4px auto; width:97%; color:#06345f;" type="text" name="req'+mode+'[]" />';
+    // infodata+= ' <a style="cursor:pointer; text-align: left; display: inline" onclick="$(this).prev(\'input\').remove(); $(this).remove();"><img src="../WEB/images/delete-icon.png"></a>';
+
+    infodata= '<textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="req'+mode+'[]"></textarea>';
+    // setdelete($(this));
+    // $("#"+mode +" fieldset").append(infodata);
+
+    var elm = $(infodata).appendTo(scntDiv); // Add the textarea to DOM
+    var curSize = $('textarea[name="req'+mode+'[]"]').length; //Get the current SIZE of textArea
+    // console.log(curSize);
+    editors[curSize] = new nicEditor().panelInstance(elm[0]); //Set the Object with the index as key and reference for removel
+
+    elm.after($('<a/>', { //Create anchor Tag with rel attribute as that of the index of corresponding editor
+       rel: curSize,
+           'class': "remScnt",
+       text: "Remove",
+       href: '#'
+   })).next().andSelf().wrapAll($('<p/>'));
+   // })).next().wrapAll($('<p/>'));
   }
 
   $(document).on('click', '.remScnt', function (e) {
@@ -3648,11 +4035,27 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
           editors[index].removeInstance(elem[0]); //Use it to get the instace and remove
           delete editors[index]; //delete the property from object
        }
-       $(this).closest('p').remove(); //remove the element.     
-  });
+       // $(this).closest('.nicEdit-main').remove(); //remove the element.
+       $(this).closest('p').remove(); //remove the element.
+       // elem.remove(); //remove the element.
+       
+   });
 
-  function setModal(target, link_url)
+  /*function setdelete(this)
   {
+    var elem = $(this).prev('textarea'); //Get the textarea of the respective anchor
+    var index = this.rel; //get the key from rel attribute of the anchor
+    editors[index].removeInstance(elem[0]); //Use it to get the instace and remove
+    delete editors[index]; //delete the property from object
+    $(this).closest('p').remove(); //remove the element.
+  }*/
+
+</script>
+
+<script type="text/javascript">
+   // setModal("tabs-15", "tes2.php");
+   function setModal(target, link_url)
+   {
      var s_url= link_url;
      $.ajax({'url': s_url,'success': function(msg)
      {
@@ -3660,51 +4063,77 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
         else
         {
          $('#'+target).html(msg);
+         // bkLib.onDomLoaded(nicEditors.allTextAreas);
        }
      }});
-  }
+   }
+</script>
 
-  var $tabs;
-  var scrollEnabled;
-
-  $(function () {
+<script>
+var $tabs;
+var scrollEnabled;
+$(function () {
+  // $('.nicEdit-main').width('100%');
+    // To get the random tabs label with variable length for testing the calculations
     $('#example_0').scrollTabs({
       scrollOptions: {
+        // enableDebug: true,
         selectTabAfterScroll: false,
         closable: false,
       }
     });
 
-    
-  });
+    // $('#tabs-17').trigger('click');
+
+     bkLib.onDomLoaded(function() {
+      nicEditors.allTextAreas();
+        // new nicEditor({fullPanel : true, maxHeight:100}).panelInstance('myArea');
+        $('.nicEdit-panelContain').parent().width('100%');
+        $('.nicEdit-panelContain').parent().next().width('98%');
+        $('.nicEdit-main').width('100%');
+        });
+
+  // bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
 
 
-  function iecompattest(){
-    return (!window.opera && document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
-  }
+});
 
-  function OpenDHTML(opAddress, opCaption, opWidth, opHeight)
-  {
-    var left = iecompattest().scrollLeft; //(screen.width/2)-(opWidth/2);
-    var top = iecompattest().scrollTop; //(screen.width/2)-(opWidth/2);
-    
-    opWidth = iecompattest().clientWidth - 5;
-    opHeight = iecompattest().clientHeight - 45;
-    divwin=dhtmlwindow.open('divbox', 'iframe', opAddress, opCaption, 'width='+opWidth+'px,height='+opHeight+'px,left='+left+'px,top='+top+'px,resize=1,scrolling=1,midle=1'); return false;
-  }
+</script>
 
-  function OpenDHTMLDetil(opAddress, opCaption, opWidth, opHeight)
-  {
-    var left = (screen.width/2)-(opWidth/2);
-    var top = iecompattest().scrollTop; //(screen.width/2)-(opWidth/2);
-    divwin=dhtmlwindow.open('divbox', 'iframe', opAddress, opCaption, 'width='+opWidth+'px,height='+opHeight+'px,left='+left+'px,top='+top+'px,resize=1,scrolling=1,midle=1'); return false;
-  }
+<link rel="stylesheet" href="../WEB/lib/DHTMLWindow/windowfiles/dhtmlwindow.css" type="text/css" />
+<script type="text/javascript" src="../WEB/lib/DHTMLWindow/windowfiles/dhtmlwindow.js"></script>
 
-  function tess()
-  {
-    alert('index');
-  }
+<script type="text/javascript">
+function iecompattest(){
+return (!window.opera && document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
 
+function OpenDHTML(opAddress, opCaption, opWidth, opHeight)
+{
+  var left = iecompattest().scrollLeft; //(screen.width/2)-(opWidth/2);
+  var top = iecompattest().scrollTop; //(screen.width/2)-(opWidth/2);
+  
+  opWidth = iecompattest().clientWidth - 5;
+  opHeight = iecompattest().clientHeight - 45;
+  divwin=dhtmlwindow.open('divbox', 'iframe', opAddress, opCaption, 'width='+opWidth+'px,height='+opHeight+'px,left='+left+'px,top='+top+'px,resize=1,scrolling=1,midle=1'); return false;
+}
+
+function OpenDHTMLDetil(opAddress, opCaption, opWidth, opHeight)
+{
+  var left = (screen.width/2)-(opWidth/2);
+  var top = iecompattest().scrollTop; //(screen.width/2)-(opWidth/2);
+  divwin=dhtmlwindow.open('divbox', 'iframe', opAddress, opCaption, 'width='+opWidth+'px,height='+opHeight+'px,left='+left+'px,top='+top+'px,resize=1,scrolling=1,midle=1'); return false;
+}
+
+function tess()
+{
+  //$("iframe#FrameFIP")[1].contentWindow.tess();
+  alert('index');
+}
+</script>
+
+<script type="text/javascript" src="../niceedit/nicedit.js"></script>
+<script type="text/javascript">
   function resetpenilaiancbi(x,y){
    $('#reqRadio'+x+'-'+y+'-1').attr('checked', false);
    $('#reqRadio'+x+'-'+y+'-2').attr('checked', false);
@@ -3748,54 +4177,56 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
       url:'../json-asesor/relog_json.php',
       onSubmit:function(){
         return $(this).form('validate');
-          // console.log('masuk');
-          // return false ;
-        },
-        success:function(data){
-          // console.log(data);return false;
-          if(data == "success"){
-            $.messager.alert('Info', 'Session Telah Diperbarui, Tekan Tombol X Dibagian Kanan Atas dan Klik Simpan Untuk Melanjutkan Menyimpan Data', 'info');
-            return false;
-          }
-          else
-          {
-            $.messager.alert('Info', 'Username / Password Salah. Silahkan Login Kembali', 'info');
-            reloadcaptchadinamis('captchaImage', '../WEB/functions/CaptchaSecurityImages.php');
-            return false;
-          }
-        }
-      }); 
+                // console.log('masuk');
+                // return false ;
+              },
+              success:function(data){
+                // console.log(data);return false;
+                if(data == "success"){
+                  $.messager.alert('Info', 'Session Telah Diperbarui, Tekan Tombol X Dibagian Kanan Atas dan Klik Simpan Untuk Melanjutkan Menyimpan Data', 'info');
+                  return false;
+                }
+                else
+                {
+                  $.messager.alert('Info', 'Username / Password Salah. Silahkan Login Kembali', 'info');
+                  reloadcaptchadinamis('captchaImage', '../WEB/functions/CaptchaSecurityImages.php');
+
+                  return false;
+
+                }
+              }
+            }); 
   });
 
   function reloadcaptchadinamis(value, json)
-  {
-    $('#'+value).attr('src', json+'?random=' + (new Date).getTime()+'width=100&amp;height=40&amp;characters=5');
-  }
+    {
+      $('#'+value).attr('src', json+'?random=' + (new Date).getTime()+'width=100&amp;height=40&amp;characters=5');
+    }
 
-  function setrekapnilai(vurl)
-  {
-    ajaxurl= "../json-asesor/penilaian_penggalian_pegawai.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>";
-    $.ajax({
-      cache: false,
-      url: ajaxurl,
-      processData: false,
-      contentType: false,
-      type: 'GET',
-      dataType: 'json',
-      success: function (response) {
-      // console.log(vurl); return false;
-      if(vurl == ""){}
-        else
-        {
-          document.location.href = vurl;
+    function setrekapnilai(vurl)
+    {
+      ajaxurl= "../json-asesor/penilaian_penggalian_pegawai.php?reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>";
+      $.ajax({
+        cache: false,
+        url: ajaxurl,
+        processData: false,
+        contentType: false,
+        type: 'GET',
+        dataType: 'json',
+        success: function (response) {
+        // console.log(vurl); return false;
+        if(vurl == ""){}
+          else
+          {
+            document.location.href = vurl;
+          }
+        },
+        error: function(xhr, status, error) {
+        },
+        complete: function () {
         }
-      },
-      error: function(xhr, status, error) {
-      },
-      complete: function () {
-      }
-    });
-  }
+      });
+    }
 </script>
 <script src="../WEB/lib/first-visit-popup-master/jquery.firstVisitPopup.js"></script>
 <link rel="stylesheet" type="text/css" href="../WEB/css/gayainfo2.css">
@@ -3808,31 +4239,36 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
          <div class="login-area">
             <div class="foto" style="text-align: center"><i class="fa fa-user fa-4x"></i></div>
             <form id="ffLogin1" method="post" novalidate enctype="multipart/form-data">
-              <center><br><b>SESSION HABIS</b><br>Silahkan Login Kembali<center>
-              <div class="form">
-                <fieldset> 
-                    <div class="form-group">
-                      <input type="text" name="reqUser" id="reqUser" class="form-control input-lg" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                      <input type="password" name="reqPasswd" id="reqPasswd" class="form-control input-lg" placeholder="Password">
-                    </div> 
-                    <div class="form-group">
-                      <img src="../WEB/functions/CaptchaSecurityImages.php?width=100&amp;height=40&amp;characters=5" id="captchaImage" />&nbsp;&nbsp;&nbsp;<img src="../WEB/functions/refresh.png" 
-                      onclick="reloadcaptchadinamis('captchaImage', '../WEB/functions/CaptchaSecurityImages.php')" style="cursor:pointer" title="refresh captcha">
-                      <input name="reqSecurity" id="reqSecurityDaftar" class="form-control input-lg" type="text" placeholder="Ketik Captcha" />
-                    </div>
-                    <div class="row">
-                      <div class="col-xs-6 col-sm-6 col-md-4">
-                      </div>
-                      <div class="col-xs-6 col-sm-6 col-md-4">
-                        <input name="slogin_POST_send" type="submit" class="btn btn-lg btn-success btn-block" value="Login" alt="DO LOGIN!" >
-                        <input type="hidden" name="reqMode" value="submitLogin">
-                      </div>
-                    </div>
-                </fieldset>
-                <?=$csrf->echoInputField();?>
-              </div>
+                <center><br><b>SESSION HABIS</b><br>
+                Silahkan Login Kembali<center>
+            <div class="form">
+             <fieldset> 
+                <div class="form-group">
+                  <input type="text" name="reqUser" id="reqUser" class="form-control input-lg" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="reqPasswd" id="reqPasswd" class="form-control input-lg" placeholder="Password">
+                </div> 
+                <div class="form-group">
+                  <img src="../WEB/functions/CaptchaSecurityImages.php?width=100&amp;height=40&amp;characters=5" id="captchaImage" />&nbsp;&nbsp;&nbsp;<img src="../WEB/functions/refresh.png" 
+                  onclick="reloadcaptchadinamis('captchaImage', '../WEB/functions/CaptchaSecurityImages.php')" style="cursor:pointer" title="refresh captcha">
+                  <input name="reqSecurity" id="reqSecurityDaftar" class="form-control input-lg" type="text" placeholder="Ketik Captcha" />
+                </div>
+                <div class="row">
+                  <div class="col-xs-6 col-sm-6 col-md-4">
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-4">
+                    <input name="slogin_POST_send" type="submit" class="btn btn-lg btn-success btn-block" value="Login" alt="DO LOGIN!" >
+                    <input type="hidden" name="reqMode" value="submitLogin">
+                  </div>
+<!--                   <div class="col-xs-6 col-sm-6 col-md-6">
+                    <input type="reset" class="btn btn-lg btn-warning btn-block" value="Reset"> 
+                  </div> -->
+                </div>
+            </fieldset>
+             <?=$csrf->echoInputField();?>
+
+            </div>
             </form>
         </div>
     </div>
@@ -3842,19 +4278,21 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
 </html>
 
 <script type="text/javascript">
-  function downloadCetakan(val){
-    window.open('cetak_penilaian.php?reqTipe='+val+'&reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqTanggalTes=<?=$reqTanggalTes?>', '_blank');
-  }
+function downloadCetakan(val){
+  window.open('cetak_penilaian.php?reqTipe='+val+'&reqJadwalTesId=<?=$reqJadwalTesId?>&reqPegawaiId=<?=$reqPegawaiId?>&reqTanggalTes=<?=$reqTanggalTes?>', '_blank');
+}
 
-  function CetakKeseluruhan(pegawaiId,mode)
+function CetakKeseluruhan(pegawaiId,mode)
   {
     newWindow = window.open('../ikk/cetak_admin_acara.php?reqPegawaiId=<?=$reqPegawaiId?>&reqJadwalTesId=<?=$reqJadwalTesId?>&reqTanggalTes=<?=$reqTanggalTes?>', 'Cetak');
     newWindow.focus();
   }
+</script>
 
+<input type="text" id="valtabsave" value="<?=$reqTab?>">
+
+<script>
   function selecttabs(valll){
     $("#valtabsave").val(valll);
   }
 </script>
-
-<input type="hidden" id="valtabsave" value="<?=$reqTab?>">

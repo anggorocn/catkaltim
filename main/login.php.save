@@ -63,7 +63,8 @@ if($reqMode == "submitLogin" && $reqUser != "" && $reqPasswd != "")
 }
 else if ($reqMode == "submitLogout")
 {
-	$userLogin->resetLogin();
+	$userLogin->
+resetLogin();
 	$userLogin->emptyUsrSessions();
 }
 ?>

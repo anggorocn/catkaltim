@@ -1,4 +1,5 @@
 <?
+
 include_once("../WEB/classes/utils/UserLogin.php");
 include_once("../WEB/page_config.php");
 include_once("../WEB/functions/default.func.php");
@@ -6,6 +7,13 @@ include_once("../WEB/functions/date.func.php");
 include_once("../WEB/functions/string.func.php");
 include_once("../WEB/classes/base/Asesor.php");
 include_once("../WEB/classes/base/JadwalAsesor.php");
+
+
+ini_set('memory_limit', -1);
+ini_set('max_execution_time', -1);
+
+  flush();
+  ob_flush();
 
 // LOGIN CHECK 
 if ($userLogin->checkUserLogin()) 
@@ -51,13 +59,17 @@ unset($set);
 $pg = httpFilterRequest("pg");
 $menu = httpFilterRequest("menu");
 $reqTanggalTes= httpFilterGet("reqTanggalTes");
+if($reqTanggalTes==''){
+    $reqTanggalTes=date("d-m-Y");
+}
 
 $url = 'https://api-simpeg.kaltimbkd.info/pns/semua-data-utama/'.$tempAsesorNoSk.'/?api_token=f5a46b71f13fe1fd00f8747806f3b8fa';
 $data = json_decode(file_get_contents($url), true);
 //$dateNow= date("d-m-Y");
 
+
 $index_loop= 0;
-$arrAsesor="";
+$arrAsesor=array();
 //$statement= " AND (A.STATUS_PENILAIAN = '' OR A.STATUS_PENILAIAN IS NULL) AND COALESCE(B.JUMLAH_PESERTA,0) > 0 AND A.JADWAL_TES_ID IN (SELECT X.JADWAL_TES_ID FROM jadwal_asesor X WHERE X.ASESOR_ID = ".$tempAsesorId." GROUP BY X.JADWAL_TES_ID) ";
 $statement= "";
 $set= new JadwalAsesor();
@@ -67,21 +79,26 @@ if($reqMode!='administrator'){
 else{
     $set->selectByParamsJumlahAsesorPegawaiSuper($statement, $tempAsesorId);
 }
-//echo $set->query;exit;
+// echo $set->query;exit;
 while($set->nextRow())
 {
-    // $arrAsesor[$index_loop]["JADWAL_TES_ID"]= $set->getField("JADWAL_TES_ID");
+
+    $arrAsesor[$index_loop]["JADWAL_TES_ID"]= $set->getField("JADWAL_TES_ID");
     $arrAsesor[$index_loop]["TANGGAL_TES"]= dateToPageCheck(datetimeToPage($set->getField("TANGGAL_TES"), "date"));
     $arrAsesor[$index_loop]["JUMLAH"]= $set->getField("JUMLAH");
     $tanggalexplode=explode('-',dateToPageCheck(datetimeToPage($set->getField("TANGGAL_TES"), "date")));
     $arrAsesor[$index_loop]["d"]= ltrim($tanggalexplode[2],'0');
     $arrAsesor[$index_loop]["m"]= ltrim($tanggalexplode[1],'0');
     $arrAsesor[$index_loop]["y"]= ltrim($tanggalexplode[0],'0');
+    // print_r($arrAsesor);
+    // echo " ";
     $index_loop++;
 }
+// echo "Asd";exit;
 $jumlah_asesor= $index_loop;
-// print_r($arrAsesor);exit();
+// print_r($arrAsesor);
 //$jumlah_asesor= 0;
+
 ?>
 
 <!DOCTYPE html>
@@ -95,131 +112,10 @@ $jumlah_asesor= $index_loop;
     <link href="../WEB/lib/bootstrap/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="../WEB/css/gaya-main.css" type="text/css">
     <link rel="stylesheet" href="../WEB/css/gaya-assesor.css" type="text/css">
+    <link rel="stylesheet" href="../WEB/css/asesor.css" type="text/css">
     <link rel="stylesheet" href="../WEB/lib/Font-Awesome-4.5.0/css/font-awesome.css">
     
     <!--<script type='text/javascript' src="../WEB/lib/bootstrap/jquery.js"></script> -->
-
-<style>
-.col-md-12{
-  *padding-left:0px;
-  *padding-right:0px;
-}
-
-.calendar-container {
-  height: auto;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
-  padding: 20px 20px;
-}
-
-
-.calendar-week {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  padding-inline-start: 0px;
-}
-
-.calendar-week-day {
-  max-width: 57.1px;
-  width: 100%;
-  text-align: center;
-  color: #525659;
-}
-
-.calendar-days {
-  margin-top: 30px;
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 5px;
-  padding-inline-start: 0px;
-}
-
-.calendar-day {
-  text-align: center;
-  color: #525659;
-  padding: 10px;
-}
-
-.calendar-month-arrow-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.calendar-month-year-container {
-  padding: 10px 10px 20px 10px;
-  color: #525659;
-  cursor: pointer;
-}
-
-.calendar-arrow-container {
-  margin-top: -5px;
-}
-
-.calendar-left-arrow,
-.calendar-right-arrow {
-  height: 30px;
-  width: 30px;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  color: #525659;
-}
-
-.calendar-today-button {
-  margin-top: -10px;
-  border-radius: 10px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  color: #525659;
-  padding: 5px 10px;
-}
-
-.calendar-today-button {
-  height: 27px;
-  margin-right: 10px;
-  background-color: #ec7625;
-  color: white;
-}
-
-.calendar-months,
-.calendar-years {
-  flex: 1;
-  border-radius: 10px;
-  height: 30px;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  color: #525659;
-  font-size: 15px;
-}
-
-.calendar-day-active {
-  background-color: #ec7625;
-  color: white;
-  border-radius: 50%;
-}
-
-.calendar-alert {
-  background-color: red;
-  color: white;
-  border-radius: 10%;
-  cursor: pointer;
-}
-.calendar-notif{
-    font-size: 12px;
-  margin-top: -16px;
-  color: white;
-  border-radius: 30px;
-  background-color: green;
-  padding: 5px;
-  position: absolute;
-}
-</style>
 
 <script>
     function openPopup() {
@@ -286,7 +182,7 @@ html, body {
                     <div class="col-md-6">
                         <div class="area-akun">
                             Selamat datang, <strong><?=$userLogin->nama?></strong> , 
-                            <a href="login.php?reqMode=submitLogout"> Logout</a>
+                            <a href="/assesment/main/login.php?reqMode=submitLogout"> Logout</a>
                         </div>
                     </div>
                 </div>
@@ -313,7 +209,7 @@ html, body {
                         <div class="col-md-4" style="margin: 3px 0px;">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             Email : <? if($data['email']==''){?>
-                                            <?=$tempAsesorEmail?>
+                                            <?=$set->getField("EMAIL")?>
                                             <? } 
                                             else{ ?>
                                             <?=$data['email']?>
@@ -323,7 +219,7 @@ html, body {
                         <div class="col-md-8" style="margin: 3px 0px;">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             Telepon :<? if($data['no_hape']==''){?>
-                                                <?=$tempAsesorTelepon?>
+                                                <?=$set->getField("TELEPON")?>
                                             <? } 
                                             else{ ?>
                                             <?=$data['no_hape']?>
@@ -333,7 +229,7 @@ html, body {
                         <div class="col-md-8" style="margin: 3px 0px;">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             ALamat : <? if($data['alamat']==''){?>
-                                                <?=$tempAsesorAlamat?>
+                                                <?=$set->getField("ALAMAT")?>
                                             <? } 
                                             else{ ?>
                                             <?=$data['alamat']?>
@@ -355,7 +251,7 @@ html, body {
                         <div class="calendar-month-year">
                         </div>
                         <div class="calendar-arrow-container">
-                          <button class="calendar-today-button"></button>
+                          <button class="calendar-today-button" style="display: none;"></button>
                           <button class="calendar-left-arrow">
                             ← </button>
                           <button class="calendar-right-arrow"> →</button>
@@ -442,27 +338,36 @@ html, body {
     
     const weekArray = ["Sen", "Sel", "Rbu", "Kms", "Jmt", "Sbt", "Mng"];
 const monthArray = [
-  "January",
-  "February",
-  "March",
+  "Januari",
+  "Februari",
+  "Maret",
   "April",
-  "May",
-  "June",
-  "July",
-  "August",
+  "Mei",
+  "Juni",
+  "Juli",
+  "Agustus",
   "September",
-  "October",
+  "Oktober",
   "November",
-  "December"
+  "Desember"
 ];
-const current = new Date();
-const todaysDate = current.getDate();
-const currentYear = current.getFullYear();
-const currentMonth = current.getMonth();
+// const current = new Date();
+const current =  '<?=$reqTanggalTes?>';
+currentSplit =  current.split('-');
+// console.log(currentSplit);
+
+const todaysDate = currentSplit[0];
+const currentYear = currentSplit[2];
+const currentMonth = currentSplit[1];
+// console.log(currentYear);
+
+// const todaysDate = current.getDate();
+// const currentYear = current.getFullYear();
+// const currentMonth = current.getMonth();
 
 window.onload = function () {
   const currentDate = new Date();
-  generateCalendarDays(currentDate);
+  generateCalendarDays(currentDate,'start');
 
   let calendarWeek = document.getElementsByClassName("calendar-week")[0];
   let calendarTodayButton = document.getElementsByClassName(
@@ -485,26 +390,36 @@ window.onload = function () {
   const calendarYears = document.getElementsByClassName("calendar-years")[0];
   const monthYear = document.getElementsByClassName("calendar-month-year")[0];
 
-  const selectedMonth = parseInt(monthYear.getAttribute("data-month") || 0);
-  const selectedYear = parseInt(monthYear.getAttribute("data-year") || 0);
-
+  // const selectedMonth = parseInt(monthYear.getAttribute("data-month") || 0);
+  // const selectedYear = parseInt(monthYear.getAttribute("data-year") || 0);
+  const selectedMonth = parseInt(currentMonth)-1;
+  const selectedYear = currentYear;
   monthArray.forEach((month, index) => {
     let option = document.createElement("option");
+    // console.log(option);
     option.textContent = month;
     option.value = index;
     option.selected = index === selectedMonth;
     calendarMonths.appendChild(option);
   });
 
-  const currentYear = new Date().getFullYear();
-  const startYear = currentYear - 60;
-  const endYear = currentYear + 60;
+  // const currentYearnew = new Date().getFullYear();
+  // console.log(currentYearnew);
+  const startYear = 2019;
+  const endYear = parseInt(selectedYear) + 3;
   let newYear = startYear;
   while (newYear <= endYear) {
     let option = document.createElement("option");
     option.textContent = newYear;
     option.value = newYear;
-    option.selected = newYear === selectedYear;
+    if(newYear== selectedYear)
+    {
+    option.selected = 'selected';
+    }
+    else{
+    option.selected = '';
+
+    }
     calendarYears.appendChild(option);
     newYear++;
   }
@@ -546,14 +461,25 @@ window.onload = function () {
   });
 };
 
-function generateCalendarDays(currentDate) {
-  const newDate = new Date(currentDate);
-  const year = newDate.getFullYear();
-  const month = newDate.getMonth();
+function generateCalendarDays(currentDate,mode='x') {
+     if(mode=='x'){
+        console.log(currentDate);
+        newDate = new Date(currentDate);
+        year = newDate.getFullYear();
+        month = newDate.getMonth();
+    }
+    else{
+        var current =  '<?=$reqTanggalTes?>';
+        currentSplit =  current.split('-');
+        year = parseInt(currentSplit[2]);
+        month = parseInt(currentSplit[1])-1;
+    }
+    console.log(year);
+    console.log(month);
   const totalDaysInMonth = getTotalDaysInAMonth(year, month);
   const firstDayOfWeek = getFirstDayOfWeek(year, month);
   let calendarDays = document.getElementsByClassName("calendar-days")[0];
-
+  
   removeAllChildren(calendarDays);
 
   let firstDay = 1;
@@ -579,18 +505,18 @@ function generateCalendarDays(currentDate) {
         }
         calendarDays.appendChild(li);
         if ( day === parseInt(<?=$arrAsesor[$checkbox_index]['d']?>) && month === parseInt(<?=$arrAsesor[$checkbox_index]['m']?>)-1 && year === parseInt(<?=$arrAsesor[$checkbox_index]['y']?>)) {
-            $( "#<?=$arrAsesor[$checkbox_index]['d']?>-<?=$arrAsesor[$checkbox_index]['m']-1?>-<?=$arrAsesor[$checkbox_index]['y']?>" ).html(day+`<span class="calendar-notif">20</span>`);
+            $( "#<?=$arrAsesor[$checkbox_index]['d']?>-<?=$arrAsesor[$checkbox_index]['m']-1?>-<?=$arrAsesor[$checkbox_index]['y']?>" ).html(day+`<span class="calendar-notif"><?=$arrAsesor[$checkbox_index]["JUMLAH"]?></span>`);
             $( "#<?=$arrAsesor[$checkbox_index]['d']?>-<?=$arrAsesor[$checkbox_index]['m']-1?>-<?=$arrAsesor[$checkbox_index]['y']?>").attr('onClick', "showdetil('<?=$arrAsesor[$checkbox_index]['d']?>-<?=$arrAsesor[$checkbox_index]['m']?>-<?=$arrAsesor[$checkbox_index]['y']?>')");
         }
     <?}?>
     day++;
   }
 
-  const monthYear = document.getElementsByClassName("calendar-month-year")[0];
+   monthYear = document.getElementsByClassName("calendar-month-year")[0];
   monthYear.setAttribute("data-month", month);
   monthYear.setAttribute("data-year", year);
-  const calendarMonths = document.getElementsByClassName("calendar-months")[0];
-  const calendarYears = document.getElementsByClassName("calendar-years")[0];
+   calendarMonths = document.getElementsByClassName("calendar-months")[0];
+   calendarYears = document.getElementsByClassName("calendar-years")[0];
   calendarMonths.value = month;
   calendarYears.value = year;
 }

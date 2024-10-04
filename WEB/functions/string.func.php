@@ -1412,11 +1412,11 @@ function setJudul($lang)
 
 
 		$arrayJudul["index"]["formulir"]= "Formulir";
-		$arrayJudul["index"]["formulir_critical_incident"]= "Critical Incident Eselon";
-		$arrayJudul["index"]["formulir_ci_pelaksana"]= "Critical Incident Pelaksana";
+		$arrayJudul["index"]["formulir_critical_incident"]= "Formulir Critical Incident";
+		$arrayJudul["index"]["formulir_ci_pelaksana"]= "Formulir Critical Incident";
 		// $arrayJudul["index"]["formulir_q_kompetensi"]= "Formulir Q Kompetensi";
-		$arrayJudul["index"]["formulir_q_kompetensi_eselon"]= "Formulir Q Kompetensi Eselon";
-		$arrayJudul["index"]["formulir_q_kompetensi_pelaksana"]= "Formulir Q Kompetensi Pelaksana";
+		$arrayJudul["index"]["formulir_q_kompetensi_eselon"]= "Formulir Q Kompetensi ";
+		$arrayJudul["index"]["formulir_q_kompetensi_pelaksana"]= "Formulir Q Kompetensi";
 		$arrayJudul["index"]["formulir_q_inta"]= "Formulir Q Inta";
 
 

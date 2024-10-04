@@ -1,93 +1,3 @@
-<head>
-  <meta charset="utf-8">
-
-  <!-- Include Font Awesome. -->
-  <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
-
-  <!-- Include Editor style. -->
-<!--   <link href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.3/css/froala_editor.min.css" rel="stylesheet" type="text/css" />
-  <link href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/2.7.3/css/froala_style.min.css" rel="stylesheet" type="text/css" /> -->
-  <link rel="stylesheet" href="../WEB/lib/froala_editor_4.0.16/css/froala_editor.css">
-  <link rel="stylesheet" href="../WEB/lib/froala_editor_4.0.16/css/froala_style.css">
-
-  <!-- Include Code Mirror style -->
-  <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css"> -->
-
-  <!-- Include Editor Plugins style. -->
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/char_counter.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/code_view.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/colors.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/emoticons.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/file.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/fullscreen.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/image.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/image_manager.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/line_breaker.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/quick_insert.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/table.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/video.min.css">
-  <link rel="stylesheet" href="/../WEB/lib/froala_editor_4.0.16/css/plugins/special_characters.min.css">
-
-
-  <!-- Include jQuery. -->
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-  <!-- Include JS files. -->
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/froala_editor.min.js"></script>
-`
-  <!-- Include Code Mirror. -->
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
-  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
-
-  <!-- Include Plugins. -->
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/align.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/char_counter.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/code_beautifier.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/code_view.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/colors.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/draggable.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/emoticons.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/entities.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/file.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/font_family.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/font_size.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/fullscreen.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/image.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/image_manager.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/inline_style.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/line_breaker.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/link.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/lists.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/paragraph_format.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/paragraph_style.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/quick_insert.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/quote.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/table.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/save.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/url.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/video.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/special_characters.min.js"></script>
-  <script type="text/javascript" src="../WEB/lib/froala_editor_4.0.16/js/plugins/print.min.js"></script>
-</head>
-
-<body>
-  <div id="froala-editor"></div>
-</body>
-
-<script type="text/javascript">
-
-
-$(function() { 
-  // createfroala();
-  new FroalaEditor('.froala', {
-    key: "qc1H2pF1C3A2B6D7B5D5hBi1a2d2Za1IXBh1f1THTBPLIIWBORpF1F1E1H4F1C11C7C2B5G5==",
-    toolbarButtons: ['underline', 'bold', 'italic', 'quote','align', 'formatUL', 'formatOL', 'outdent','undo', 'redo'],
-  })
-});
-
-      
-</script>
-
 <?
 include_once("../WEB/classes/utils/UserLogin.php");
 include_once("../WEB/page_config.php");
@@ -126,10 +36,10 @@ ini_set('max_execution_time', -1);
 
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $reqEror=httpFilterGet("reqEror");
-// if($reqEror==1){
+if($reqEror==1){
   flush();
   ob_flush();
-// }
+}
 
 $tempAsesorId= $userLogin->userAsesorId;
 $reqJadwalTesId= httpFilterGet("reqJadwalTesId");
@@ -573,7 +483,6 @@ while($set->nextRow())
   $index_loop++;
 }
 $jumlah_penilaian= $index_loop;
-// print_r($arrPenilaian);exit;
 
 // onecheck: awal tambahan rekomendasi
 $index_catatan= 0;
@@ -1037,9 +946,6 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
       color: #333333
       
     }
-    #fr-logo{
-      display: none;
-    }
   </style>
 
   <!-- SCROLLING TAB -->
@@ -1193,7 +1099,19 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           </tr>
                                             <th style="width:165px">In Tray</th>
                                             <th style="width:5px">:</th>
-                                            <td colspan="4"><a href="<?=$tempFileTray?>" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td> 
+                                            <? if (!empty($tempFileTray))
+                                            {
+                                            ?>
+                                              <td colspan="4"><a href="<?=$tempFileTray?>" title="Cetak"><img src="../WEB/images/down_icon.png"/></a></td>
+                                            <?
+                                            }
+                                            else
+                                            {
+                                            ?>
+                                            <td colspan="4"><a href="<?=$tempFileTray?>" title="Cetak"></td>
+                                            <?
+                                             }
+                                             ?> 
                                           </tr> 
                                           <tr>
                                             <th>Portofolio</th>
@@ -1359,7 +1277,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                             <div class="area-table-assesor">
                               <!-- <br> -->
                               <div class="judul-halaman">Penilaian Psikotes</div>
-                              <form id="ff-<?=$reqInfoPenggalianId?>" method="post" novalidate style="height: 300px;overflow: scroll;">
+                              <form id="ff-<?=$reqInfoPenggalianId?>" method="post" novalidate>
 
                                 <table style="margin-bottom:60px;" class="profil"> 
                                   <tbody>
@@ -1602,7 +1520,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                                 <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" />
                                                 <br>
                                               </center>
-                                              <textarea class='froala' name="reqPenilaianPotensiCatatan[]" class="easyui-validatebox" data-options="validType:'justText'" style="color:#000 !important "><?=$reqPenilaianPotensiCatatan?></textarea>
+                                              <textarea name="reqPenilaianPotensiCatatan[]" class="easyui-validatebox" data-options="validType:'justText'" style="color:#000 !important "><?=$reqPenilaianPotensiCatatan?></textarea>
                                               <?
                                               }
                                               else
@@ -1683,7 +1601,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                                     </select>
                                                   </td>
                                                   <td>
-                                                    <textarea class='froala' name="reqKompetensiKet[]" ><?=$setPenilaianKompetensi->getField("keterangan")?></textarea>
+                                                    <textarea name="reqKompetensiKet[]" ><?=$setPenilaianKompetensi->getField("keterangan")?></textarea>
                                                   </td>
                                                 </tr>
                                                 <?
@@ -1715,7 +1633,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         }
                                           else{
                                       ?>
-                                      <td colspan="10">  <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianKeteranganKepribadian"><?=$reqPenilaianKeteranganKepribadian?></textarea>
+                                      <td colspan="10">  <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianKeteranganKepribadian"><?=$reqPenilaianKeteranganKepribadian?></textarea>
                                           <input type="hidden" style="color:#000 !important" name="reqPenilaianKperibadianPegawaiId" value="<?=$reqPegawaiId?>" />
                                           <input type="hidden" style="color:#000 !important" name="reqPenilaianKperibadianjadwalId" value="<?=$reqJadwalTesId?>" />
                                         </td>
@@ -1750,7 +1668,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           $reqinfocatatan= $arrUraianPotensi[$index_catatan]["KETERANGAN"];
                                         ?>
                                           <p>
-                                            <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianPotensi[]"><?=$reqinfocatatan?></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianPotensi[]"><?=$reqinfocatatan?></textarea>
                                             <?
                                             if($index_catatan > 0)
                                             {
@@ -1766,7 +1684,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         {
                                         ?>
                                           <p>
-                                            <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianPotensi[]"></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianPotensi[]"></textarea>
                                           </p>
                                         <?
                                         }
@@ -1831,10 +1749,8 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
 
                             <div class="area-table-assesor">
                               <!-- <br> -->
-                              <?
-                              echo "";?>
                               <div class="judul-halaman">Penilaian dan Catatan :</div>
-                                <form id="ff-<?=$reqInfoPenggalianId?>" method="post" novalidate style="height: 300px;overflow: scroll;">
+                                <form id="ff-<?=$reqInfoPenggalianId?>" method="post" novalidate>
                                   <table style="margin-bottom:60px;" class="profil">
                                     <thead>
                                       <tr>
@@ -2117,7 +2033,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                                       <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" />
                                                      <br>
                                                    </center>
-                                                      <textarea class='froala' name="reqDetilAtributCatatan[]" class="easyui-validatebox froala" data-options="validType:'justText'"><?=$reqDetilAtributCatatan?></textarea>
+                                                      <textarea name="reqDetilAtributCatatan[]" class="easyui-validatebox" data-options="validType:'justText'"><?=$reqDetilAtributCatatan?></textarea>
                                                       <?
                                                       }
                                                       else
@@ -2183,7 +2099,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                             <div class="area-table-assesor">
                               <!-- <br> -->
                               <div class="judul-halaman">Penilaian Kompetensi</div>
-                              <form id="ff-" method="post" novalidate style="height: 300px;overflow: scroll;">
+                              <form id="ff-" method="post" novalidate>
                                 <table style="margin-bottom:60px;" class="profil">
                                   <thead>
                                   </thead>
@@ -2464,7 +2380,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             <td colspan="9">
                                               <?if($disabledatribut==''){?>
                                               <center>
-                                                <!-- <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" /> -->
+                                                <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" />
                                                 <br>
                                               </center>
                                               <?}?>
@@ -2483,12 +2399,12 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               ?>
                                               <fieldset>
                                                 <legend>Deskripsi</legend>
-                                                <textarea class="froala" name="reqPenilaianKompetensiBukti[]" id="reqPenilaianKompetensiBukti<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>" style="width:95%;" rows="1" ><?=$reqPenilaianKompetensiBukti?></textarea>
+                                                <textarea name="reqPenilaianKompetensiBukti[]" id="reqPenilaianKompetensiBukti<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>" style="width:95%;" rows="1" ><?=$reqPenilaianKompetensiBukti?></textarea>
                                               </fieldset>
                                               <span style="<?=$munculsarancss?>" id="reqPenilaianKompetensiSaran<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>">
                                                 <fieldset>
                                                   <legend>Saran Pengembangan</legend>
-                                                  <textarea class='froala' name="reqPenilaianKompetensiCatatan[]" id="reqPenilaianKompetensiCatatan<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>" style="width:95%" rows="1" ><?=$reqPenilaianKompetensiCatatan?></textarea>
+                                                  <textarea name="reqPenilaianKompetensiCatatan[]" id="reqPenilaianKompetensiCatatan<?=$reqPenilaianKompetensiAspekId?>-<?=$index_detil?>" style="width:95%" rows="1" ><?=$reqPenilaianKompetensiCatatan?></textarea>
                                                 </fieldset>
                                               </span>
                                                 <input name="submit1" type="submit" class="btn btn-primary btn-sm" style="width:100%" value="Simpan" />
@@ -2549,7 +2465,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           $reqinfocatatan= $arrNilaiAkhirSaranPengembangan[$index_catatan]["KETERANGAN"];
                                         ?>
                                           <p>
-                                            <textarea class="froala" rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqNilaiAkhirSaranPengembangan[]"><?=$reqinfocatatan?></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqNilaiAkhirSaranPengembangan[]"><?=$reqinfocatatan?></textarea>
                                             <?
                                             if($index_catatan > 0)
                                             {
@@ -2565,7 +2481,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         {
                                         ?>
                                           <p>
-                                            <textarea class='froala' rows="1" class="froala" style="margin: 4px auto; width:100%; color:#06345f;" name="reqNilaiAkhirSaranPengembangan[]"></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqNilaiAkhirSaranPengembangan[]"></textarea>
                                           </p>
                                         <?
                                         }
@@ -2622,7 +2538,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                           $reqinfocatatan= $arrUraianKompetensi[$index_catatan]["KETERANGAN"];
                                         ?>
                                           <p>
-                                            <textarea class="froala" rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianKompetensi[]"><?=$reqinfocatatan?></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianKompetensi[]"><?=$reqinfocatatan?></textarea>
                                             <?
                                             if($index_catatan > 0)
                                             {
@@ -2638,7 +2554,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                         {
                                         ?>
                                           <p>
-                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianKompetensi[]" class="froala"></textarea>
+                                            <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqUraianKompetensi[]"></textarea>
                                           </p>
                                         <?
                                         }
@@ -2696,7 +2612,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                           <div class="col-md-12">
                             <div class="area-table-assesor">
                               <div class="judul-halaman">Kesimpulan</div>
-                              <form id="ff-simpan" method="post" novalidate style="height: 300px;overflow: scroll;">
+                              <form id="ff-simpan" method="post" novalidate>
                                 <table style="margin-bottom:60px;" class="profil">
                                   <thead>
 
@@ -2723,7 +2639,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               $reqinfocatatan= $arrPotensiStrength[$index_catatan]["KETERANGAN"];
                                             ?>
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiStrength[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiStrength[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2739,7 +2655,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             {
                                             ?>
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiStrength[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiStrength[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2782,7 +2698,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               $reqinfocatatan= $arrPenilaianPotensiWeaknes[$index_catatan]["KETERANGAN"];
                                             ?>
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiWeaknes[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiWeaknes[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2798,7 +2714,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             {
                                             ?>
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiWeaknes[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiWeaknes[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2843,7 +2759,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               $reqinfocatatan= $arrPenilaianPotensiKesimpulan[$index_catatan]["KETERANGAN"];
                                             ?>
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiKesimpulan[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiKesimpulan[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2859,7 +2775,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             {
                                             ?>
                                               <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiKesimpulan[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiKesimpulan[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2902,7 +2818,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               $reqinfocatatan= $arrPenilaianPotensiSaranPengembangan[$index_catatan]["KETERANGAN"];
                                             ?>
                                               <p>
-                                                <textarea class='froala'rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPengembangan[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPengembangan[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2918,7 +2834,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             {
                                             ?>
                                                <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPengembangan[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPengembangan[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -2960,7 +2876,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               $reqinfocatatan= $arrPenilaianPotensiSaranPenempatan[$index_catatan]["KETERANGAN"];
                                             ?>
                                              <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPenempatan[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPenempatan[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -2976,7 +2892,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             {
                                             ?>
                                                <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPenempatan[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiSaranPenempatan[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -3034,7 +2950,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                               $reqinfocatatan= $arrPenilaianPotensiProfilKompetensi[$index_catatan]["KETERANGAN"];
                                             ?>
                                              <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiProfilKompetensi[]"><?=$reqinfocatatan?></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiProfilKompetensi[]"><?=$reqinfocatatan?></textarea>
                                                 <?
                                                 if($index_catatan > 0)
                                                 {
@@ -3050,7 +2966,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
                                             {
                                             ?>
                                              <p>
-                                                <textarea class='froala' rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiProfilKompetensi[]"></textarea>
+                                                <textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="reqPenilaianPotensiProfilKompetensi[]"></textarea>
                                               </p>
                                             <?
                                             }
@@ -3243,7 +3159,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
 <script type='text/javascript' src="../WEB/lib/bootstrap/angular.js"></script> 
 
 <!-- SCROLLING TAB -->
-<!-- <script src="../WEB/lib/Scrolling/jquery-1.12.4.min.js"></script> -->
+<script src="../WEB/lib/Scrolling/jquery-1.12.4.min.js"></script>
 <script src="../WEB/lib/Scrolling/jquery-ui.min.js"></script>
 <script src="../WEB/lib/Scrolling/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="../WEB/lib/Scrolling-jQuery-UI-Tabs-jQuery-ScrollTabs/jquery.ui.scrolltabs.js"></script>
@@ -3251,7 +3167,7 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
 <script type="text/javascript" src="../WEB/lib/easyui/jquery.easyui.min.js"></script>
 <link rel="stylesheet" href="../WEB/lib/DHTMLWindow/windowfiles/dhtmlwindow.css" type="text/css" />
 <script type="text/javascript" src="../WEB/lib/DHTMLWindow/windowfiles/dhtmlwindow.js"></script>
-<!-- <script type="text/javascript" src="../niceedit/nicedit.js"></script> -->
+<script type="text/javascript" src="../niceedit/nicedit.js"></script>
 
 <script>
   $(document).ready(function() {
@@ -3627,12 +3543,16 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
   function createRow(mode)
   {
     var scntDiv = $("#"+mode +" fieldset");
-    infodata= '<textarea class="froala"  rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="req'+mode+'[]"></textarea>';
-    var elm = $(infodata).appendTo(scntDiv); 
-
-    // createfroala();
-    // new FroalaEditor('.froala', {key: "qc1H2pF1C3A2B6D7B5D5hBi1a2d2Za1IXBh1f1THTBPLIIWBORpF1F1E1H4F1C11C7C2B5G5=="})
-    new FroalaEditor('.froala', {key: "TEB9iE6A5C3E3E3A2C9aIVLEABVAYFKc1Ce1MYGD1c1NYVMiB3B9B6E5C2C4D4H3A2A2=="})
+    infodata= '<textarea rows="1" style="margin: 4px auto; width:100%; color:#06345f;" name="req'+mode+'[]"></textarea>';
+    var elm = $(infodata).appendTo(scntDiv); // Add the textarea to DOM
+    var curSize = $('textarea[name="req'+mode+'[]"]').length; //Get the current SIZE of textArea
+    editors[curSize] = new nicEditor().panelInstance(elm[0]); //Set the Object with the index as key and reference for removel
+   elm.after($('<a/>', { //Create anchor Tag with rel attribute as that of the index of corresponding editor
+       rel: curSize,
+           'class': "remScnt",
+       text: "Remove",
+       href: '#'
+   })).next().andSelf().wrapAll($('<p/>'));
   }
 
   $(document).on('click', '.remScnt', function (e) {
@@ -3675,7 +3595,12 @@ $reqJenisPegawai= $reqfolderjenis."-jawab";
       }
     });
 
-    
+    bkLib.onDomLoaded(function() {
+      nicEditors.allTextAreas();
+      $('.nicEdit-panelContain').parent().width('100%');
+      $('.nicEdit-panelContain').parent().next().width('98%');
+      $('.nicEdit-main').width('100%');
+    });
   });
 
 
