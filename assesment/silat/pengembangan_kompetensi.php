@@ -26,10 +26,10 @@ $set_eselon->selectByParams(array(), -1,-1, "", "ORDER BY A.FORMULA");
 $tinggi = 220;
 
 $arrkolomdata= array(
-    array("label"=>"Nama", "width"=>"220px")
-    , array("label"=>"NIP Baru", "width"=>"120px")
-    , array("label"=>"Jabatan", "width"=>"")
-    , array("label"=>"Instansi", "width"=>"150px")
+    array("label"=>"Nama", "width"=>"25%")
+    , array("label"=>"NIP Baru", "width"=>"25%")
+    , array("label"=>"Jabatan", "width"=>"25%")
+    , array("label"=>"Instansi", "width"=>"25%")
 );
 // print_r($arrkolomdata);exit;
 ?>
@@ -185,16 +185,16 @@ $arrkolomdata= array(
 			  if(anSelectedData == "")
 				  return false;
 
-			  reqFormulaId= $("#reqFormulaId").val();
+			  // reqFormulaId= $("#reqFormulaId").val();
 
-			  if(reqFormulaId == "")
-			  {
-			  	$.messager.alert('Info', "Pilih data formula terlebih dahulu", 'info');
-			  	return false;
-			  }
+			  // if(reqFormulaId == "" || reqFormulaId==undefined)
+			  // {
+			  // 	$.messager.alert('Info', "Pilih data formula terlebih dahulu", 'info');
+			  // 	return false;
+			  // }
 
 			  // opUrl= 'pengembangan_kompetensi_add.php?reqId='+anSelectedPegawaiId+'&reqFormulaId='+reqFormulaId;
-			  opUrl= 'pengembangan_kompetensi_menu.php?reqId='+anSelectedPegawaiId+'&reqFormulaId='+reqFormulaId;
+			  opUrl= 'pengembangan_kompetensi_menu.php?reqId='+anSelectedPegawaiId;
 			  window.top.OpenDHTML(opUrl, anSelectedPegawaiNipBaru+' - '+anSelectedPegawaiNama, '880', '495');
 		  });
 
@@ -339,9 +339,9 @@ $arrkolomdata= array(
 
     </div>  
     <div class="bar-status">  	
-    Formula
+<!--     Formula
     <select id="reqFormulaId" name="reqFormulaId" style="width: 250px">
-    	<option selected="selected" value="">Semua</option>
+    	<option selected="selected" value="" disabled>Pilih Formula</option>
         <?
 		while($set_eselon->nextRow())
 		{
@@ -350,12 +350,12 @@ $arrkolomdata= array(
         <?
 		}
         ?>
-    </select>
+    </select> -->
     </div>
     
-    <div style="position: relative; margin-bottom:-30px; margin-top:8px; float:right; z-index:9999; font-size:12px;">
+    <div style="position: relative; margin-bottom:-30px; margin-top:8px; float:right; z-index:9999; font-size:12px;margin-right: 20px;">
         Pencarian :
-        <input type="text" id="reqPencarian" style="width:155px" />
+        <input type="text" id="reqPencarian" style="width:155px; margin-left: 20px;" />
     </div>
     
     <div id="rightclickarea"> <!--RIGHT CLICK EVENT -->

@@ -449,59 +449,82 @@ $jumlahPotensiStrength= $index_catatan;
 
 		<br>
 		<!-- <pagebreak /> -->
-
 		<table width="100%">
 			<tr>
 				<td width="5%"><strong>IV.</strong></td>
 				<td><strong>KEKUATAN DAN AREA PENGEMBANGAN</strong></td>
 			</tr>
 		</table>
-		1.	Kekuatan<br>
-		<p style="font-size: 10pt;text-align: justify;">Berdasarkan hasil penilaian kompetensi yang dilakukan, maka yang menjadi kekuatannya adalah sebagai berikut:</p>
-		<? 
-		for($index_catatan=0; $index_catatan<$jumlahPotensiStrength; $index_catatan++)
-		{
-			$reqinfocatatan= $arrPotensiStrength[$index_catatan]["KETERANGAN"];
-			$reqinfourut= $arrPotensiStrength[$index_catatan]["NO_URUT"];
+		<table width="100%">
+			<tr>
+				<td>
+					1.	Kekuatan
+					<table width="100%">
+						<tr>
+							<td width="5%"></td>
+							<td>
+								<p style="font-size: 10pt;text-align: justify;">Berdasarkan hasil penilaian kompetensi yang dilakukan, maka yang menjadi kekuatannya adalah sebagai berikut:</p>
+								<? 
+								for($index_catatan=0; $index_catatan<$jumlahPotensiStrength; $index_catatan++)
+								{
+									$reqinfocatatan= $arrPotensiStrength[$index_catatan]["KETERANGAN"];
+									$reqinfourut= $arrPotensiStrength[$index_catatan]["NO_URUT"];
 
-			if($jumlahPotensiStrength == 1)
-			{
-				$reqinfourut= "";
-			}
-			else
-			{
-				$reqinfourut= $reqinfourut.".&nbsp; ";
-			}
-		?>
-		<p  style="font-size: 10pt;text-align: justify;"><?=$reqinfocatatan?></p>
-		<?
-		}
-		?>
+									if($jumlahPotensiStrength == 1)
+									{
+										$reqinfourut= "";
+									}
+									else
+									{
+										$reqinfourut= $reqinfourut.".&nbsp; ";
+									}
+								?>
+								<p  style="font-size: 10pt;text-align: justify;"><?=str_replace("text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;","display:none",$reqinfocatatan);?></p>
+								<?
+								}
+								?>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table width="100%">
+			<tr>
+				<td>
+					2.	Area Pengembangan<br>
+					<table width="100%">
+						<tr>
+							<td width="5%"></td>
+							<td>
+								<p style=" font-size: 10pt;text-align: justify;">Berdasarkan hasil penilaian kompetensi yang dilakukan, maka yang menjadi area pengembangannya adalah sebagai berikut:
+								<!-- <?=$tempCatatanPengembangan?><br></p> -->
+								</p>
+								<? 
+								for($index_catatan=0; $index_catatan<$jumlahNilaiAkhirSaranPengembangan; $index_catatan++)
+								{
+									$reqinfocatatan= $arrNilaiAkhirSaranPengembangan[$index_catatan]["KETERANGAN"];
+									$reqinfourut= $arrNilaiAkhirSaranPengembangan[$index_catatan]["NO_URUT"];
 
-		2.	Area Pengembangan<br>
-		<p style=" font-size: 10pt;text-align: justify;">Berdasarkan hasil penilaian kompetensi yang dilakukan, maka yang menjadi area pengembangannya adalah sebagai berikut:
-		<!-- <?=$tempCatatanPengembangan?><br></p> -->
-		<br></p>
-		<? 
-		for($index_catatan=0; $index_catatan<$jumlahNilaiAkhirSaranPengembangan; $index_catatan++)
-		{
-			$reqinfocatatan= $arrNilaiAkhirSaranPengembangan[$index_catatan]["KETERANGAN"];
-			$reqinfourut= $arrNilaiAkhirSaranPengembangan[$index_catatan]["NO_URUT"];
-
-			if($jumlahNilaiAkhirSaranPengembangan == 1)
-			{
-				$reqinfourut= "";
-			}
-			else
-			{
-				$reqinfourut= $reqinfourut.".&nbsp; ";
-			}
-		?>
-		<p  style="font-size: 10pt;text-align: justify;"><?=$reqinfocatatan?></p>
-		<?
-		}
-		?>
-
+									if($jumlahNilaiAkhirSaranPengembangan == 1)
+									{
+										$reqinfourut= "";
+									}
+									else
+									{
+										$reqinfourut= $reqinfourut.".&nbsp; ";
+									}
+								?>
+								<p  style="font-size: 10pt;text-align: justify;"><?=str_replace("text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;","display:none",$reqinfocatatan);?></p>
+								<?
+								}
+								?>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
 		<table width="100%">
 			<tr>
 				<td width="5%"><strong>V.</strong></td>
@@ -544,7 +567,7 @@ $jumlahPotensiStrength= $index_catatan;
 		
 			</tr>
 		</table>
-		<pagebreak />
+		<!-- <pagebreak /> -->
 		<br>
 		<table width="100%">
 			<tr>

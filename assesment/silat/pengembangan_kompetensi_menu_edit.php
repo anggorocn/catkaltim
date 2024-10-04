@@ -187,14 +187,14 @@ window.onload = function() {
         {
         ?> 
            	<a href="#" id="jenisread" onclick="executeOnClick('jenisread');">Analisis Program Pengembangan</a>	
-            <a href="#" id="realisasiread" onclick="executeOnClick('realisasiread');">Realisasi Program Pengembangan</a> 
+            <!-- <a href="#" id="realisasiread" onclick="executeOnClick('realisasiread');">Realisasi Program Pengembangan</a>  -->
         <?	
         }
         else
         {
         ?>
         	 <a href="#" id="jenis" onclick="executeOnClick('jenis');">Analisis Program Pengembangan</a>
-            <a href="#" id="realisasi" onclick="executeOnClick('realisasi');">Realisasi Program Pengembangan</a> 
+            <!-- <a href="#" id="realisasi" onclick="executeOnClick('realisasi');">Realisasi Program Pengembangan</a>  -->
        	<?
         }
         ?>

@@ -15,7 +15,7 @@ if ($userLogin->checkUserLogin())
 }
 
 $reqId= httpFilterGet("reqId");
-$reqTipeUjianId= httpFilterGet("reqTipeUjianId");
+$reqTipeUjianId= httpFilterGet("reqTipeUjian");
 
 ini_set("memory_limit","500M");
 ini_set('max_execution_time', 520);

@@ -334,7 +334,7 @@ function setnumberdua($val)
 				$reqinfourut= $reqinfourut.".&nbsp; ";
 			}
 		?>
-		<p  style="font-size: 10pt;text-align: justify;"><?=$reqinfocatatan?></p>
+		<p  style="font-size: 10pt;text-align: justify;"><?=str_replace("text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;","display:none",$reqinfocatatan);?></p>
 		<?
 		}
 		?>
@@ -359,7 +359,7 @@ function setnumberdua($val)
 			}
 		?>
 		<b>Catatan:</b>
-		<p  style="font-size: 10pt;text-align: justify;"><?=$reqinfocatatan?></p>
+		<p  style="font-size: 10pt;text-align: justify;"><?=str_replace("text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;","display:none",$reqinfocatatan);?></p>
 		<?
 		}
 		?>

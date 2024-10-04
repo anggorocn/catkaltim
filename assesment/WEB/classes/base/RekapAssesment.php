@@ -443,9 +443,13 @@ DESCRIPTION			:
 
 		LEFT join 
 		(
-			select a.pegawai_id, a.no_urut from jadwal_awal_tes_simulasi_pegawai a
-			left join jadwal_awal_tes b on a.jadwal_awal_tes_id =b.jadwal_awal_tes_id
-			where formula_eselon_id = ".$reqJadwalTesId."
+			select a.pegawai_id, a.no_urut
+			FROM
+				jadwal_awal_tes_simulasi_pegawai A 
+				LEFT JOIN jadwal_awal_tes b ON A.jadwal_awal_tes_id = b.jadwal_awal_tes_id 
+				LEFT JOIN formula_eselon fe ON b.formula_eselon_id = fe.formula_eselon_id
+			WHERE
+				fe.formula_id = ".$reqJadwalTesId."
 		) c on b. pegawai_id = c.pegawai_id
 		WHERE 1=1 AND B.PEGAWAI_ID IS NOT NULL
 	 	"; 

@@ -181,6 +181,9 @@ $tempListInfo= $userLogin->userTempList;
             border-radius: 20px;
         }
     }
+    .asesorMenu{
+        margin: 0px 100px;
+    }
 
     </style>
     
@@ -216,184 +219,200 @@ $tempListInfo= $userLogin->userTempList;
         </div>
 
         <div class="row">
-            <div class="col-md-4" style="background-color: rgba(0, 159, 59, 0.1);border-radius: 0px 0px 50px 0px">
+            <?if($userLogin->userPegawaiId==""){
+                $classmenu='col-md-6';
+            }
+            else{
+                $classmenu='col-lg-4 col-md-6';
+                $classmenunew='asesorMenu';
+            }
+            if($userLogin->userPegawaiId==""){?>
+                <div class="col-md-4" style="background-color: rgba(0, 159, 59, 0.1);border-radius: 0px 0px 50px 0px">
+            <?} else{?>
+                <div class="col-md-12" style="background-color: rgba(0, 159, 59, 0.1);border-radius: 0px 0px 50px 0px">
+            <?}?>
+
                 <div class="row" style="margin:10px 10px; padding: 10px;">
                     <div class="judul-halaman" style="color: black">Main Menu</div>
-                    <?
-                    if($userLogin->userPegawaiId==""){
-                        if($userLogin->userPegawaiId=="")
-                        {
-                            if($tempIKK==1)
+                    <div class="<?=$classmenunew?>">
+                        <?
+                        if($userLogin->userPegawaiId==""){
+                            if($userLogin->userPegawaiId=="")
+                            {
+                                if($tempIKK==1)
+                                {
+                                ?>
+                                    <div class="col-md-6" style="padding: 20px 5px;">
+                                        <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                            <a href="../ikk/index.php" style="text-align: center;">
+                                                <div class="icon" style="color: #f8f4c2;"><i class="fa fa-pencil-square-o fa-3x"></i></div>
+                                                <div class="teks" style="color: #f8f4c2; font-size: 12px;">Penilaian Kompetensi</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                <?
+                                }
+                                if($tempPengembangan==1)
+                                {
+                                ?>
+                                    <div class="col-md-6" style="padding: 20px 5px;">
+                                        <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                            <a href="../silat/index.php" style="text-align: center;">
+                                                <div class="icon" style="color: #f8f4c2;"><i class="fa fa-user fa-3x"></i></div>
+                                                <div class="teks" style="color: #f8f4c2; font-size: 12px;">HCDP</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                <?
+                                }
+                                if($tempRencanaSuksesi == 1)
+                                {
+                                ?>
+                                    <div class="col-md-6" style="padding: 20px 5px;">
+                                        <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                            <a href="../suksesi/index.php" style="text-align: center;">
+                                                <div class="icon" style="color: #f8f4c2;"><i class="fa fa fa-users fa-3x"></i></div>
+                                                <div class="teks" style="color: #f8f4c2; font-size: 12px;">Rencana Suksesi</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                <?
+                                }
+                                if($tempPolaKarir==1)
+                                {
+                                ?>
+                                    <div class="col-md-6" style="padding: 20px 5px;">
+                                        <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                            <a href="../pengaturan/index.php" style="text-align: center;">
+                                                <div class="icon" style="color: #f8f4c2;"><i class="fa fa-cog fa-3x"></i></div>
+                                                <div class="teks" style="color: #f8f4c2; font-size: 12px;">Pengaturan</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                <?
+                                }
+                            }
+                            else
                             {
                             ?>
-                                <div class="col-md-6" style="padding: 20px 5px;">
-                                    <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                                        <a href="../ikk/index.php" style="text-align: center;">
-                                            <div class="icon" style="color: #f8f4c2;"><i class="fa fa-pencil-square-o fa-3x"></i></div>
-                                            <div class="teks" style="color: #f8f4c2; font-size: 12px;">Penilaian Kompetensi</div>
-                                        </a>
-                                    </div>
+                            <div class="<?=$classmenu?>" style="padding: 20px 5px;">
+                                <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                    <a href="../asesor/index.php" style="text-align: center;">
+                                        <div class="icon" style="color: #f8f4c2;"><i class="fa fa-cog fa-3x"></i></div>
+                                        <div class="teks" style="color: #f8f4c2; font-size: 12px;">Asesor</div>
+                                    </a>
                                 </div>
+                            </div>
                             <?
                             }
-                            if($tempPengembangan==1)
-                            {
                             ?>
-                                <div class="col-md-6" style="padding: 20px 5px;">
-                                    <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                                        <a href="../silat/index.php" style="text-align: center;">
-                                            <div class="icon" style="color: #f8f4c2;"><i class="fa fa-user fa-3x"></i></div>
-                                            <div class="teks" style="color: #f8f4c2; font-size: 12px;">HCDP</div>
-                                        </a>
-                                    </div>
+                            <div class="<?=$classmenu?>" style="padding: 20px 5px;">
+                                <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                    <form action="../../../talenta/admin?reqAdminId=<?=$userLogin->UID?>" method="post" target="_blank">
+                                        <button style="text-align: center;width: 100%;  background-color: transparent;  border: none;">
+                                            <div class="icon" style="color: #f8f4c2;"><i class="fa fa-bar-chart fa-3x"></i></div>
+                                            <div class="teks" style="color: #f8f4c2; font-size: 12px;">Manajemen Talenta</div>
+                                            <input type="hidden" name="loginadminid" value="<?=$userLogin->UID?>">
+                                        </button>
+                                    </form>
                                 </div>
-                            <?
-                            }
-                            if($tempRencanaSuksesi == 1)
-                            {
-                            ?>
-                                <div class="col-md-6" style="padding: 20px 5px;">
-                                    <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                                        <a href="../suksesi/index.php" style="text-align: center;">
-                                            <div class="icon" style="color: #f8f4c2;"><i class="fa fa fa-users fa-3x"></i></div>
-                                            <div class="teks" style="color: #f8f4c2; font-size: 12px;">Rencana Suksesi</div>
-                                        </a>
-                                    </div>
+                            </div>
+                        <?}
+                        else{?>
+                            <div class="<?=$classmenu?>" style="padding: 20px 5px;">
+                                <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                    <a href="../asesor/index.php?reqMode=administrator" style="text-align: center;"> 
+                                        <div class="icon" style="color: #f8f4c2;"><i class="fa fa-users fa-3x"></i></div>
+                                        <div class="teks" style="color: #f8f4c2; font-size: 12px;">Admin Kegiatan</div>
+                                    </a>
                                 </div>
-                            <?
-                            }
-                            if($tempPolaKarir==1)
-                            {
-                            ?>
-                                <div class="col-md-6" style="padding: 20px 5px;">
-                                    <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                                        <a href="../pengaturan/index.php" style="text-align: center;">
-                                            <div class="icon" style="color: #f8f4c2;"><i class="fa fa-cog fa-3x"></i></div>
-                                            <div class="teks" style="color: #f8f4c2; font-size: 12px;">Pengaturan</div>
-                                        </a>
-                                    </div>
+                            </div>
+                            <div class="<?=$classmenu?>" style="padding: 20px 5px;">
+                                <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                    <a href="../asesor/index.php" style="text-align: center;">
+                                        <div class="icon" style="color: #f8f4c2;"><i class="fa fa-bookmark-o fa-3x"></i></div>
+                                        <div class="teks" style="color: #f8f4c2; font-size: 12px;">Penilaian Asesor</div>
+                                    </a>
                                 </div>
-                            <?
-                            }
-                        }
-                        else
-                        {
-                        ?>
-                        <div class="col-md-6" style="padding: 20px 5px;">
-                            <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                                <a href="../asesor/index.php" style="text-align: center;">
-                                    <div class="icon" style="color: #f8f4c2;"><i class="fa fa-cog fa-3x"></i></div>
-                                    <div class="teks" style="color: #f8f4c2; font-size: 12px;">Asesor</div>
+                            </div>
+
+                            <div class="<?=$classmenu?>" style="padding: 20px 5px;">
+                                <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
+                                    <form action="../../../feedback?reqAdminId=<?=$userLogin->UID?>" method="post" target="_blank">
+                                        <button style="text-align: center;width: 100%;  background-color: transparent;  border: none;">
+                                            <div class="icon" style="color: #f8f4c2;"><i class="fa fa-bar-chart fa-3x"></i></div>
+                                            <div class="teks" style="color: #f8f4c2; font-size: 12px;">Feedback</div>
+                                            <input type="hidden" name="loginadminid" value="<?=$userLogin->UID?>">
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        <?}?>
+                    </div>
+                </div>
+            </div>
+            <?if($userLogin->userPegawaiId==""){?>
+                <div class="col-md-8 area-grafik">
+                    <div class="row area-dashboard" style="overflow: scroll;height: 75vh;overflow-x: hidden;">
+                        <div class="col-md-4">
+                            <div class="item sudah">
+                                <a href="#" style="background-color:#35d8ac; color: white;">
+                                    <div class="row">
+                                        <div class="<?=$classmenu?>" style="overflow: hidden; padding: 0 0; margin: -15px -10px;">
+                                            <img src="../WEB/images/pegawai_sudah.png" style="width: 140px;"> 
+                                        </div>
+                                        <div class="<?=$classmenu?>" style="padding-right: 0;">
+                                            <div style="font-family: 'Open Sans Bold'; font-size: 20px;text-align: right;">1603</div>
+                                            <br>
+                                            <div style="font-size: 12px;text-align: right;">
+                                                Pegawai yang sudah mengikuti penkom
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item belum">
+                                <a href="#" style="background-color:#ff6038; color: white;">
+                                    <div class="row">
+                                        <div class="<?=$classmenu?>" style="overflow: hidden; padding: 0 0; margin: -15px -10px;">
+                                            <img src="../WEB/images/pegawai_belum.png" style="width: 140px;"> 
+                                        </div>
+                                        <div class="<?=$classmenu?>" style="padding-right: 0;">
+                                            <div style="font-family: 'Open Sans Bold'; font-size: 20px;text-align: right;"><?=$tempBelumUjian?></div>
+                                            <br>
+                                            <div style="font-size: 12px;text-align: right;">
+                                                 Pegawai yang belum mengikuti penkom
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
                             </div>
                         </div>
-                        <?
-                        }
-                    }
-                    else{?>
-                    <div class="col-md-6" style="padding: 20px 5px;">
-                        <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                            <a href="../asesor/index.php?reqMode=administrator" style="text-align: center;"> 
-                                <div class="icon" style="color: #f8f4c2;"><i class="fa fa-users fa-3x"></i></div>
-                                <div class="teks" style="color: #f8f4c2; font-size: 12px;">Administrator Kegiatan</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6" style="padding: 20px 5px;">
-                        <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                            <a href="../asesor/index.php" style="text-align: center;">
-                                <div class="icon" style="color: #f8f4c2;"><i class="fa fa-bookmark-o fa-3x"></i></div>
-                                <div class="teks" style="color: #f8f4c2; font-size: 12px;">Penilaian Asesor</div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" style="padding: 20px 5px;">
-                        <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                            <form action="../../../feedback_kaltim?reqAdminId=<?=$userLogin->UID?>" method="post" target="_blank">
-                                <button style="text-align: center;width: 100%;  background-color: transparent;  border: none;">
-                                    <div class="icon" style="color: #f8f4c2;"><i class="fa fa-bar-chart fa-3x"></i></div>
-                                    <div class="teks" style="color: #f8f4c2; font-size: 12px;">Feedback</div>
-                                    <input type="hidden" name="loginadminid" value="<?=$userLogin->UID?>">
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                    <?}?>
-                    <div class="col-md-6" style="padding: 20px 5px;">
-                        <div class="item" style="background-color:#0e7476; padding: 20px; border-radius: 20px;">
-                            <form action="../../../manajemen_talenta_kaltim/admin" method="post" target="_blank">
-                                <button style="text-align: center;width: 100%;  background-color: transparent;  border: none;">
-                                    <div class="icon" style="color: #f8f4c2;"><i class="fa fa-bar-chart fa-3x"></i></div>
-                                    <div class="teks" style="color: #f8f4c2; font-size: 12px;">Manajemen Talenta</div>
-                                    <input type="hidden" name="loginadminid" value="<?=$userLogin->UID?>">
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 area-grafik">
-                <div class="row area-dashboard" style="overflow: scroll;height: 75vh;">
-                    <div class="col-md-12 col-lg-4">
-                        <div class="item sudah">
-                            <a href="#" style="background-color:#35d8ac; color: white;">
-                                <div class="row">
-                                    <div class="col-md-6" style="overflow: hidden; padding: 0 0; margin: -15px -10px;">
-                                        <img src="../WEB/images/pegawai_sudah.png" style="width: 140px;"> 
-                                    </div>
-                                    <div class="col-md-6" style="padding-right: 0;">
-                                        <div style="font-family: 'Open Sans Bold'; font-size: 20px;text-align: right;">1603</div>
-                                        <br>
-                                        <div style="font-size: 12px;text-align: right;">
-                                            Pegawai yang sudah mengikuti penkom
-                                        </div>
-                                    </div>
+                        <div class="col-md-8">
+                            <div class="row border-grafik">
+                                <div class="judul-halaman" style="background-color: #daf2f2; color: black;border-radius: 10px 10px 0px 0px;margin-left: 0px;">Peserta penkom per jenjang jabatan</div>
+                                <div class="col-md-12" style="background-color: white;">
+                                    <div id="container" class="grafik" style="height:37vh;border-radius: 0px 0px 10px 10px "></div>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="item belum">
-                            <a href="#" style="background-color:#ff6038; color: white;">
-                                <div class="row">
-                                    <div class="col-md-6" style="overflow: hidden; padding: 0 0; margin: -15px -10px;">
-                                        <img src="../WEB/images/pegawai_belum.png" style="width: 140px;"> 
-                                    </div>
-                                    <div class="col-md-6" style="padding-right: 0;">
-                                        <div style="font-family: 'Open Sans Bold'; font-size: 20px;text-align: right;"><?=$tempBelumUjian?></div>
-                                        <br>
-                                        <div style="font-size: 12px;text-align: right;">
-                                             Pegawai yang belum mengikuti penkom
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row border-grafik">
-                            <div class="judul-halaman" style="background-color: #daf2f2; color: black;border-radius: 10px 10px 0px 0px">Peserta penkom per jenjang jabatan</div>
-                            <div class="col-md-12" style="background-color: white;">
-                                <div id="container" class="grafik" style="height:37vh;border-radius: 0px 0px 10px 10px "></div>
                             </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="col-md-12">
-                        <div class="row border-grafik">
-                            <div class="judul-halaman" style="background-color: #daf2f2; color: black;border-radius: 10px 10px 0px 0px">Peserta penkom berdasarkan jenis kelamin</div>
-                            <div class="col-md-12" style="background-color: white;;border-radius: 0px 0px 10px 10px">
-                                <div class="col-md-6">
-                                    <div id="container-laki-laki" class="grafik" style="height:40vh"></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div id="container-perempuan" class="grafik" style="height:40vh"></div>
+                        <br>
+                        <div class="col-md-12">
+                            <div class="row border-grafik">
+                                <div class="judul-halaman" style="background-color: #daf2f2; color: black;border-radius: 10px 10px 0px 0px;margin-left: 0px;">Peserta penkom berdasarkan jenis kelamin</div>
+                                <div class="col-md-12" style="background-color: white;;border-radius: 0px 0px 10px 10px">
+                                    <div class="<?=$classmenu?>">
+                                        <div id="container-laki-laki" class="grafik" style="height:40vh"></div>
+                                    </div>
+                                    <div class="<?=$classmenu?>">
+                                        <div id="container-perempuan" class="grafik" style="height:40vh"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-            </div>
+            <?}?>
         </div>        
     </div>
 </div>

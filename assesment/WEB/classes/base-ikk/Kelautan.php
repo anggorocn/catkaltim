@@ -108,7 +108,7 @@ DESCRIPTION			:
 		$str = "
 		INSERT INTO simpeg.pegawai
 		(
-			PEGAWAI_ID, NAMA, NIP_BARU, STATUS_JENIS, STATUS_PEGAWAI_ID, TEMPAT_KERJA, LAST_JABATAN, JABATAN_LAMAR,LAST_ESELON_ID
+			PEGAWAI_ID, NAMA, NIP_BARU, STATUS_JENIS, STATUS_PEGAWAI_ID, TEMPAT_KERJA, LAST_JABATAN, JABATAN_LAMAR,LAST_ESELON_ID,SATKER_ID
 		) 
 		VALUES 
 		(
@@ -121,6 +121,7 @@ DESCRIPTION			:
 			, '".$this->getField("LAST_JABATAN")."'
 			, '".$this->getField("JABATAN_LAMAR")."'
 			, '".$this->getField("LAST_ESELON_ID")."'
+			, ''
 		)";
 		$this->query = $str;
 		$this->id = $this->getField("PEGAWAI_ID");

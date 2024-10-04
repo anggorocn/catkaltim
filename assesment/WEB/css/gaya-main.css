@@ -61,8 +61,8 @@ body{
 	height: 90px;
 	padding: 10px 20px;
 /*	opacity: 0.5;*/
-	margin-left: -15px;
-	margin-right: -15px;
+//	margin-left: -15px;
+//	margin-right: -15px;
 }
 span.judul-app{
 	line-height: 90px;
@@ -595,7 +595,7 @@ table.profil>tbody>tr:last-child td{
 	background-image: url(images/linear_bg_1.png);
 	background-repeat: repeat-y;
 	background: -webkit-gradient(linear, left top, right top, from(#4169E1), to(#4169E1));
-	background: -webkit-linear-gradient(left, #eb1a3d, #fb3657);
+	background: -webkit-linear-gradient(left, #0e7476, #0e7476);
 	background: -moz-linear-gradient(left, #4169E1, #4169E1);
 	background: -ms-linear-gradient(left, #eb1a3d, #fb3657);
 	background: -o-linear-gradient(left, #eb1a3d, #fb3657);

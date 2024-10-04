@@ -312,7 +312,8 @@ DESCRIPTION			:
 			SELECT 
 			A.SATKER_ID KODE_UNKER,
  			A.PEGAWAI_ID IDPEG, A.NIP NIP_LAMA, A.NIP_BARU, A.NAMA, A.NIK
- 			, '' GELAR_DEPAN, '' GELAR_BELAKANG, JENIS_KELAMIN, A.TEMPAT_LAHIR, A.TGL_LAHIR, case A.status_pegawai_id when 1 then 'CPNS' when 2 then 'PNS' when 3 then 'Pensiun' else '' end STATUS
+ 			, '' GELAR_DEPAN, '' GELAR_BELAKANG, JENIS_KELAMIN, A.TEMPAT_LAHIR, A.TGL_LAHIR, 
+ 			case A.status_pegawai_id when 1 then 'CPNS' when 2 then 'PNS' when 3 then 'Non ASN' when 4 then 'Pensiun' else '' end STATUS
  			, B.KODE NAMA_GOL, A.LAST_TMT_PANGKAT TMT_GOL_AKHIR, C.NAMA NAMA_ESELON, A.LAST_JABATAN NAMA_JAB_STRUKTURAL, '' TELP
  			, '' STATUS_KANDIDAT, '' UMUR
  			, A.SATKER_ID, D.NAMA SATKER, A.LAST_ESELON_ID ESELON_PENILAIAN
@@ -782,7 +783,7 @@ DESCRIPTION			:
 		return $this->selectLimit($str,$limit,$from); 
     }
 	
-	function selectByParamsMonitoringPenilaianPegawai($paramsArray=array(),$limit=-1,$from=-1, $statement='', $orderby='', $reqTahun='2015')
+	function selectByParamsMonitoringPenilaianPegawai($paramsArray=array(),$limit=-1,$from=-1, $statement='', $orderby="ORDER BY COALESCE(A.LAST_PANGKAT_ID,0) DESC, COALESCE(A.LAST_ESELON_ID,'99') ASC", $reqTahun='2015')
 	{
 		$str = "
 			SELECT 
@@ -817,11 +818,11 @@ DESCRIPTION			:
 					) B ON A.FORMULA_ESELON_ID = B.FORMULA_ESELON_ID
 				) B ON A.JADWAL_TES_ID = B.JADWAL_TES_ID
 				WHERE 1=1
-				AND TO_CHAR(A.TANGGAL_TES, 'YYYY') = '".$reqTahun."'
+				-- AND TO_CHAR(A.TANGGAL_TES, 'YYYY') = '".$reqTahun."'
 				GROUP BY A.PEGAWAI_ID, TO_CHAR(A.TANGGAL_TES, 'YYYY'), A.JADWAL_TES_ID, B.FORMULA_ID, B.KETERANGAN
 				, B.JT_TANGGAL_TES, B.JT_ACARA, B.JT_KETERANGAN, b.JADWAL_AWAL_TES_ID
 			) P ON A.PEGAWAI_ID = P.PEGAWAI_ID
-			WHERE 1=1
+			WHERE 1=1 and TO_CHAR(JT_TANGGAL_TES, 'YYYY') = '".$reqTahun."'
 	 		"; 
 		
 		while(list($key,$val) = each($paramsArray))
@@ -2749,10 +2750,27 @@ DESCRIPTION			:
 				LEFT JOIN ".$this->db.".pangkat B ON A.LAST_PANGKAT_ID = B.PANGKAT_ID
 				LEFT JOIN ".$this->db.".eselon C ON A.LAST_ESELON_ID = C.ESELON_ID
 				LEFT JOIN ".$this->db.".satker D ON A.SATKER_ID = D.SATKER_ID
+			INNER JOIN
+			(
+				SELECT A.PEGAWAI_ID, A.JADWAL_TES_ID, B.FORMULA_ID, B.KETERANGAN FORMULA_NAMA
+				, B.JT_TANGGAL_TES, B.JT_ACARA, B.JT_KETERANGAN, b.JADWAL_AWAL_TES_ID
+				FROM penilaian A
 				INNER JOIN
-				(
-					SELECT PEGAWAI_ID FROM penilaian 
-					WHERE 1=1 AND TO_CHAR(TANGGAL_TES, 'YYYY') = '".$reqTahun."' GROUP BY PEGAWAI_ID, TO_CHAR(TANGGAL_TES, 'YYYY')
+					(
+						SELECT JADWAL_TES_ID, B.FORMULA_ID, B.KETERANGAN
+						, A.TANGGAL_TES JT_TANGGAL_TES, A.ACARA JT_ACARA, A.KETERANGAN JT_KETERANGAN, a.JADWAL_AWAL_TES_ID
+						FROM jadwal_tes A
+						INNER JOIN
+						(
+							SELECT A.FORMULA_ESELON_ID, A.FORMULA_ID, B.KETERANGAN
+							FROM formula_eselon A
+							INNER JOIN formula_assesment B ON A.FORMULA_ID = B.FORMULA_ID
+						) B ON A.FORMULA_ESELON_ID = B.FORMULA_ESELON_ID
+					) B ON A.JADWAL_TES_ID = B.JADWAL_TES_ID
+					WHERE 1=1
+					AND TO_CHAR(A.TANGGAL_TES, 'YYYY') = '".$reqTahun."'
+					GROUP BY A.PEGAWAI_ID, TO_CHAR(A.TANGGAL_TES, 'YYYY'), A.JADWAL_TES_ID, B.FORMULA_ID, B.KETERANGAN
+					, B.JT_TANGGAL_TES, B.JT_ACARA, B.JT_KETERANGAN, b.JADWAL_AWAL_TES_ID
 				) P ON A.PEGAWAI_ID = P.PEGAWAI_ID
 				WHERE 1=1
 				".$statement; 
@@ -2760,7 +2778,7 @@ DESCRIPTION			:
 		{
 			$str .= " AND $key = '$val' ";
 		}
-		//echo $str;
+		// echo $str;
 		$this->query = $str;
 		$this->select($str); 
 		if($this->firstRow()) 

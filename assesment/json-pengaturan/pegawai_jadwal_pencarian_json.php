@@ -206,32 +206,32 @@ if(is_numeric($reqPenggalianId) && !empty($reqJadwalTesId))
 	)";
 }
 
-if($reqId == ""){}
-else
-{
-	$statement.= "
-	AND COALESCE(CAST(SUBSTR(CAST(A.LAST_ESELON_ID AS CHAR),1,1) AS NUMERIC),9)
-	in
-	(
-		SELECT
-		COALESCE(CAST(SUBSTR(CAST(FE.ESELON_ID AS CHAR),1,1) AS NUMERIC),9)
-		FROM jadwal_tes JT 
-		INNER JOIN 
-		(
-			select b.FORMULA_ESELON_ID, a.ESELON_ID 
-			from formula_eselon a
-			inner join (select FORMULA_ESELON_ID, formula_id from formula_eselon) b on a.formula_id = b.formula_id 
-			where 1=1
-		) FE ON JT.FORMULA_ESELON_ID = FE.FORMULA_ESELON_ID WHERE 1=1 AND JT.JADWAL_TES_ID = ".$reqId."
-	)";
+// if($reqId == ""){}
+// else
+// {
+// 	$statement.= "
+// 	AND COALESCE(CAST(SUBSTR(CAST(A.LAST_ESELON_ID AS CHAR),1,1) AS NUMERIC),9)
+// 	in
+// 	(
+// 		SELECT
+// 		COALESCE(CAST(SUBSTR(CAST(FE.ESELON_ID AS CHAR),1,1) AS NUMERIC),9)
+// 		FROM jadwal_tes JT 
+// 		INNER JOIN 
+// 		(
+// 			select b.FORMULA_ESELON_ID, a.ESELON_ID 
+// 			from formula_eselon a
+// 			inner join (select FORMULA_ESELON_ID, formula_id from formula_eselon) b on a.formula_id = b.formula_id 
+// 			where 1=1
+// 		) FE ON JT.FORMULA_ESELON_ID = FE.FORMULA_ESELON_ID WHERE 1=1 AND JT.JADWAL_TES_ID = ".$reqId."
+// 	)";
 
-	/*$statement.= " AND COALESCE(CAST(SUBSTR(CAST(A.LAST_ESELON_ID AS CHAR),1,1) AS NUMERIC),9)
-	= 
-	(
-	SELECT FE.ESELON_ID FROM jadwal_tes JT INNER JOIN formula_eselon FE ON JT.FORMULA_ESELON_ID = FE.FORMULA_ESELON_ID WHERE 1=1 AND JT.JADWAL_TES_ID = ".$reqId."
-	)
-	";*/
-}
+// 	/*$statement.= " AND COALESCE(CAST(SUBSTR(CAST(A.LAST_ESELON_ID AS CHAR),1,1) AS NUMERIC),9)
+// 	= 
+// 	(
+// 	SELECT FE.ESELON_ID FROM jadwal_tes JT INNER JOIN formula_eselon FE ON JT.FORMULA_ESELON_ID = FE.FORMULA_ESELON_ID WHERE 1=1 AND JT.JADWAL_TES_ID = ".$reqId."
+// 	)
+// 	";*/
+// }
 
 if($reqJadwalTesId == ""){}
 else

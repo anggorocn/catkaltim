@@ -34,11 +34,13 @@ if($reqId == "")
 
 $statement= " AND A.FORMULA_ID = ".$reqId;
 $set= new FormulaAssesment();
-$set->selectByParams(array("FORMULA_ID"=> $reqId),-1,-1,'');
+$set->selectByParamsNew(array("a.FORMULA_ID"=> $reqId),-1,-1,'');
+// echo $set->query;exit;
 $set->firstRow();
 $tempFormula= $set->getField('FORMULA');
 $tempFormulaTahun= $set->getField('TAHUN');
 $tempFormulaKeterangan= $set->getField('KETERANGAN');
+$status_save= $set->getField('status_save');
 unset($set);
 
 $statement= " AND B.FORMULA_ESELON_ID = '".$reqRowId."'";
@@ -487,19 +489,26 @@ function pilihatribut(indexId, reqAtributId, reqPenggalianId, reqmode)
 		if($reqId == ""){}
 		else
 		{
-        ?>
-        <tr>
-            <td>
-            	<input type="hidden" id="setInfoPerubahan" />
-                <input type="hidden" name="reqId" value="<?=$reqId?>">
-                <input type="hidden" name="reqRowId" value="<?=$reqRowId?>">
-                <input type="hidden" name="reqMode" value="insert">
-                <input type="hidden" name="reqTahun" value="<?=$tempFormulaTahun?>">
-                <input type="hidden" name="reqFormulaEselonPermenId" value="<?=$tempFormulaEselonPermenId?>">
-                <input type="submit" name="" value="Simpan" />
-            </td>
-        </tr>
-        <?
+			if($status_save==0){?>
+		        <tr>
+		            <td>
+		            	<input type="hidden" id="setInfoPerubahan" />
+		                <input type="hidden" name="reqId" value="<?=$reqId?>">
+		                <input type="hidden" name="reqRowId" value="<?=$reqRowId?>">
+		                <input type="hidden" name="reqMode" value="insert">
+		                <input type="hidden" name="reqTahun" value="<?=$tempFormulaTahun?>">
+		                <input type="hidden" name="reqFormulaEselonPermenId" value="<?=$tempFormulaEselonPermenId?>">
+		                <input type="submit" name="" value="Simpan" />
+		            </td>
+		        </tr>
+            <?}
+            else{?>
+            	<tr>
+            		<td colspan="3" style="color:red">
+		            	Data tidak bisa diubah karena formula telah digunakan dalam ujian yang telah berakhir
+		            </td>
+            	</tr>
+            <?}
 		}
 		?>
     </table>
@@ -627,7 +636,7 @@ function pilihatribut(indexId, reqAtributId, reqPenggalianId, reqmode)
         ?>
         <tr>
         	<td scope="col">
-            <input type="hidden" id="reqFormulaAtributId<?=$checkbox_index?>" name="reqFormulaAtributId[]" value="<?=$tempAtributParentFormulaAtributId?>" />
+            <input type="text" id="reqFormulaAtributId<?=$checkbox_index?>" name="reqFormulaAtributId[]" value="<?=$tempAtributParentFormulaAtributId?>" style="display: none;" />
             <input type="hidden" id="reqAtributParentLevelId<?=$checkbox_index?>" value="<?=$tempAtributParentLevelId?>" />
             <input type="hidden" name="reqAtributPenggalianId[]" id="reqAtributPenggalianId<?=$checkbox_index?>" value="<?=$tempAtributParentAtributPenggalianId?>" />
             <input type="hidden" name="reqLevelId[]" id="reqLevelId<?=$checkbox_index?>" value="<?=$tempAtributParentLevelId?>" />

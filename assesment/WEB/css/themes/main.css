@@ -9,7 +9,7 @@ DESCRIPTION			: File CSS untuk menghandle desain dan tampilan keseluruhan layout
 
 
 /****** STANDARD ******/
-html, body, table, tr, td {
+html, body, table, tr {
 	scrollbar-face-color : #dce1f3;
 	scrollbar-arrow-color: #003e6f;
 	scrollbar-track-color: #FFFFFF;
@@ -25,6 +25,7 @@ html, body, table, tr, td {
 	text-decoration: none;
 	line-height: 15px;	/* 17px */
 	/*background-color: white;*/
+   height: calc(100% - 80px);
 }
 
 body{

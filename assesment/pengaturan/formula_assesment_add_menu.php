@@ -27,7 +27,7 @@ $arrLevel="";
 $index_arr= 0;
 $set= new FormulaEselon();
 $statement= " AND B.FORMULA_ID = '".$reqId."'";
-$statement.= " AND COALESCE(B.PROSEN_POTENSI,0) > 0";
+// $statement.= " AND COALESCE(B.PROSEN_POTENSI,0) > 0";
 $set->selectByParamsMonitoring(array(), -1,-1, $reqId, $statement);
 // echo $set->query;exit;
 while($set->nextRow())

@@ -325,15 +325,15 @@ div#login-footer {
 	*background:#930606;
 	*background: #e46613;
 	
-	background-color: #eb1a3d;
+	background-color: #4169E1;
 	background-image: url(images/linear_bg_1.png);
 	background-repeat: repeat-y;
-	background: -webkit-gradient(linear, left top, right top, from(#eb1a3d), to(#fb3657));
-	background: -webkit-linear-gradient(left, #eb1a3d, #fb3657);
-	*background: -moz-linear-gradient(left, #eb1a3d, #fb3657);
+	background: -webkit-gradient(linear, left top, right top, from(#4169E1), to(#4169E1));
+	background: -webkit-linear-gradient(left, #4169E1, #4169E1);
+	*background: -moz-linear-gradient(left, #4169E1, #4169E1);
 	background: -moz-linear-gradient(left, #4169E1, #4169E1);
-	background: -ms-linear-gradient(left, #eb1a3d, #fb3657);
-	background: -o-linear-gradient(left, #eb1a3d, #fb3657);
+	background: -ms-linear-gradient(left, #4169E1, #4169E1);
+	background: -o-linear-gradient(left, #4169E1, #4169E1);
 
 }
 #main-logo{

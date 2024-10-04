@@ -393,7 +393,7 @@ $jumlahUraianKompetensi= $index_catatan;
 																	$reqinfourut= $reqinfourut.".&nbsp; ";
 																}
 															?>
-															<p  style="font-size: 10pt;text-align: justify;"><?=$reqinfocatatan?></p>
+															<p  style="font-size: 10pt;text-align: justify;"><?=str_replace("text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;","display:none",$reqinfocatatan);?></p>
 															<?
 															}
 															?>
@@ -419,7 +419,7 @@ $jumlahUraianKompetensi= $index_catatan;
 																	$reqinfourut= $reqinfourut.".&nbsp; ";
 																}
 															?>
-															<p  style="font-size: 10pt;text-align: justify;"><?=$reqinfocatatan?></p>
+															<p  style="font-size: 10pt;text-align: justify;"><?=str_replace("text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;","display:none",$reqinfocatatan);?></p>
 															<?
 															}
 															?>
@@ -481,6 +481,14 @@ $jumlahUraianKompetensi= $index_catatan;
 				<td style="width:50px">:</td>
 				<td>Persyaratan Kompetensi</b></td>
 			</tr> 
+		</table>
+		<br>
+		<table>
+			<tr>
+				<td style="padding-bottom: 15px;">
+					<p style=" text-align: justify">Berdasarkan  hasil	penilaian kompetensi, menunjukan bahwa nilai total kompetensi Saudara <?=$tempPegawaiNama?> adalah <?=$nilaiIndividu?> dari total <?=$nilaiStandar?> atau setara dengan <?=$jpm?>% Job Person Match (JPM).</p> 
+				</td>
+			</tr>
 		</table>
 		<br>
 		<!-- <table width="100%">

@@ -13,7 +13,10 @@ include_once("../WEB/classes/base/JadwalTesSimulasiPegawai.php");
 include_once("../../WEB/classes/base-diklat/Peserta.php");
 
 // ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
-
+ini_set('memory_limit', -1);
+ini_set('max_execution_time', -1);
+  flush();
+  ob_flush();
 
 // LOGIN CHECK 
 if ($userLogin->checkUserLogin()) 
@@ -22,9 +25,9 @@ if ($userLogin->checkUserLogin())
 }
 
 $tempAsesorId= $userLogin->userAsesorId;
+$reqMode=httpFilterGet("reqMode");
 $reqTanggalTes= httpFilterGet("reqTanggalTes");
 $reqTanggalTespecah=explode('-', $reqTanggalTes);
-// echo $tempAsesorId;exit;
 
 if(strlen($reqTanggalTespecah[0])!=2){
 	$reqTanggalTespecah[0]='0'.$reqTanggalTespecah[0];
@@ -38,7 +41,6 @@ if(strlen($reqTanggalTespecah[1])!=2){
 $reqTanggalTes= $reqTanggalTespecah[0].'-'.$reqTanggalTespecah[1].'-'.$reqTanggalTespecah[2];
 
 
-$reqMode=httpFilterGet("reqMode");
 // echo $tempAsesorId;exit();
 // if($tempAsesorId == "")
 // {
@@ -115,7 +117,6 @@ while($setJadwal->nextRow())
 	}
 	
 }
-// print_r($arrAsesor);exit;
 
 $reqArrJadwalTesId= "";
 $statement= " AND TO_CHAR(TANGGAL_TES, 'DD-MM-YYYY') = '".$reqTanggalTes."'";

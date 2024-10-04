@@ -455,7 +455,7 @@ $tinggi = 210;
           	<!-- <a href="#" title="Tambah Data" id="btnTambahData"><img src="../WEB/images/pegawai-edit.png"/>&nbsp;Tambah Data</a>
           	<a href="#" title="Ubah Data" id="btnUbahData"><img src="../WEB/images/pegawai-edit.png"/>&nbsp;Ubah Data</a> -->
           	<a href="#" title="Detail Data" id="btnDetailData"><img src="../WEB/images/pegawai-edit.png"/>&nbsp;Detail Data</a>
-          	<a href="#" title="Update Data Simpeg" onclick="btnUpdateDataSimpeg(0)"><img src="../WEB/images/pegawai-edit.png"/>&nbsp;Update Data Simpeg <span style="color: red; font-size:10px">*update terakhir 20-05-2022</span></a>
+          	<a href="#" title="Update Data Simpeg" onclick="btnUpdateDataSimpeg(0)"><img src="../WEB/images/pegawai-edit.png"/>&nbsp;Update Data Simpeg <span style="color: red; font-size:10px"></span></a>
           	<?php /*?><a href="#" title="Cetak" onClick="windowOpenerPopup(250,650,'btncaripegawai','cari_pegawai.php');"><img src="../WEB/images/pegawai-search.png"/>&nbsp;Cari</a>
             <a href="#" id="btnEditArsip_" title="Pencarian" style="display:none"><img src="../WEB/images/icn_search.png"/>&nbsp;Pencarian</a>
             <a href="#" title="Integrasi" id="btnIntegrasi" ><img src="../WEB/images/pegawai-edit.png"/>&nbsp;Integrasi Data</a><?php */?>
@@ -542,19 +542,44 @@ for($i=0; $i<count($setSatker); $i++){?>
 		satker=satkerFunc[val].split("-");
 		satkerid=satker[0];
 		satkername=satker[1];
-		document.getElementById("myModalIsi").innerHTML=val+'/'+satkerFunc.length+'<br>proses menyimpan data Satuan Kerja '+satkername;
-		var s_url= "../json-ikk/update_pegawai.php?reqId="+satkerid;
-		//alert(s_url);return false;
-		$.ajax({'url': s_url,'success': function(msg) {
-			if (val+1<satkerFunc.length){
-				btnUpdateDataSimpeg(val+1);
-			}
-			else
-			{
-				modaloff();
-				return false;
-			}
-		}});
+		
+		if (val==0){
+			document.getElementById("myModalIsi").innerHTML=val+'/'+satkerFunc.length+'<br>proses Reset Data';
+			var s_url= "../json-ikk/update_pegawai_pensiun.php?";
+			//alert(s_url);return false;
+			$.ajax({'url': s_url,'success': function(msg) {
+				document.getElementById("myModalIsi").innerHTML=val+'/'+satkerFunc.length+'<br>proses menyimpan data Satuan Kerja '+satkername;
+				var s_url= "../json-ikk/update_pegawai.php?reqId="+satkerid;
+				//alert(s_url);return false;
+				$.ajax({'url': s_url,'success': function(msg) {
+					if (val+1<satkerFunc.length){
+						btnUpdateDataSimpeg(val+1);
+					}
+					else
+					{
+						modaloff();
+						return false;
+					}
+				}});
+			}});
+		}
+		else{
+			document.getElementById("myModalIsi").innerHTML=val+'/'+satkerFunc.length+'<br>proses menyimpan data Satuan Kerja '+satkername;
+
+			var s_url= "../json-ikk/update_pegawai.php?reqId="+satkerid;
+			//alert(s_url);return false;
+			$.ajax({'url': s_url,'success': function(msg) {
+				if (val+1<satkerFunc.length){
+					btnUpdateDataSimpeg(val+1);
+				}
+				else
+				{
+					modaloff();
+					return false;
+				}
+			}});
+		}
+		
 	}
 </script>
 

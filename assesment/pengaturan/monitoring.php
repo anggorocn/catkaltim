@@ -192,9 +192,6 @@ switch($reqMode)
 	case "satker_eksternal" :
 		$link = "satker_eksternal.php";
 	break;
-	case "integrasi" :
-		$link = "integrasi.php";
-	break;
 
 }
 ?>

@@ -174,17 +174,17 @@ else
 	$dsplyRange = 2147483645;
 }
 
-// if($reqId == "")
-// 	$statement='';
-// else
-// 	$statement .= " AND A.SATKER_ID LIKE '".$reqId."%'";
+if($reqId == "")
+	$statement='';
+else
+	$statement .= " AND A.SATKER_ID LIKE '".$reqId."%'";
 
 if(!empty($reqFormulaId))
 {
-	$statementdetil= " AND XXX.FORMULA_ID = ".$reqFormulaId;
+	// $statementdetil= " AND XXX.FORMULA_ID = ".$reqFormulaId;
 }
 
-$statement= " AND EXISTS
+$statement.= " AND EXISTS
 (
 	SELECT 1
 	FROM

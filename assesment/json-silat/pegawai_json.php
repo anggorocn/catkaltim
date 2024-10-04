@@ -185,6 +185,8 @@ else
 	$statement .= " AND A.SATKER_ID LIKE '".$reqId."%'";
 //echo $statement;exit;
 
+	$statement.='and status_aktif = 1';
+
 if($reqStatusPeg == ""){
 	// $statement.="";
 	$statement.=' AND A.STATUS_JENIS != 2 and A.STATUS_JENIS != 3 ';

@@ -47,7 +47,8 @@ DESCRIPTION			:
 			hp,
 			email,
 			last_jabatan,
-			last_eselon_id
+			last_eselon_id,
+			status_pensiun
 				)
 				VALUES (
 				  ".$this->getField("pegawai_id").",
@@ -61,7 +62,8 @@ DESCRIPTION			:
 				  '".$this->getField("hp")."',
 				  '".$this->getField("email")."',
 				  '".$this->getField("last_jabatan")."',
-				  '".$this->getField("last_eselon_id")."'
+				  '".$this->getField("last_eselon_id")."',
+				  status_pensiun= null
 				)"; 
 				
 		$this->query = $str;
@@ -74,7 +76,7 @@ DESCRIPTION			:
 	{
 		/*Auto-generate primary key(s) by next max value (integer) */
 		$str = "
-				UPDATE simpeg.riwayat_skp
+				UPDATE simpeg.pegawai
 				SET
 				  	nip_baru= '".$this->getField("nip_baru")."',
 				  	nama= '".$this->getField("nama")."',
@@ -86,8 +88,23 @@ DESCRIPTION			:
 				  	hp= '".$this->getField("hp")."',
 				  	email= '".$this->getField("email")."',
 				  	last_jabatan= '".$this->getField("last_jabatan")."',
-				  	last_eselon_id= '".$this->getField("last_eselon_id")."'
+				  	last_eselon_id= '".$this->getField("last_eselon_id")."',
+				  	status_pensiun= null
 				 WHERE pegawai_id= '".$this->getField("pegawai_id")."'
+				"; 
+				$this->query = $str;
+		// echo $str; exit;
+		return $this->execQuery($str);
+    } 
+
+    function updatepensiun()
+	{
+		/*Auto-generate primary key(s) by next max value (integer) */
+		$str = "
+				UPDATE simpeg.pegawai
+				SET
+				  	status_pensiun=1
+				 WHERE 1=1
 				"; 
 				$this->query = $str;
 		// echo $str; exit;

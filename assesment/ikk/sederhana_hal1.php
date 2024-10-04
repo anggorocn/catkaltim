@@ -7,6 +7,8 @@ include_once("../WEB/classes/base/CetakanPdf.php");
 include_once("../WEB/classes/base/JadwalPegawai.php");
 include_once("../WEB/classes/base/JadwalPegawaiDetil.php");
 include_once("../WEB/classes/base-ikk/PenilaianRekomendasi.php");
+ini_set('memory_limit', -1);
+ini_set('max_execution_time', -1);
 
 $reqId= httpFilterGet("reqId");
 $reqTahun= httpFilterGet("reqTahun");
@@ -97,7 +99,6 @@ while($set->nextRow())
 	$arrAtribut[$index_loop]["ATRIBUT_ID"]= $set->getField("ATRIBUT_ID");
 	$arrAtribut[$index_loop]["ATRIBUT_ID_PARENT"]= $set->getField("ATRIBUT_ID_PARENT");
 	$arrAtribut[$index_loop]["ASPEK_ID"]= $set->getField("ASPEK_ID");
-	$arrAtribut[$index_loop]["ASPEK_NAMA"]= $set->getField("ASPEK_NAMA");
 	$arrAtribut[$index_loop]["ATRIBUT_NAMA"]= $set->getField("NAMA");
 	$arrAtribut[$index_loop]["NILAI_STANDAR"]= $set->getField("NILAI_STANDAR");
 	$arrAtribut[$index_loop]["NILAI"]= $set->getField("NILAI");

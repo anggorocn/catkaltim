@@ -6,6 +6,9 @@ include_once("../WEB/functions/default.func.php");
 include_once("../WEB/classes/base/CetakanPdf.php");
 include_once("../WEB/lib/MPDF60/mpdf.php");
 
+ini_set('memory_limit', -1);
+ini_set('max_execution_time', -1);
+
 $reqId= httpFilterGet("reqId");
 $reqTahun= httpFilterGet("reqTahun");
 $reqJadwalTesId= httpFilterGet("reqJadwalTesId");
@@ -123,8 +126,11 @@ $reqNip= $set->getField("NIP_baru");
 $url = 'https://api-simpeg.kaltimbkd.info/pns/semua-data-utama/'.$reqNip.'/?api_token=f5a46b71f13fe1fd00f8747806f3b8fa';
 $data = json_decode(file_get_contents($url), true);
 // print_r($data); exit;
-
+if($reqTipe=='baru'){
+    $reqTipe='sederhana 2';
+}
 //echo $tempNamaAsesor.'_'.$tempNamaPegawai.'.pdf';exit;
-$mpdf->Output($data['nama'].'_'.$reqNip.'.pdf','I');
+$mpdf->Output('Laporan Individu '.$data['nama'].'-'.$reqNip.'-'.$reqTipe.'.pdf','I');
+// $mpdf->Output('x.pdf','I');
 //exit;
 ?>

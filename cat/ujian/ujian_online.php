@@ -24,8 +24,8 @@ if($userLogin->ujianUid == "")
 // ini_set('max_input_vars', 3000);
 
 date_default_timezone_set('Asia/Jakarta');
-flush();
-ob_flush();
+// flush();
+// ob_flush();
 $reqId= httpFilterGet("reqId");
 
 $tempPegawaiId= $userLogin->pegawaiId;
@@ -3153,7 +3153,7 @@ $secondInfo= "3";
                 </div><?php */?>                
             </div>
         </div>
-        <div class="col-md-3 area-sudah-wrapper reqInfoIsi">
+        <div class="col-md-3  reqInfoIsi">
         	<div class="area-sudah">
                 <?
 				//if($tempParent == 1)

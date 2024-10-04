@@ -354,7 +354,7 @@ include_once "../global_page/header.php";
 ?>
 
 <!-- <table class="table-wrapper" border="0" cellpadding="0" cellspacing="0" align="center"> -->
-<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" height="85%" style="overflow:hidden">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" height="89%" style="overflow:hidden">
    	<tr> 
     	<td colspan="5" valign="middle" style="background:#ecf5ff; border-top:1px solid #deedfd;" height="30">
 			<table cellpadding="0" cellspacing="0" width="100%"> 
@@ -379,9 +379,8 @@ include_once "../global_page/header.php";
                                     <div id="menu-2-konten"><a href="#" data-flexmenu="master-penilaian">Master Pelaksanaan</a></div>
                                     <div id="menu-2-konten"><a href="#" data-flexmenu="master-soal">Master Soal</a></div>
                                     <div id="menu-2-konten"><a href="#" data-flexmenu="master-flex">Master Pra Pelaksanaan</a></div>
-                                    <div id="menu-2-konten"><a href="#" data-flexmenu="master-user">Setting User</a></div>
-                                    <div id="menu-2-konten"><a href="monitoring.php?reqMode=integrasi" target="mainFullFrame" onClick="menuHandler('validator')">Integrasi</a></div>
-
+                                    <div id="menu-2-konten"><a href="monitoring.php?reqMode=user_app" target="mainFullFrame" onClick="menuHandler('validator')">Master User</a></div>
+                                    <div id="menu-2-konten"><a href="monitoring.php?reqMode=user_group" target="mainFullFrame" onClick="menuHandler('validator')">Group User</a></div>
                                     <!---->
                                     <div id="menu-2-konten"><a href="index.php">Home</a></div>
                                 </div>
@@ -469,12 +468,6 @@ include_once "../global_page/header.php";
                                     <!-- kemendagri reload -->
                                 	<li><a href="monitoring.php?reqMode=histori_asesor" target="mainFullFrame" onClick="menuHandler('validator')">Riwayat Asesor</a></li>
                                     <!-- <li><a href="monitoring.php?reqMode=assesment_meeting" target="mainFullFrame" onClick="menuHandler('validator')">Asesor Meeting</a></li> -->
-                                </ul>
-
-                                <!-- MASTER USER -->
-                                <ul id="master-user" class="flexdropdownmenu" style="background-color:#385f0e;">
-                                	<li><a href="monitoring.php?reqMode=user_app" target="mainFullFrame" onClick="menuHandler('validator')">Master User</a></li>
-                                	<li><a href="monitoring.php?reqMode=user_group" target="mainFullFrame" onClick="menuHandler('validator')">Group User</a></li>
                                 </ul>
                                 
                                 <!-- MASTER DATA -->
@@ -610,7 +603,7 @@ include_once "../global_page/header.php";
             </table>
 		</td>
 	</tr>
-    <!-- <tr>
+    <tr>
 		<td background="../WEB/images/bg_menu_right.gif" colspan="3" align="center" valign="middle" height="5">
 			<a href="javascript:displayElement('shortcut')"><img src="../WEB/images/btn_display_element_vertical.gif" title="Buka/Tutup Jalan Pintas" border="0"></a>
 		</td>
@@ -621,7 +614,7 @@ include_once "../global_page/header.php";
 			<span style="font-size:11px; color:#FFF; text-shadow:1px 1px 1px #286f71;">Copyright &copy; 2021 Pemerintah Provinsi Kaltim. All Rights Reserved.</span>
             </center>
 		</td>
-  	</tr>     -->
+  	</tr>    
 </table>
 </body>
 </html>

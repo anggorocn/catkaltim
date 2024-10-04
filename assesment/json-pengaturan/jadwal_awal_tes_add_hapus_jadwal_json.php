@@ -19,8 +19,8 @@ ini_set('max_execution_time', 520);
 
 $reqId= httpFilterGet("reqId");
 
-$aColumns= array("CHECK", "TANGGAL_TES");
-$aColumnsAlias= array("CHECK", "TANGGAL_TES");
+$aColumns= array("CHECK", "TANGGAL_TES","status_valid");
+$aColumnsAlias= array("CHECK", "TANGGAL_TES","status_valid");
  
 if ( isset( $_GET['iSortCol_0'] ) )
 {
@@ -173,7 +173,7 @@ else
 	$allRecordFilter = $set->getCountByParams(array(), $statement.$searchJson);
 	//echo $set->query;exit;
 
-$set->selectByParams(array(), $dsplyRange, $dsplyStart, $statement.$searchJson, $sOrder);
+$set->selectByParamsNew(array(), $dsplyRange, $dsplyStart, $statement.$searchJson, $sOrder);
 //echo $set->query;exit;
 /*
  * Output
@@ -198,6 +198,15 @@ while($set->nextRow())
 			// $checked= "checked disabled";
 
 			$row[] = "<input type='checkbox' $checked onclick='setKlikCheck()' class='editor-active' id='reqPilihCheck".$set->getField("JADWAL_AWAL_TES_SIMULASI_ID")."' value='".$set->getField("JADWAL_AWAL_TES_SIMULASI_ID")."'>";
+		}
+		else if($aColumns[$i] == 'status_valid')
+		{
+			if($set->getField($aColumns[$i])==''){
+				$row[] = '<a style="background: inherit !important;" href="#" title="Hapus" onclick="hapusdata('.$set->getField("JADWAL_AWAL_TES_SIMULASI_ID").')"><img src="../WEB/images/delete-icon.png" style="width: 10px">&nbsp;Hapus</a>';
+			}
+			else{
+				$row[]='Tanggal Tidak Bisa Dihapus Karena Ujian Telah Dilaksanakan';
+			}
 		}
 		else if(trim($aColumns[$i]) == "TANGGAL_TES")
 			$row[] = getFormattedDateTime($set->getField(trim($aColumns[$i])), false);

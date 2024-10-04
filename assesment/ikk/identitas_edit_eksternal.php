@@ -305,9 +305,11 @@ html, body {height:100%; margin:0; padding:0;}
 			<td>Status Pegawai</td><td>:</td>
 			<td>
 				<select id="reqStatusPegawaiId" name="reqStatusPegawaiId">
-					<option value="" <? if($reqStatusPegawaiId == "") echo "selected";?>>UMUM / NON ASN</option>
+					<option value="" <? if($reqStatusPegawaiId == "") echo "disabled selected";?>>Pilih Status</option>
 					<option value="1" <? if($reqStatusPegawaiId == "1") echo "selected";?>>CPNS</option>
 					<option value="2" <? if($reqStatusPegawaiId == "2") echo "selected";?>>PNS</option>
+					<option value="3" <? if($reqStatusPegawaiId == "3") echo "selected";?>>UMUM / NON ASN</option>
+					<option value="4" <? if($reqStatusPegawaiId == "4") echo "selected";?>>Pensiun</option>
 				</select>
 			</td>	
 	    </tr>

@@ -63,8 +63,8 @@ if ( isset( $_GET['iSortCol_0'] ) )
 	$sOrder = substr_replace( $sOrder, "", -2 );
 	
 	//Check if there is an order by clause
-	if ( trim($sOrder) == "ORDER BY IDPEG asc" )
-	{
+	// if ( trim($sOrder) == "ORDER BY IDPEG asc" )
+	// {
 		/*
 		* If there is no order by clause - ORDER BY INDEX COLUMN!!! DON'T DELETE IT!
 		* If there is no order by clause there might be bugs in table display.
@@ -72,9 +72,9 @@ if ( isset( $_GET['iSortCol_0'] ) )
 		* which means that the same row can be displayed in two pages - while
 		* another row will not be displayed at all.
 		*/
-		$sOrder = " ORDER BY coalesce(C.KODE_ESELON,99) ASC, B.KODE_GOL DESC";
+		// $sOrder = " ORDER BY coalesce(C.KODE_ESELON,99) ASC, B.KODE_GOL DESC";
 		 
-	}
+	// }
 }
  
  
@@ -181,33 +181,34 @@ else
 	$dsplyRange = 2147483645;
 }
 
-if($reqId == "")
 $statement='';
-else
+
+if($reqId != ""){
 	$statement .= " AND A.SATKER_ID LIKE '".$reqId."%'";
+}
 
-if($reqStatusPeg == "")
-	$statement.="";
-else
+if($reqStatusPeg != ""){
 	$statement .= " AND A.STATUS_PEG = '".$reqStatusPeg."' ";
+}
 
-if($reqEselonId == "")
-	$statement.="";
-else
+if($reqEselonId != ""){
 	$statement .= " AND P.FORMULA_ID = '".$reqEselonId."' ";
+}
 //echo $_GET['sSearch']."--";exit;
 
 $searchJson= " AND (UPPER(A.NAMA) LIKE '%".strtoupper($_GET['sSearch'])."%' OR UPPER(A.NIP_BARU) LIKE '%".strtoupper($_GET['sSearch'])."%') ";
 $allRecord = $set->getCountByParamsMonitoringPenilaianPegawai(array(), $statement, $reqTahun);
-if($_GET['sSearch'] == "")
+if($_GET['sSearch'] == ""){
 	$allRecordFilter = $allRecord;
-else
+}
+else{
 	$allRecordFilter = $set->getCountByParamsMonitoringPenilaianPegawai(array(), $statement.$searchJson, $reqTahun);
+}
 //echo $set->query;exit;
-$sOrder="ORDER BY COALESCE(A.LAST_PANGKAT_ID,0) DESC, COALESCE(A.LAST_ESELON_ID,'99') ASC";
+// $sOrder="ORDER BY COALESCE(A.LAST_PANGKAT_ID,0) DESC, COALESCE(A.LAST_ESELON_ID,'99') ASC";
 $set->selectByParamsMonitoringPenilaianPegawai(array(), $dsplyRange, $dsplyStart, $statement.$searchJson, $sOrder, $reqTahun);
 // echo $set->errorMsg;exit;
-//echo $set->query;exit;
+// echo $set->query;exit;
 /*
  * Output
  */

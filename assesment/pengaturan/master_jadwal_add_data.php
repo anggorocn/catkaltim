@@ -323,7 +323,9 @@ else
 						<input type="hidden" name="reqId" value="<?=$reqId?>">
 						<input type="hidden" name="reqMode" value="<?=$reqMode?>">
 						<input type="submit" name="" value="Simpan" /> 
-						<input type="reset" name="" value="Reset" />
+						 <button type="button" onclick="sethcdp()">Set HCDP</button> 
+
+						<!-- <input type="reset" name="" value="Reset" /> -->
 					</td>
 				</tr> 
 			</table>       
@@ -343,8 +345,37 @@ else
 			newWindow.focus();  
 		 });
 
+		
+
 		</script>
     </div>
 </div>
 </body>
 </html>
+
+<script type="text/javascript">
+	function sethcdp()
+		{
+			urllink= "../json-silat/sethcdp.php?reqJadwalTesId=<?=$reqId?>";
+			pesan= "yakin?";
+			$.messager.confirm('Konfirmasi', pesan, function(r) {
+	      if (r) {
+	        var win = $.messager.progress({title:'Proses simpan data', msg:'Proses simpan data...'});          
+					$.ajax({
+		        url: urllink,
+		        // dataType: 'json',
+		        success: function (response) {
+		        	$.messager.progress('close');
+		        	// console.log(response);return false;
+		        	document.location.href = 'master_jadwal_add_data.php?reqId=<?=$reqId?>';
+		        },
+		        error: function (response) {
+		        	// console.log(response);return false;
+		        },
+		        complete: function () {
+		        }
+		    	});
+         }
+      });
+		}
+</script>

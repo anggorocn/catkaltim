@@ -6,7 +6,7 @@ include_once("../WEB/classes/base/IntegrasiBaru.php");
 $reqMode = httpFilterGet("reqMode");
 
 $set	= new IntegrasiBaru();
-$set->selectByParamsMonitoring(array(), 3, -1);
+$set->selectByParamsMonitoring(array(), -1, -1);
 if($reqMode == "skp"){
 	$set->deleteskp();
 }

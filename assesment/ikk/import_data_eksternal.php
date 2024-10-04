@@ -70,10 +70,8 @@ $(function(){
 			}
 			else
 			{
-				parent.reloadparenttab();
+				parent.reload();
 				$.messager.alert('Info',infodata,'info',function(){
-					parent.frames['menuFrame'].location.href = "../silat/pegawai_menu_edit.php?reqPegawaiId="+rowid+"&reqMode=external";
-					document.location.href = "identitas_edit_eksternal.php?reqPegawaiId="+rowid;
 				});
 			}
 		}

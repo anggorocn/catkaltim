@@ -46,7 +46,7 @@ $setUjian->selectByParams();
 //print_r($arrTahun);exit;
 
 $set_eselon= new FormulaAssesment();
-$set_eselon->selectByParams(array(), -1,-1, "", "ORDER BY A.TAHUN DESC");
+$set_eselon->selectByParams(array(), -1,-1, "", "ORDER BY A.TAHUN DESC, A.FORMULA_ID DESC");
 // echo $set_eselon->query;exit;
 
 $lengthSatkerId= strlen($userLogin->userSatkerId);

@@ -231,6 +231,13 @@ function tess()
 	//$("iframe#FrameFIP")[1].contentWindow.tess();
 	alert('index');
 }
+
+function reload()
+{
+	//$("iframe#FrameFIP")[1].contentWindow.tess();
+	// alert('index');
+	$("#btnCari").click();		
+}
 </script>
 <link rel="stylesheet" href="../WEB/css/gaya.css" type="text/css">
 <link rel="stylesheet" href="../WEB/css/gaya-main.css" type="text/css">

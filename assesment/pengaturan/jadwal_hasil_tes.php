@@ -259,7 +259,7 @@ $tinggi = 170;
 		"sScrollXInner": "100%",
 		"ajax": {
 			'type': 'POST',
-			'url': "../json-pengaturan/jadwal_hasil_tes_json.php?reqId=<?=$reqId?>&reqTipeUjianId=<?=$reqTipeUjianId?>",
+			'url': "../json-pengaturan/jadwal_hasil_tes_json.php?reqId=<?=$reqId?>&reqTipeUjian=<?=$reqTipeUjianId?>",
 			'data': {
 				// reqDonaturLaysosId: String($("#reqDonaturLaysosId").val())
 				// , reqNominal: String($("#reqNominal").val())
@@ -644,6 +644,22 @@ $tinggi = 170;
 			  
 		  });
 
+		  $('#btnCetakNew').on('click', function () {
+
+		  	<?
+		  	$arrexcept= [];
+		  	$arrexcept= array("49");
+    		if(in_array($reqTipeUjianId, $arrexcept))
+		  	{
+		  	?>
+			  	newWindow = window.open("jadwal_hasil_tes_excel_holland.php?reqId=<?=$reqId?>&reqTipeUjianId=<?=$reqTipeUjianId?>", 'Cetak');
+			  	newWindow.focus();
+		  	<?
+		 	}
+		  	?>
+			  
+		  });
+
 		  $('#btnCetakPersonal').on('click', function () {
 
 		  	<?
@@ -882,9 +898,15 @@ function OpenDHTMLDetil(opAddress, opCaption, opWidth, opHeight)
     			<a href="#" id="btnCetakSemua" title="CetakSemua">Cetak Semua</a>
     		<?
     		}
-    		?>		
-
+            $arrCheck= [];
+    		$arrCheck= array(49);
+    		if (in_array($reqTipeUjianId, $arrCheck)) 
+    		{
+    		?>
+    			<a href="#" id="btnCetakNew" title="CetakSemua">Cetak New</a>
     		<?
+    		}
+
     		// if($reqTipeUjianId == "1" || $reqTipeUjianId == "2" || $reqTipeUjianId == "18") 
             if($parentId !== "")
             {

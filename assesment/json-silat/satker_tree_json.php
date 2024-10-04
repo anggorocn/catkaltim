@@ -39,8 +39,8 @@ if ($id == 0)
 	
 	$i=0;
 	$items[$i]['ID'] = "0";
-	$items[$i]['NAMA'] = "PROVINSI BALI";
-	$items[$i]['NAMA_WARNA'] = "PROVINSI BALI";
+	$items[$i]['NAMA'] = "PROVINSI KALIMANTAN TIMUR";
+	$items[$i]['NAMA_WARNA'] = "PROVINSI KALIMANTAN TIMUR";
 	$items[$i]['ID_TABLE'] = "0";
 	$items[$i]['ID_TABLE_PARENT'] = "";
 	$items[$i]['state'] = has_child("", $statement) ? 'closed' : 'open';

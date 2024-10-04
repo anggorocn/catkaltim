@@ -17,9 +17,18 @@ if ($userLogin->checkUserLogin())
 
 /* VARIABLE */
 $reqId= httpFilterGet("reqId");
-$reqFormulaId= httpFilterGet("reqFormulaId");
+// $reqFormulaId= httpFilterGet("reqFormulaId");
 $readonly= httpFilterGet("readonly");
 
+$set= new PegawaiHcdp();
+// $set->selectByParams(array('A.PEGAWAI_ID'=>$reqId, 'A.FORMULA_ID'=>$reqFormulaId), -1, -1);
+$set->selectByParams(array('A.PEGAWAI_ID'=>$reqId), -1, -1);
+$set->firstRow();
+// echo $set->query;exit;  
+$reqRowId= $set->getField("PEGAWAI_HCDP_ID");
+$reqJumlahJp= $set->getField("JUMLAH_JP");
+$reqFormulaId= $set->getField("FORMULA_ID");
+unset($set);
 
 $set= new PegawaiHcdp();
 $set->selectByParams(array('A.PEGAWAI_ID'=>$reqId, 'A.FORMULA_ID'=>$reqFormulaId), -1, -1);
@@ -313,12 +322,12 @@ if($readonly==1){
     			<table class="gradient-style" id="tableKandidat" style="width:100%; margin-left:2px">
     				<thead>
 	    				<tr>
-	    					<th style="width: 10%; text-align: center;">Jenis Kompetensi</th>
-	    					<th style="width: 10%;text-align: center;">Gap</th>
+	    					<th style="width: 15%; text-align: center;">Jenis Kompetensi</th>
+	    					<th style="width: 15%;text-align: center;">Gap</th>
 	    					<th style="width: 20%;text-align: center;">Jenis pengembangan</th>
-	    					<th style="width: 20%;text-align: center;">Rumpun Pengembangan</th>
-	    					<th style="width: 10%;text-align: center;">JP</th>
-	    					<th style="width: 10%;text-align: center;">Tahun</th>
+	    					<!-- <th style="width: 20%;text-align: center;">Rumpun Pengembangan</th> -->
+	    					<th style="width: 15%;text-align: center;">JP</th>
+	    					<th style="width: 15%;text-align: center;">Tahun</th>
 	    					<th style="width: 20%;text-align: center;">Analisa</th>
 	    				</tr>
     				</thead>
@@ -371,7 +380,7 @@ if($readonly==1){
 			                    <input type="hidden" name="reqPelatihanId[]" id="reqPelatihanId<?=$infoid?>" value="<?=$infopelatihanid?>" />
 			                    <input type="hidden" name="reqPelatihanNama[]" id="reqPelatihanNama<?=$infoid?>" value="<?=$infopelatihannama?>" />
     						</td>
-    						<td>
+    						<!-- <td>
     							<input id="reqRumpunPengembanganJsonId<?=$infoid?>" class="easyui-combotree" data-options="
 			                    onLoadSuccess: function (row, data) {
 			                        $('#reqRumpunPengembanganJsonId<?=$infoid?>').combotree('tree').tree('expandAll');
@@ -385,7 +394,7 @@ if($readonly==1){
 			                    <input type="hidden" name="reqRumpunPengembanganAtributId[]" value="<?=$infoid?>" />
 			                    <input type="hidden" name="reqRumpunPengembanganId[]" id="reqRumpunPengembanganId<?=$infoid?>" value="<?=$informpelatihanid?>" />
 			                    <input type="hidden" name="reqRumpunPengembanganNama[]" id="reqRumpunPengembanganNama<?=$infoid?>" value="<?=$informpelatihannama?>" />
-    						</td>
+    						</td> -->
     						<td style="text-align: center;"><input type="text" style="width: 50%; text-align: right;"  name="reqJp[]" onkeyup="findTotal()" id="reqJp<?=$infoid?>" class="numeric" <?=$disabled?>  value="<?=$infojp?>" /></td>
     						<td style="text-align: center;"><input type="text" style="width: 50%;  text-align: right;" maxlength="4" class="numeric"  name="reqTahun[]" id="reqTahun<?=$infoid?>" <?=$disabled?>  value="<?=$infotahunnew?>" /></td>
     						<td style="text-align: center;"><input type="text" style="" name="reqKeterangan[]" id="reqKeterangan<?=$infoid?>" <?=$disabled?>  value="<?=$infoketerangan?>" /></td>

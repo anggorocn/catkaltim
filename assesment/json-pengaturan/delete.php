@@ -302,4 +302,23 @@ else if($reqMode == "resetwaktupapi")
 	// echo $alertMsg;
 }
 
+
+$reqIp= getClientIpEnv();
+$ua=getBrowser();
+$reqUserAgent= $ua['name'] . " " . $ua['version'] . " pada OS ( " .$ua['platform'] . ")";
+$reqJenis= "loghapusfilecutiintegrasi";
+$reqLogKeterangan= "id:".$reqId;
+include_once("../WEB/classes/base/DeleteLog.php");
+$set_detil= new DeleteLog();
+$set_detil->setField("JENIS", $reqMode);
+$set_detil->setField("IP_ADDRESS", $reqIp);
+$set_detil->setField("USER_AGENT", $reqUserAgent);
+$set_detil->setField("KETERANGAN", $reqLogKeterangan);
+$set_detil->setField("LAST_USER", "");
+$set_detil->setField("USER_LOGIN_ID", ValToNullDB($req));
+$set_detil->setField("USER_LOGIN_PEGAWAI_ID", ValToNullDB($req));
+$set_detil->setField("LAST_DATE", "NOW()");
+
+$set_detil->insertlog();
+
 ?>

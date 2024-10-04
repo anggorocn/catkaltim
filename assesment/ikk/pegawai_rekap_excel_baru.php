@@ -145,7 +145,7 @@ while ($setPenilaian->nextRow())
 			<td rowspan="2"><center>Kekuatan</center></td>
 			<td rowspan="2"><center>Area Pengebangan</center></td>
 			<td rowspan="2"><center>Saran Pengembangan</center></td>
-			<td rowspan="2"><center>Nine Box<center></td>
+			<!-- <td rowspan="2"><center>Nine Box<center></td> -->
 		</tr>
 		<tr>
 			<?
@@ -348,7 +348,7 @@ while ($setPenilaian->nextRow())
 				<?=str_replace("<br>",".",$reqinfocatatan);?>
 
 			</td>
-			<td>
+<!-- 			<td>
 				<?				
 				$setjpm= new RekapAssesment();
 				$setjpm->selectByParamsPenilaianjpm(array(), -1, -1, 'and aspek_id = 1 and pegawai_id='. $pegawai_id, $reqJadwalTesId);
@@ -400,7 +400,7 @@ while ($setPenilaian->nextRow())
 				}	
 				?>
 				Kuadran <?=$kuadran?> (<?=$kuadran_penjelasan?>)
-			</td>
+			</td> -->
 		</tr>
 		<?
 		$nomor++;

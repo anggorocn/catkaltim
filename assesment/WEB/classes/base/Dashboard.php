@@ -41,8 +41,19 @@ DESCRIPTION			: Entity-base class for tabel usergroups implementation
       return $this->selectLimit($str,$limit,$from); 
     }
 
+    function selectByParamsSudahUjianNew($paramsArray=array(),$limit=-1,$from=-1){
+      $str = "SELECT COUNT(distinct(a.pegawai_id)) AS ROWCOUNT from penilaian a 
+              inner join simpeg.pegawai b on a.pegawai_id = b.pegawai_id
+              where a.aspek_id = 1 and b.status_pegawai_id in (1,2) "; 
+      while(list($key,$val)=each($paramsArray)){
+        $str .= " AND $key LIKE '%$val%' ";
+      }
+    $this->query = $str;
+      return $this->selectLimit($str,$limit,$from); 
+    }
+
     function selectByParamsTotalPegawai($paramsArray=array(),$limit=-1,$from=-1){
-      $str = "SELECT COUNT(distinct(pegawai_id)) AS ROWCOUNT from simpeg.pegawai "; 
+      $str = "SELECT COUNT(distinct(pegawai_id)) AS ROWCOUNT from simpeg.pegawai"; 
       while(list($key,$val)=each($paramsArray)){
         $str .= " AND $key LIKE '%$val%' ";
       }
@@ -56,9 +67,9 @@ DESCRIPTION			: Entity-base class for tabel usergroups implementation
       (
         SELECT jenis_kelamin, COUNT(distinct(pegawai_id)) AS ROWCOUNT , 
           (select COUNT(distinct(a.pegawai_id)) AS ROWCOUNTAsesment
-            from jadwal_awal_tes_pegawai a
+            from penilaian a
             left join simpeg.pegawai p on a.pegawai_id=p.pegawai_id
-            where jenis_kelamin='L'
+            where jenis_kelamin='L' and aspek_id =2
             GROUP BY jenis_kelamin
           )
         from simpeg.pegawai where jenis_kelamin='L'
@@ -70,9 +81,9 @@ DESCRIPTION			: Entity-base class for tabel usergroups implementation
       (
         SELECT jenis_kelamin, COUNT(distinct(pegawai_id)) AS ROWCOUNT , 
           (select COUNT(distinct(a.pegawai_id)) AS ROWCOUNTAsesment
-            from jadwal_awal_tes_pegawai a
+            from penilaian a
             left join simpeg.pegawai p on a.pegawai_id=p.pegawai_id
-            where jenis_kelamin='P'
+            where jenis_kelamin='P' and aspek_id =2
             GROUP BY jenis_kelamin
           )
           from simpeg.pegawai where jenis_kelamin='P'
@@ -84,9 +95,9 @@ DESCRIPTION			: Entity-base class for tabel usergroups implementation
       (
         SELECT jenis_kelamin, COUNT(distinct(pegawai_id)) AS ROWCOUNT , 
           (select COUNT(distinct(a.pegawai_id)) AS ROWCOUNTAsesment
-            from jadwal_awal_tes_pegawai a
+            from penilaian a
             left join simpeg.pegawai p on a.pegawai_id=p.pegawai_id
-            where jenis_kelamin ='0'
+            where jenis_kelamin ='0' and aspek_id =2
             GROUP BY jenis_kelamin
           )
           from simpeg.pegawai where jenis_kelamin='0'
@@ -100,16 +111,29 @@ DESCRIPTION			: Entity-base class for tabel usergroups implementation
     }
 
     function selectByParamEseloPegawai($paramsArray=array(),$limit=-1,$from=-1){
-      $str = "select distinct(substr(cast(last_eselon_id as varchar),1,1)) nama,
-        count(a.pegawai_id) total_pegawai , count(jatp.pegawai_id) total_pegawai_ujian from simpeg.pegawai a
-        left join jadwal_awal_tes_pegawai jatp on a.pegawai_id = jatp.pegawai_id
+      $str = "
+select distinct(substr(cast(last_eselon_id as varchar),1,1)) nama,
+        count(distinct(a.pegawai_id)) total_pegawai , count(distinct(jatp.pegawai_id)) total_pegawai_ujian 
+        from simpeg.pegawai a
+        left join penilaian jatp on a.pegawai_id = jatp.pegawai_id and aspek_id=2
         left join simpeg.eselon e on a.last_eselon_id=e.eselon_id
-        GROUP BY substr(cast(last_eselon_id as varchar),1,1)          
+        GROUP BY substr(cast(last_eselon_id as varchar),1,1)           
          "; 
       while(list($key,$val)=each($paramsArray)){
         $str .= " AND $key LIKE '%$val%' ";
       }
     $this->query = $str."order by substr(cast(last_eselon_id as varchar),1,1) asc";
+      return $this->selectLimit($str,$limit,$from); 
+    }
+
+
+    function selectByParamsTotalPegawaiUjian($paramsArray=array(),$limit=-1,$from=-1){
+      $str = "select count(DISTINCT(pegawai_id)) ROWCOUNT from penilaian where aspek_id =2
+         "; 
+      while(list($key,$val)=each($paramsArray)){
+        $str .= " AND $key LIKE '%$val%' ";
+      }
+    $this->query = $str."";
       return $this->selectLimit($str,$limit,$from); 
     }
 	

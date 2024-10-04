@@ -24,7 +24,8 @@ $reqKeterangan = httpFilterRequest("reqKeterangan");
 $reqId = httpFilterRequest("reqId");
 $reqSearch = httpFilterGet("reqSearch");
 
-$aColumns = array("NO", "PEGAWAI_NAMA", "PEGAWAI_NIP_BARU", "PEGAWAI_JABATAN_NAMA","IKK","KESENJANGAN_KOMPETENSI","KODE_KUADRAN","ATRIBUT","NAMA_PELATIHAN", "FORMULA_ID", "PEGAWAI_ID");
+$aColumns = array("NO", "PEGAWAI_NAMA", "PEGAWAI_NIP_BARU", "PEGAWAI_JABATAN_NAMA","-","-","FORMULA_ID", "PEGAWAI_ID");
+// $aColumns = array("NO", "PEGAWAI_NAMA", "PEGAWAI_NIP_BARU", "PEGAWAI_JABATAN_NAMA","IKK","KESENJANGAN_KOMPETENSI","KODE_KUADRAN","ATRIBUT","NAMA_PELATIHAN", "FORMULA_ID", "PEGAWAI_ID");
 $aColumnsAlias = $aColumns;
 
 /*
@@ -258,6 +259,10 @@ while($set->nextRow())
 		elseif($aColumns[$i] == "NO")
 		{
 			$row[] = $no_urut;
+		}
+		elseif($aColumns[$i] == "-")
+		{
+			$row[] = '-';
 		}
 		else
 		$row[] = $set->getField(trim($aColumns[$i]));

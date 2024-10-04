@@ -22,11 +22,13 @@ $readonly= httpFilterGet("readonly");
 
 
 $set= new PegawaiHcdp();
-$set->selectByParams(array('A.PEGAWAI_ID'=>$reqId, 'A.FORMULA_ID'=>$reqFormulaId), -1, -1);
+// $set->selectByParams(array('A.PEGAWAI_ID'=>$reqId, 'A.FORMULA_ID'=>$reqFormulaId), -1, -1);
+$set->selectByParams(array('A.PEGAWAI_ID'=>$reqId), -1, -1);
 $set->firstRow();
 // echo $set->query;exit;
 $reqRowId= $set->getField("PEGAWAI_HCDP_ID");
 $reqJumlahJp= $set->getField("JUMLAH_JP");
+$reqFormulaId= $set->getField("FORMULA_ID");
 unset($set);
 
 $set= new PegawaiHcdp();
@@ -100,7 +102,7 @@ AND EXISTS
 ";
 $set= new PegawaiHcdp();
 $set->selectByParamsRealisasiAtribut(array(), -1,-1, $reqRowId, $reqId, $statement);
-// echo $set->query;exit();
+echo $set->query;exit();
 while($set->nextRow())
 {
 	$arrAtribut[$index_loop]["ASPEK_ID"]= $set->getField("ASPEK_ID");

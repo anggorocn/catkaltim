@@ -110,25 +110,45 @@ DESCRIPTION			:
     * @param int from Awal record yang diambil 
     * @return boolean True jika sukses, false jika tidak 
     **/ 
-    function selectByParams($paramsArray=array(),$limit=-1,$from=-1, $statement='', $sOrder="ORDER BY JADWAL_AWAL_TES_SIMULASI_ID ASC")
+	function selectByParams($paramsArray=array(),$limit=-1,$from=-1, $statement='', $sOrder="ORDER BY JADWAL_AWAL_TES_SIMULASI_ID ASC")
 	{
-		$str = "
-		SELECT
-			JADWAL_AWAL_TES_SIMULASI_ID, JADWAL_AWAL_TES_ID, TANGGAL_TES
-			, ACARA, TEMPAT, ALAMAT, KETERANGAN, COALESCE(BATAS_PEGAWAI,0) BATAS_PEGAWAI
-		FROM jadwal_awal_tes_simulasi A
-		WHERE 1=1 "; 
-		
-		while(list($key,$val) = each($paramsArray))
-		{
-			$str .= " AND $key = '$val' ";
-		}
-		
-		$str .= $statement." ".$sOrder;
-		$this->query = $str;
-				
-		return $this->selectLimit($str,$limit,$from); 
-    }
+	$str = "
+	SELECT
+		JADWAL_AWAL_TES_SIMULASI_ID, JADWAL_AWAL_TES_ID, TANGGAL_TES
+		, ACARA, TEMPAT, ALAMAT, KETERANGAN, COALESCE(BATAS_PEGAWAI,0) BATAS_PEGAWAI
+	FROM jadwal_awal_tes_simulasi A
+	WHERE 1=1 "; 
+
+	while(list($key,$val) = each($paramsArray))
+	{
+		$str .= " AND $key = '$val' ";
+	}
+
+	$str .= $statement." ".$sOrder;
+	$this->query = $str;
+			
+	return $this->selectLimit($str,$limit,$from); 
+	}
+
+	function selectByParamsNew($paramsArray=array(),$limit=-1,$from=-1, $statement='', $sOrder="ORDER BY jadwal_tes_id ASC")
+	{
+	$str = "
+	SELECT
+		jadwal_tes_id, JADWAL_AWAL_TES_ID, TANGGAL_TES, status_valid
+		, ACARA, TEMPAT, ALAMAT, KETERANGAN, COALESCE(BATAS_PEGAWAI,0) BATAS_PEGAWAI
+	FROM jadwal_tes A
+	WHERE 1=1 "; 
+
+	while(list($key,$val) = each($paramsArray))
+	{
+		$str .= " AND $key = '$val' ";
+	}
+
+	$str .= $statement." ".$sOrder;
+	$this->query = $str;
+			
+	return $this->selectLimit($str,$limit,$from); 
+	}
 
     function selectByParamsMenu($paramsArray=array(),$limit=-1,$from=-1, $statement='', $sOrder="ORDER BY JADWAL_AWAL_TES_SIMULASI_ID ASC")
 	{

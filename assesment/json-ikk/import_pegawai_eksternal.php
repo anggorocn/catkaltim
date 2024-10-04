@@ -6,7 +6,6 @@ include_once("../WEB/functions/date.func.php");
 include_once("../WEB/classes/utils/UserLogin.php");
 include_once("../WEB/classes/base-ikk/Kelautan.php");
 include_once("../WEB/functions/FileHandler.php");
-
 require('../WEB/lib/spreadsheet-reader/php-excel-reader/excel_reader2.php');
 require('../WEB/lib/spreadsheet-reader/SpreadsheetReader.php');
 
@@ -81,7 +80,7 @@ if (move_uploaded_file($datafileupload, $targetsimpan))
     }
 
     unlink($FILE_DIR.$renameFile);
-    echo "Import sukses ".$importSukses." data, gagal ".$importGagal." data.";
+    echo "yyy-Import sukses ".$importSukses." data, gagal ".$importGagal." data.";
     return;
     
 }

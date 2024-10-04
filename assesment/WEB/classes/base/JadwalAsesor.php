@@ -942,7 +942,8 @@ function selectByParamsJumlahAsesorPegawai($statement='', $asesorId="", $sOrder=
     function selectByParamsTugas($statement='')
 	{
 		$str = "
-		SELECT A.JADWAL_TES_ID, JT.TANGGAL_TES, JA.keterangan, B.PEGAWAI_ID, p.kode 
+		SELECT
+			A.JADWAL_TES_ID, JT.TANGGAL_TES, JA.keterangan, B.PEGAWAI_ID, p.kode 
 		FROM jadwal_asesor A 
 		INNER JOIN jadwal_pegawai B ON A.JADWAL_ASESOR_ID = B.JADWAL_ASESOR_ID 
 		INNER JOIN jadwal_tes JT ON A.JADWAL_TES_ID = JT.JADWAL_TES_ID 
@@ -951,9 +952,11 @@ function selectByParamsJumlahAsesorPegawai($statement='', $asesorId="", $sOrder=
 		INNER JOIN jadwal_acara JA ON A.JADWAL_ACARA_ID=JA.JADWAL_ACARA_ID
 		INNER JOIN penggalian p ON b.penggalian_id=p.penggalian_id
 		WHERE 1=1
-		".$statement."GROUP BY A.JADWAL_TES_ID, JT.TANGGAL_TES, B.PEGAWAI_ID,JA.keterangan, p.kode "; 
+		".$statement."
+		GROUP BY A.JADWAL_TES_ID, JT.TANGGAL_TES, B.PEGAWAI_ID,JA.keterangan, p.kode
+		"; 
 		
-		$str .= $sOrder;
+		// $str .= $sOrder;
 		// echo $str; exit;
 		$this->query = $str;
 				

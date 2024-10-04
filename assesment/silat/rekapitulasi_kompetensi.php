@@ -41,12 +41,14 @@ $arrkolomdata= array(
     ,array("label"=>"Nama", "width"=>"220px")
     , array("label"=>"NIP Baru", "width"=>"120px")
     , array("label"=>"Jabatan", "width"=>"220px")
-    , array("label"=>"Ikk", "width"=>"100px")
-    , array("label"=>"Kesenjangan Kompetensi", "width"=>"150px")
-    , array("label"=>"Kuadran", "width"=>"100px")
-    , array("label"=>"Jenis Kompetensi", "width"=>"220px")
+    // , array("label"=>"Ikk", "width"=>"100px")
+    // , array("label"=>"Kesenjangan Kompetensi", "width"=>"150px")
+    // , array("label"=>"Kuadran", "width"=>"100px")
+    // , array("label"=>"Jenis Kompetensi", "width"=>"220px")
     // , array("label"=>"Rekomendasi Assesor", "width"=>"")
-    , array("label"=>"Rencana Pengembangan", "width"=>"150px")
+    // , array("label"=>"Rencana Pengembangan", "width"=>"150px")
+    , array("label"=>"Saran Pengembangan", "width"=>"")
+    , array("label"=>"Perangkat Daerah", "width"=>"")
 );
 // print_r($arrkolomdata);exit;
 ?>

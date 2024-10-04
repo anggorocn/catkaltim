@@ -346,7 +346,7 @@ function setnumberdua($val)
                 ?>
                     <tr class="bold-border">
                         <td><b><?=romanicNumber($tempNoAtributParent)?></b></td>
-                        <td colspan="8" class="left"><b><?=$tempAtributNama?></b></td>
+                        <td colspan="9" class="left"><b><?=$tempAtributNama?></b></td>
                     </tr>
                 <?
 					}
@@ -394,7 +394,7 @@ function setnumberdua($val)
             ?>
             <tr>                 
                 <td colspan="2"><b>Kelebihan</b></td> 
-                <td colspan="7" class="left" style=" text-align: justify">
+                <td colspan="8" class="left" style=" text-align: justify">
                <? 
 				for($index_catatan=0; $index_catatan<$jumlahPotensiStrength; $index_catatan++)
 				{
@@ -420,7 +420,7 @@ function setnumberdua($val)
 
             <tr>                 
                 <td colspan="2"><b>Area Pengembangan</b></td> 
-                <td colspan="7" class="left" style=" text-align: justify">
+                <td colspan="8" class="left" style=" text-align: justify">
             <? 
 			for($index_catatan=0; $index_catatan<$jumlahNilaiAkhirSaranPengembangan; $index_catatan++)
 			{
@@ -435,7 +435,7 @@ function setnumberdua($val)
 				{
 					$reqinfourut= "&nbsp; &nbsp;".$reqinfourut.".&nbsp; ";
 				}
-			?><p  style="text-align: justify;margin-left: 1%"><?=$reqinfocatatan?></p>
+			?><p  style="text-align: justify;margin-left: 1%"><?=str_replace("text-align: center; font-size: 14px; margin-top: 30px; opacity: 0.65; font-family: sans-serif;","display:none",$reqinfocatatan);?></p>
 			<?
 			}
 			?>

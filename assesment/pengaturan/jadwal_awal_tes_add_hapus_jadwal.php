@@ -35,7 +35,7 @@ $reqStatusValid= $set->getField('STATUS_VALID');
 $tempFormulaEselonId= $set->getField('FORMULA_ESELON_ID');
 $tempFormulaEselon= $set->getField('NAMA_FORMULA_ESELON');
 
-$arrData= array("Pilih", "Tanggal Tes");
+$arrData= array("Pilih", "Tanggal Tes", "Aksi");
 
 $tinggi = 285;
 ?>
@@ -459,7 +459,7 @@ $tinggi = 285;
 	    <div id="bluemenu" class="bluetabs" style="background:url(css/media/bluetab.gif); margin-top: -2px !important; border: none !important;" >
 	    <ul>
 	    	<a href="#" id="btnCari" style="display: none;" title="Cari"></a>
-	      	<li><a style="background: inherit !important;" href="#" title="Hapus" id="btnHapusData"><img src="../WEB/images/delete-icon.png" style="width: 10px" />&nbsp;Hapus</a></li>
+	      	<!-- <li><a style="background: inherit !important;" href="#" title="Hapus" id="btnHapusData"><img src="../WEB/images/delete-icon.png" style="width: 10px" />&nbsp;Hapus</a></li> -->
 	    </ul>
 	    </div>
     </div>
@@ -491,6 +491,20 @@ $tinggi = 285;
 $('#reqBatasPegawai').bind('keyup paste', function(){
 	this.value = this.value.replace(/[^0-9]/g, '');
 });
+
+function hapusdata(reqUjianId){
+  	$.messager.confirm('Konfirmasi',"Apakah anda yakin hapus, data terpilih?",function(r){
+  		if (r)
+  		{
+  			$.getJSON("../json-pengaturan/jadwal_awal_tes_add_hapus_jadwal_hapus.php?reqId=<?=$reqId?>&reqJadwalAwalTesSimulasiId="+reqUjianId,
+				function(data){
+					setCariInfo();
+					parent.frames['menuFrame'].location.href = 'jadwal_awal_tes_add_menu.php?reqId=<?=$reqId?>';
+					$("#reqJadwalAwalTesSimulasiId").val("");
+				});
+  		}
+  	});
+};
 </script>
 </body>
 </html>
